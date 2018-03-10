@@ -1,0 +1,317 @@
+section.home {
+  min-height: 100vh;
+  padding-top: 1rem;
+  position: relative;
+  
+  font-family: $font-family-heading;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: $marrom;
+
+  > .logo {
+    width: 136px;
+    height: 130px;
+  }
+
+  > .title {
+    padding-top: 1rem;
+
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 3px;
+
+    color: $laranja-300;
+  }
+
+  > .time {
+    padding-top: 1.5rem;
+    
+    .less {
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 3px;
+    }
+
+    .date {
+      padding-top: .4rem;
+
+      .month, .day, .hour {
+        display: inline;
+
+        .number, .title {
+          display: inline;
+        }
+
+        .number {
+          font-size: 32px;
+          line-height: 40px;
+        }
+
+        .title {
+          font-size: 18px;
+          line-height: 23px;
+          letter-spacing: 2px;
+          padding-left: .3rem;
+        }
+      }
+
+      .day, .hour {
+        padding-left: 1rem;
+      }
+    }
+  }
+
+  > .bar {
+    width: 305px;
+    height: 3px;
+
+    margin: 0 auto;
+    margin-top: .2rem;
+
+    background-color: $laranja-200;
+  }
+
+  > .lot {
+    padding: .5rem 0 2rem;
+
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 3px;
+
+    .bullet {
+      padding: 0 .3rem;
+    }
+  }
+
+  > .button-outline {
+    padding: .75rem;
+
+    border: 3px solid $laranja-200;
+
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 3px;
+    color: $laranja-200;
+
+    text-decoration: none;
+
+    transition: all .3s;
+
+    &:hover {
+      color: $branco;
+      background-color: $laranja-200;
+    }
+  }
+
+  > .skyline-wrapper {
+    text-align: center;
+
+    > .skyline {
+      height: 180px;
+      width: auto;
+      
+      position: absolute;
+      left: 50% !important;
+      bottom: 0;
+      
+      transform: translate(-50%, 0);
+      z-index: 1;
+    }
+  }
+}
+
+section.event {
+  position: relative;
+
+  .title {
+    padding: 3rem 0;
+    width: 100%;
+
+    background-color: $marrom;
+    color: $branco;
+
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .content {
+    padding: 4em 0 6em;
+    line-height: 25px;
+  }
+  
+  .bg-event {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 575px;
+  }
+}
+
+section.speakers {
+  .title {
+    padding: 3em 0 7em;
+    background-color: $laranja-100;
+    color: $branco;
+    text-align: center;
+  }
+
+  .content {
+    padding-bottom: 2em;
+    background-color: $marrom;
+  }
+
+  .speaker {
+    color: $branco;
+    text-align: center;
+
+    .photo {
+      margin-top: -3.5em;
+    }
+
+    .name, .function {
+      font-family: $font-family-heading;
+      text-transform: uppercase;
+    }
+
+    .name {
+      padding-top: 1rem;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 4px; 
+    }
+
+    .function {
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 4px;
+    }
+
+    .mini-cv {
+      padding: 1.5rem;
+    }
+  }
+}
+
+section.schedule {
+  color: $marrom;
+
+  .title {
+    padding: 3em 0;
+    text-transform: uppercase;
+  }
+}
+
+section.location {
+  position: relative;
+  background-color: $laranja-100;
+
+  .info {
+    padding: 5em 0;
+    color: $branco;
+
+    .title {
+      font-family: $font-family-heading;
+      font-size: 34px;
+      line-height: 42px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    .days {
+      padding-top: 2rem;
+      font-size: 52px;
+      line-height: 52px;
+    }
+
+    .month {
+      font-size: 42px;
+      line-height: 50px;
+    }
+
+    .hour {
+      font-size: 25px;
+    }
+
+    .parque-do {
+      padding-top: 2rem;
+      font-size: 41px;
+      line-height: 52px;
+    }
+
+    .desconhecido {
+      font-size: 31px;
+    }
+
+    .sao-paulo {
+      font-size: 29px;
+    }
+  }
+
+  .map {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+section.official-agency {
+  padding: 3em 0;
+  color: $marrom;
+  text-align: center;
+
+  .title {
+    padding-bottom: 1em;
+  }
+}
+
+section.sponsors {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 3em 0;
+  color: $marrom;
+
+  .title {
+    padding-bottom: 2em;
+  }
+}
+
+section.ticket {
+  padding: 2em 0 3.5em;
+  background-color: $laranja-100;
+  color: $branco;
+  font-family: $font-family-heading;
+  text-align: center;
+  text-transform: uppercase;
+
+  > .lot {
+    padding: .5rem 0 2rem;
+
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 3px;
+
+    .bullet {
+      padding: 0 .3rem;
+    }
+  }
+
+  > .button-outline {
+    padding: .75rem;
+
+    border: 3px solid $branco;
+
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 3px;
+    color: $branco;
+
+    text-decoration: none;
+
+    transition: all .3s;
+
+    &:hover {
+      color: $laranja-200;
+      background-color: $branco;
+    }
+  }
+}

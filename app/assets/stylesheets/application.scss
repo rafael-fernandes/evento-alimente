@@ -1,7 +1,9 @@
 /*
- *= require_tree .
  *= require_self
  */
+
+@import 'font-awesome';
+@import 'bootstrap';
 
 @import 'ambience/colors';
 @import 'ambience/fonts';
@@ -11,4 +13,4 @@
 @import 'base/typography';
 @import 'base/unclassed';
 
-// @import 'components/*';
+@import 'components/*';
