@@ -27,5 +27,11 @@ module ProjetoAlimente
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
+
+    config.i18n.default_locale = :'pt-BR'
+    
+    config.time_zone = 'America/Sao_Paulo'
   end
 end
