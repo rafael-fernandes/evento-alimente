@@ -1,7 +1,11 @@
 footer {
-  padding: 3em 0;
-  
   background-color: $marrom;
+  
+  .container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
   color: $branco;
 
   .title {

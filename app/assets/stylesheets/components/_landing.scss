@@ -136,7 +136,8 @@ section.event {
   }
 
   .content {
-    padding: 4em 0 6em;
+    padding-top: 4em;
+    padding-bottom: 6em;
     line-height: 25px;
   }
   
@@ -286,9 +287,11 @@ section.ticket {
   > .lot {
     padding: .5rem 0 2rem;
 
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 3px;
+    .title, .bullet, .price {
+      font-size: 25px;
+      line-height: 30px;
+      letter-spacing: 3px;
+    }
 
     .bullet {
       padding: 0 .3rem;

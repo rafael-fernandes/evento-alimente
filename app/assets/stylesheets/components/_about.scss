@@ -1,0 +1,107 @@
+.about {
+  > .title {
+    padding: 2em 0;
+    background-color: $laranja-100;
+    color: $branco;
+  }
+  
+  > .content {
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 8em;
+    color: $marrom;
+
+    .bg-about {
+      width: 670px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  > .team {
+    .title {
+      padding: 2em 0 4.5em;
+      background-color: $laranja-100;
+      color: $branco;
+    }
+
+    .body {
+      padding-bottom: 2.5em;
+      background-color: $marrom;
+      
+      .colaborator {
+        text-align: center;
+
+        .photo {
+          width: 100%;
+          height: 400px;
+          margin-top: -2em;
+          background-color: #f8f9fa;
+          border: 1px solid #dcdcdc;
+        }
+
+        .name {
+          padding-top: 1em;
+          font-family: $font-family-heading;
+          font-size: 25px;
+          line-height: 30px;
+          letter-spacing: 3px;
+          color: $branco;
+        }
+      }
+    }
+  }
+
+  > .work {
+    padding-bottom: 8em;
+    position: relative;
+    color: $marrom;
+
+    .title {
+      padding: 3em 0;
+    }
+
+    label, input[type="submit"] {
+      font-family: $font-family-heading;
+      letter-spacing: 3px;
+    }
+
+    .form-control, input[type="submit"] {
+      border: 2px solid $marrom;
+      border-radius: 0;
+      background: none;
+    }
+
+    input[type="submit"] {
+      margin-top: .5em;
+      padding: .5rem 1rem;
+    }
+
+    .bg-work {
+      width: 450px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  .button-outline {
+    padding: .75rem;
+
+    border: 3px solid $laranja-200;
+
+    font-family: $font-family-heading;
+    letter-spacing: 2px;
+    color: $laranja-200;
+
+    text-decoration: none;
+
+    transition: all .3s;
+
+    &:hover {
+      color: $branco;
+      background-color: $laranja-200;
+    }
+  }
+}
