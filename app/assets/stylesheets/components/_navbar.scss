@@ -1,0 +1,68 @@
+.navbar {
+  height: 65px;
+  background-color: $marrom;
+
+  .navbar-brand {
+    img {
+      margin-top: -.8em;
+    }
+  }
+
+  .nav-item {
+    font-family: $font-family-heading;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  .time {
+    font-family: $font-family-heading;
+    color: $branco;
+    letter-spacing: 2px;
+    margin-top: -.6em;
+  }
+
+  .button-outline {
+    margin-top: -.6em;
+    padding: .25rem .5rem;
+    border: 2px solid #FFDB59;
+    color: #FFDB59;
+    font-family: $font-family-heading;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: #FFDB59;
+      color: $marrom;
+    }
+  }
+
+  .flag {
+    margin-top: -.6em;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding-bottom: 0;
+  }
+
+  .navbar-collapse {
+    padding-left: 5em;
+  }
+
+  .nav-item {
+    padding: 0 .5em;
+
+    &.active {
+      border-bottom: 3px solid $branco;
+    }
+  }
+
+  .nav-link {
+    padding-top: 15px;
+    padding-bottom: 17px;
+  }
+}

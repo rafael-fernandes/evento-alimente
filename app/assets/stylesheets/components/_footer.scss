@@ -36,3 +36,32 @@ footer {
     padding-top: 2.5em;
   }
 }
+
+@media screen and (max-width: 767px) {
+  footer {
+    .container {
+      padding: 2em;
+      padding-bottom: 0;
+    }
+
+    .list {
+      padding-top: 1rem;
+    }
+
+    .alimente, .copyright {
+      padding-top: 2em;
+    }
+
+    .copyright {
+      padding-bottom: 3em;
+
+      .payment {
+        padding-top: 1em;
+      }
+
+      .typo {
+        padding-top: 2em;
+      }
+    }
+  }
+}
