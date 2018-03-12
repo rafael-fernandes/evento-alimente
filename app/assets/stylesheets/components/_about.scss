@@ -68,10 +68,16 @@
       letter-spacing: 3px;
     }
 
+    .form-control:focus {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+
     .form-control, input[type="submit"] {
       border: 2px solid $marrom;
       border-radius: 0;
       background: none;
+      color: $marrom;
     }
 
     input[type="submit"] {
