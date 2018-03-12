@@ -1,3 +1,5 @@
+<%= render "layouts/navbar" %>
+
 <section class="home">
   <%= image_tag "logo-8.svg", class: "logo" %>
 
@@ -66,9 +68,9 @@
         Os dias 14 e 15 de julho ficarão eternizados na memória não só de quem estiver presente no evento, mas também nas antigas
         e futuras gerações que sempre buscaram e continuam atrás de um modo de vida cada vez mais consciente.
         
-        <br><br>Inédito no país, o 1º Congresso Internacional Low Carb, vai reunir em dois dias de intensos ciclos de palestras, painéis e muito networking,
-        três grandes nomes que agitam o cenário internacional quando o assunto é qualidade de vida: o jornalista investigativo e
-        autor do famoso <em>Por Que Engordamos E O Que Fazer Para Evitar?</em>, <strong>Gary Taubes</strong>; a jornalista best seller pelo <em>Gordura Sem Medo</em>,
+        <br><br>Inédito no país, o 1º Congresso Internacional Low Carb, vai reunir em dois dias de intensos ciclos de palestras, painéis
+        e muito networking, três grandes nomes que agitam o cenário internacional quando o assunto é qualidade de vida: o jornalista
+        investigativo e autor do famoso <em>Por Que Engordamos E O Que Fazer Para Evitar?</em>, <strong>Gary Taubes</strong>; a jornalista best seller pelo <em>Gordura Sem Medo</em>,
         <strong>Nina Teicholz</strong>; e o premiado cardiologista, <strong>Dr. Aseem Malhotra</strong>.
         
         <div class="event-detail-1">
@@ -92,12 +94,12 @@
           <br>
         </div>
 
-        Com a comodidade da tradução simultânea para melhor acompanhamento das apresentações, da quebra de mitos sobre alimentos vilanizados e o consumo desvairado de produtos
-        cada vez mais industrializados e processados, responsáveis pelos altos índices de obesidade, diabetes, doenças cardíacas,
-        câncer, entre tantas outras, serão abordados também os processos que desencadeiam a síndrome metabólica, a resistência à
-        insulina, a alimentação cetogênica para tratamento de doenças autoimunes e muito mais. Tudo levado a público por meio de
-        conceituados estudos randomizados, chancelados pelas maiores autoridades científicas da atualidade que vêm numa frente unida
-        reescrevendo a história da Nutrição.
+        Com a comodidade da tradução simultânea para melhor acompanhamento das apresentações, da quebra de mitos sobre alimentos
+        vilanizados e o consumo desvairado de produtos cada vez mais industrializados e processados, responsáveis pelos altos índices
+        de obesidade, diabetes, doenças cardíacas, câncer, entre tantas outras, serão abordados também os processos que desencadeiam
+        a síndrome metabólica, a resistência à insulina, a alimentação cetogênica para tratamento de doenças autoimunes e muito mais.
+        Tudo levado a público por meio de conceituados estudos randomizados, chancelados pelas maiores autoridades científicas da
+        atualidade que vêm numa frente unida reescrevendo a história da Nutrição.
         
         <div class="event-detail-3">
           <%= image_tag "event-detail-3.svg" %>
@@ -107,9 +109,8 @@
           <br>
         </div>
 
-        Então, anote na sua agenda! Em breve a programação completa estará disponível aqui e
-        será anunciada em nossas redes sociais, bem como a lista final de palestrantes nacionais, que conta ainda com diversos convidados
-        de peso.
+        Então, anote na sua agenda! Em breve a programação completa estará disponível aqui e será anunciada em nossas redes sociais,
+        bem como a lista final de palestrantes nacionais, que conta ainda com diversos convidados de peso.
       </div>
     </div>
   </div>
@@ -244,3 +245,17 @@
 
   <%= image_tag "bg-work.svg", class: "sponsor-detail" %>
 </section> -->
+
+<script>
+  $(document).ready(function() {
+    $(document).scroll(function() {
+      if ($(document).scrollTop() > 65) {
+        $('.navbar').removeClass('d-none');
+      }
+  
+      else {
+        $('.navbar').addClass('d-none');
+      }
+    });
+  });
+</script>
