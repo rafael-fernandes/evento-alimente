@@ -191,6 +191,58 @@ section.home {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.home {
+    padding-top: 7rem;
+
+    > .logo {
+      width: auto;
+      height: 150px;
+    }
+
+    > .title {
+      padding: 2rem 0;
+      font-size: 50px;
+      line-height: 60px;
+    }
+
+    > .time {
+      .less {
+        font-size: 30px;
+      }
+      
+      .date {
+        padding-top: 1.3rem;
+
+        .month, .day, .hour {
+          .number {
+            font-size: 40px;
+          }
+  
+          .title {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+
+    > .bar {
+      width: 420px;
+      margin-top: 1rem;
+    }
+
+    > .lot {
+      padding-bottom: 4rem;
+      font-size: 38px;
+      line-height: 50px;
+    }
+
+    > .button-outline {
+      font-size: 44px;
+    }
+  }
+}
+
 section.event {
   position: relative;
 
@@ -238,6 +290,10 @@ section.event {
       display: none;
     }
 
+    .bg-event-tablet {
+      display: none;
+    }
+
     .event-detail-1 {
       padding: 2em 0;
       text-align: right;
@@ -266,6 +322,34 @@ section.event {
         width: 200px;
         margin-right: -2em;
       }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.event {
+    .content {
+      padding-top: 2em;
+      padding-bottom: 8em;
+    }
+
+    .bg-event {
+      display: none;
+    }
+
+    .bg-event-tablet {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 450px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section.event {
+    .bg-event-tablet {
+      display: none;
     }
   }
 }
@@ -336,8 +420,7 @@ section.speakers {
     }
 
     .speaker {
-      padding-top: 2em;
-      padding-left: 2em;
+      padding: 2em 2em 0;
 
       .photo {
         margin-top: 0;
@@ -357,7 +440,29 @@ section.speakers {
       }
 
       .mini-cv {
-        padding-bottom: 0;
+        padding: 2em 3em 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.speakers {
+    .title {
+      padding: 1.5em 0;
+    }
+
+    .speakers-tablet {
+      .speaker {
+        padding-top: 2.5em;
+
+        .photo {
+          margin-top: 0;
+        }
+
+        .mini-cv {
+          padding: 2em 10em 1em;
+        }
       }
     }
   }
@@ -374,11 +479,10 @@ section.schedule {
 
 section.location {
   position: relative;
-  background-color: $laranja-100;
 
   .info {
     padding: 5em 0;
-    color: $branco;
+    color: $marrom;
 
     .title {
       font-family: $font-family-heading;
@@ -405,17 +509,22 @@ section.location {
 
     .parque-do {
       padding-top: 2rem;
-      font-size: 41px;
-      line-height: 52px;
+      font-size: 50px;
+      line-height: 50px;
     }
 
     .desconhecido {
-      font-size: 31px;
+      font-size: 50px;
+      line-height: 50px;
     }
 
     .sao-paulo {
-      font-size: 29px;
+      font-size: 22px;
     }
+  }
+
+  .when, .where { 
+    text-align: center;
   }
 
   .map {
@@ -558,6 +667,10 @@ section.ticket {
       background-color: $branco;
     }
   }
+}
+
+@media screen and (max-width: 991px) {
+  margin-top: -.3em;
 }
 
 .tns-outer {

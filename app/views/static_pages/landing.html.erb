@@ -62,7 +62,7 @@
 
   <div class="container content">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-8 col-lg-7">
         Os dias 14 e 15 de julho ficarão eternizados na memória não só de quem estiver presente no evento, mas também nas antigas
         e futuras gerações que sempre buscaram e continuam atrás de um modo de vida cada vez mais consciente.
         
@@ -77,7 +77,6 @@
         
         <div class="d-none d-md-block">
           <br>
-          <br>
         </div>
 
         Juntam-se a eles os mais renomados profissionais da área de saúde brasileira, como o urologista <strong>Dr. José Carlos Souto</strong>; o clínico <strong>Dr. Erik Neves</strong>;
@@ -90,7 +89,6 @@
         </div>
         
         <div class="d-none d-md-block">
-          <br>
           <br>
         </div>
 
@@ -107,7 +105,6 @@
         
         <div class="d-none d-md-block">
           <br>
-          <br>
         </div>
 
         Então, anote na sua agenda! Em breve a programação completa estará disponível aqui e
@@ -118,6 +115,7 @@
   </div>
 
   <%= image_tag "bg-event.svg", class: "bg-event" %>
+  <%= image_tag "bg-event-tablet.svg", class: "bg-event-tablet" %>
 </section>
 
 <section class="speakers">
@@ -129,60 +127,20 @@
 
   <div class="content">
     <div class="container">
-      <div class="row slider">
-        <div class="col-md-4 speaker">
-          <%= image_tag "nina.png", class: "photo" %>
-          <div class="name">nina teicholz</div>
-          <div class="function">jornalista</div>
+      <div class="row speakers-desktop d-none d-md-none d-lg-block">
+        <%= render 'speakers_desktop' %>
+      </div>
 
-          <div class="mini-cv">
-            Jornalista investigativa e autora do bestseller internacional - e New York Times - , <em>Gordura Sem Medo</em>, lançado no Brasil
-            pela WMF MARTINS FONTES e aclamado pelo The Economist como livro científico número #1 de 2014, além de nomeado como melhor
-            livro do ano pelo Wall Street Journal, Forbes, Mother Jones e o Library Journal.
-          </div>
-        </div>
+      <div class="speakers-tablet d-none d-md-block d-lg-none">
+        <%= render 'speakers_tablet' %>
+      </div>
 
-        <div class="col-md-4 speaker">
-          <%= image_tag "nina.png", class: "photo" %>
-          <div class="name">gary taubes</div>
-          <div class="function">jornalista</div>
-
-          <div class="mini-cv">
-            Jornalista investigativo em ciência e saúde e co-fundador da Iniciativa de Ciência e Nutrição (NuSI.org), sem fins lucrativos,
-            é autor dos sucessos <em>Good Calories, Bad Calories</em> (2007) e <em>The Case Against Sugar</em> (2016), ainda sem tradução para o português,
-            além do icônico <em>Por Que Engordamos E O Que Fazer Para Evitar?</em> (2011), lançado no Brasil pela L&PM EDITORES.
-          </div>
-        </div>
-
-        <div class="col-md-4 speaker">
-          <%= image_tag "nina.png", class: "photo" %>
-          <div class="name">aseem malhotra</div>
-          <div class="function">jornalista</div>
-
-          <div class="mini-cv">
-            Um dos cardiologistas mais influentes da Grã-Bretanha e especialista mundial em prevenção, diagnóstico e tratamento de doenças
-            do coração, Dr. Aseem Malhotra é um dos nomes a encabeçar com sucesso a campanha contra o consumo de açúcar em excesso e
-            cura da obesidade através da intervenção de saúde pública.
-          </div>
-        </div>
+      <div class="speakers-mobile d-block d-md-none">
+        <%= render 'speakers_mobile' %>
       </div>
     </div>
   </div>
 </section>
-
-<script>
-  var slider = tns({
-    container: '.slider',
-    items: 1,
-    slideBy: 'page',
-    autoplay: false
-  });
-  
-  $(document).on('turbolinks:load', function() {
-    $('button[data-controls="prev"]').text('<');
-    $('button[data-controls="next"]').text('>');
-  });
-</script>
 
 <!-- <section class="schedule">
   <div class="container pl-4">
@@ -201,10 +159,10 @@
 <section class="location">
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-12 col-lg-7">
         <div class="info">
           <div class="row">
-            <div class="col-md-6 when">
+            <div class="col-md-6 col-lg-5 when">
               <div class="title">
                 quando?
               </div>
@@ -222,17 +180,17 @@
               </div>
             </div>
   
-            <div class="col-md-6 where">
+            <div class="col-md-6 col-lg-5 where">
               <div class="title">
                 onde será?
               </div>
   
               <div class="parque-do">
-                parque do
+                local a
               </div>
   
               <div class="desconhecido">
-                desconhecido
+                definir
               </div>
   
               <div class="sao-paulo">
@@ -245,18 +203,18 @@
     </div>
   </div>
 
-  <div class="map d-none d-md-block">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6093.312649881537!2d-47.92110078054729!3d-15.827850902556312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2554e89fdda7%3A0x9f7d889a362cd5ad!2sBelini+Caf%C3%A9+-+The+Coffee+Experience!5e0!3m2!1spt-BR!2sbr!4v1520720947762"
-      width="550" height="375" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div class="map d-none d-lg-block">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0488706554!2d-46.87549774535903!3d-23.68153144861528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1520800013833"
+      width="550" height="373px" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </section>
 
-<div class="map-mobile d-sm-block d-md-none">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6093.312649881537!2d-47.92110078054729!3d-15.827850902556312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2554e89fdda7%3A0x9f7d889a362cd5ad!2sBelini+Caf%C3%A9+-+The+Coffee+Experience!5e0!3m2!1spt-BR!2sbr!4v1520720947762"
+<div class="map-mobile d-sm-block d-lg-none">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0488706554!2d-46.87549774535903!3d-23.68153144861528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1520800013833"
     width="100%" height="375" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
-<section class="official-agency">
+<!-- <section class="official-agency">
   <div class="title">
     <h1>agência oficial</h1>
   </div>
@@ -268,9 +226,9 @@
   </div>
 
   <h1 class="name">agência tal</h1>
-</section>
+</section> -->
 
-<section class="sponsors">
+<!-- <section class="sponsors">
   <div class="container">
     <div class="title">
       <h1>patrocínio</h1>
@@ -285,4 +243,4 @@
   </div>
 
   <%= image_tag "bg-work.svg", class: "sponsor-detail" %>
-</section>
+</section> -->

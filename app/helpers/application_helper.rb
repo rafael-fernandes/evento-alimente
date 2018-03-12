@@ -1,14 +1,10 @@
 module ApplicationHelper
   def calc_time
-    seconds = Time.parse('2018-07-14 08:00:00 -0300') - Time.now
-    minutes = seconds / 60
-    hours = minutes / 60
-    days = hours / 24
+    start_time = Time.now
+    end_time = Time.parse('2018-07-14 08:00:00 -0300')
 
-    months = (days / 30)
-    days = (months.modulo(1) * 30)
-    hours = (hours.modulo(1) * 24)
+    result = TimeDifference.between(start_time, end_time).in_general
 
-    [months, days, hours].map!(&:to_i)
+    [result[:months], result[:days], result[:hours]].map!(&:to_i)
   end
 end

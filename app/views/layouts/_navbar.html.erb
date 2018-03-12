@@ -4,26 +4,25 @@
       <%= image_tag "logo-horizontal.svg", height: "35px" %>
     </a>
     
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse pl-4" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Sobre
-          </a>
-        </li>
-      </ul>
-    </div>
+    <ul class="navbar-nav mr-auto d-none d-md-block">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Sobre
+        </a>
+      </li>
+    </ul>
 
-    <div class="time mr-4">
-      FALTAM <%= "%02d" % @months %> M <%= "%02d" % @days %> D <%= "%02d" % @hours %> H
+    <div class="d-none d-md-block navbar-wrapper">
+      <div class="time mr-4 d-inline">
+        FALTAM <%= "%02d" % @months %> M <%= "%02d" % @days %> D <%= "%02d" % @hours %> H
+      </div>
+      
+      <a href="#" class="button-outline mr-4">comprar ingresso</a>
     </div>
-
-    <a href="#" class="button-outline mr-4">comprar ingresso</a>
 
     <%= image_tag "brazil.svg", height: "50px", class: "flag" %>
+
+    <div class="d-none">
+      <%= fa_icon "bars", class: "fa-2x menu" %>
+    </div>
   </div>
 </nav>

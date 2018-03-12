@@ -21,7 +21,7 @@
 
   > .team {
     .title {
-      padding: 2em 0 4.5em;
+      padding: 2em 0 2em;
       background-color: $laranja-100;
       color: $branco;
     }
@@ -55,6 +55,7 @@
 
   > .work {
     padding-bottom: 8em;
+    padding-top: 2em;
     position: relative;
     color: $marrom;
 
@@ -75,7 +76,7 @@
 
     input[type="submit"] {
       margin-top: .5em;
-      padding: .5rem 1rem;
+      padding: .5rem 1.2rem;
     }
 
     .bg-work {
@@ -103,5 +104,76 @@
       color: $branco;
       background-color: $laranja-200;
     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    .title {
+      padding: 1.5em 0;
+      text-align: center;
+      
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+
+    .content {
+      padding: 0;
+
+      > .container {
+        padding: 2em;
+      }
+    }
+
+    .about-detail-1 {
+      padding: 2em 0;
+      text-align: right;
+
+      img {
+        width: 200px;
+        margin-right: -2em;
+      }
+    }
+
+    .about-detail-2 {
+      padding: 2em 0 1em;
+      text-align: left;
+
+      img {
+        width: 200px;
+        margin-left: -2em;
+      }
+    }
+
+    .team {
+      .title {
+        padding: 1.5em 0;
+      }
+    }
+
+    .work {
+      padding-top: 0;
+      padding-bottom: 11em;
+
+      .container {
+        padding: 2em;
+      }
+
+      .bg-work {
+        width: 340px;
+      }
+    }
+
+    form {
+      padding-top: 2em;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-detail-1, .about-detail-2 {
+    display: none;
   }
 }

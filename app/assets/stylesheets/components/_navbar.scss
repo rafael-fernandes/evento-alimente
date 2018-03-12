@@ -14,15 +14,17 @@
     text-transform: uppercase;
   }
   
+  .navbar-wrapper {
+    margin-top: -.6em;
+  }
+
   .time {
     font-family: $font-family-heading;
     color: $branco;
     letter-spacing: 2px;
-    margin-top: -.6em;
   }
 
   .button-outline {
-    margin-top: -.6em;
     padding: .25rem .5rem;
     border: 2px solid #FFDB59;
     color: #FFDB59;
@@ -41,6 +43,16 @@
 
   .flag {
     margin-top: -.6em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding-bottom: 0;
+
+    .menu {
+      color: $branco;
+    }
   }
 }
 
