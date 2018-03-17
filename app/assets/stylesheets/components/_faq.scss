@@ -1,4 +1,4 @@
-.refund {
+.faq {
   > .title {
     padding: 2em 0;
     background-color: $laranja-100;
@@ -8,18 +8,36 @@
   > .content {
     position: relative;
     padding-top: 2em;
-    padding-bottom: 8em;
+    padding-bottom: 3em;
     color: $marrom;
+    
+    .question {
+      transition: all 0.1s;
+
+      .arrow {
+        display: inline;
   
-    a {
-      color: $marrom;
+        i {
+          font-size: 20px;
+        }
+      }
+      
+      &:hover {
+        color: $laranja-200;
+        cursor: pointer;
+      }
+
+      &.-laranja {
+        color: $laranja-200;
+      }
     }
 
-    .bg-refund {
-      width: 670px;
-      position: absolute;
-      bottom: 0;
-      right: 0;
+    .answer {
+      padding-top: .75em;
+    }
+
+    a {
+      color: $marrom;
     }
 
     .button-outline {
@@ -44,7 +62,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .refund {
+  .faq {
     .title {
       padding: 1.5em 0;
       text-align: center;
@@ -58,25 +76,25 @@
     .content {
       padding: 0;
 
-      > .container {
+      .container {
         padding: 2em;
-        padding-bottom: 8em;
+        padding-bottom: 3em;
       }
 
-      > .bg-refund {
-        width: 100%;
+      .col-par {
+        padding-top: 1em;
       }
     }
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .refund {
+  .faq {
     > .content {
-      padding-bottom: 8em;
+      padding-bottom: 3em;
 
-      .bg-refund {
-        width: 480px;
+      .col-par {
+        padding-top: 1em;
       }
     }
   }

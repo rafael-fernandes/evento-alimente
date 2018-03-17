@@ -1,2 +1,260 @@
-<h1>StaticPages#faq</h1>
-<p>Find me in app/views/static_pages/faq.html.erb</p>
+<%= render "layouts/navbar" %>
+
+<div class="faq pt-5 mt-3">
+  <div class="title">
+    <div class="container">
+      <h1>PERGUNTAS FREQUENTES</h1>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="question" data-question="1">
+            <strong>1. O evento contará com tradução simultânea?</strong>
+        
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+
+          <div class="answer d-none" data-answer="1">
+            Sim. Durante as palestras internacionais e interações no palco, todo conteúdo será traduzido simultaneamente.
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-par">
+          <div class="question" data-question="2">
+            <strong>2. Qual o público alvo do evento?</strong>
+  
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+          
+          <div class="answer d-none" data-answer="2">
+            Não existe um nicho de pessoas específico a que se direcione o congresso. Ele é de grande valia para profissionais e estudantes
+            das áreas de saúde em geral, entusiastas da alimentação low carb, esportistas, até mesmo a dona de casa que busca entender
+            mais sobre qualidade de vida e aplicar, quem sabe, no dia a dia com seus familiares. Resumindo, nosso público-alvo são todos
+            que buscam saúde e bem-estar.
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="question" data-question="3">
+            <strong>3. Haverá transmissão online do evento?</strong>
+  
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+          
+          <div class="answer d-none" data-answer="3">
+            Não. Prezando pela qualidade das palestras que serão ministradas e exclusividade para o público presente, não disponibilizaremos
+            durante, nem após o evento, qualquer tipo de material em vídeo.
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-par">
+          <div class="question" data-question="4">
+            <strong>4. Posso filmar o evento?</strong>
+  
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+          
+          <div class="answer d-none" data-answer="4">
+            Não. É terminantemente proibida a filmagem integral do evento, porém, é aceitável a gravação de pequenos trechos para compartilhamento
+            em redes sociais. Para otimizar a visualização podem ser usadas ainda as hashtags <strong>#eventoalimente, #eventoalimente2018</strong> ou <strong>#projetoalimente</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="question" data-question="5">
+            <strong>5. Qual a idade mínima para participar do evento?</strong>
+
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+
+          <div class="answer d-none" data-answer="5">
+            Não existe idade mínima estipulada, mas pelo conteúdo que será apresentado, aconselhamos que menores de 18 anos não compareçam
+            ao evento, já que a temática pode ser de difícil compreensão.
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-par">
+          <div class="question" data-question="6">
+            <strong>6. Poderei tirar fotos com os palestrantes?</strong>
+
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+
+          <div class="answer d-none" data-answer="6">
+            Para garantir o bom andamento do evento e comodidade dos palestrantes, não serão permitidas abordagens ou fotos com os mesmos,
+            a não ser nos períodos pré-determinados de meet&greet, que serão divulgados somente no dia e com retirada de senha.
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="question" data-question="7">
+            <strong>7. Quantos ingressos eu posso comprar?</strong>
+        
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+        
+          <div class="answer d-none" data-answer="7">
+             Nas categorias de venda de ingressos sem preço promocional o limite para compra é de 3 ingressos por CPF – pessoa.
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-par">
+          <div class="question" data-question="8">
+            <strong>8. Quais as formas de pagamento dos ingressos?</strong>
+
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+
+          <div class="answer d-none" data-answer="8">
+            Os ingressos podem ser pagos via cartão de crédito, débito online ou boleto, à vista ou parcelado em até 10x com juros, com
+            preço nominal + taxas administrativas da Sympla.
+          </div>
+        </div>
+      </div>
+    
+      <div class="row pt-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="question" data-question="9">
+            <strong>9. Existe alguma forma de comprar o ingresso sem taxa administrativa?</strong>
+    
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+    
+          <div class="answer d-none" data-answer="9">
+            Infelizmente não. Usamos a plataforma Sympla para a sua e nossa segurança durante as transações e por isso é cobrada a taxa.
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-par">
+          <div class="question" data-question="10">
+            <strong>10. Onde consigo um código promocional?</strong>
+    
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+    
+          <div class="answer d-none" data-answer="10">
+            Apesar da Sympla, plataforma de venda online escolhida para nosso evento, disponibilizar como padrão essa opção ao acessar
+            a página de transação, o ALIMENTE não terá códigos para utilização. Nosso desconto foi concedido – única e exclusivamente
+            - durante a pré-venda de ingressos.
+          </div>
+        </div>
+      </div>
+      
+      <div class="row pt-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="question" data-question="11">
+            <strong>11. Tem desconto para estudantes?</strong>
+    
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+    
+          <div class="answer d-none" data-answer="11">
+            Estudantes contam com a comodidade de preço diferenciado do ingresso, com desconto em cima do preço cheio, sendo R$800 para
+            opção de acesso normal ou R$1.000 referente a acesso e 3 livros autografados. As duas modalidades de ingressos para estudante
+            tem quantidade limitada e não expansível colocada à venda.
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-par">
+          <div class="question" data-question="12">
+            <strong>12. Preciso mostrar carteirinha de estudante na entrada?</strong>
+    
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+    
+          <div class="answer d-none" data-answer="12">
+            Sim, você vai ter que apresentar o documento de sua instituição de ensino com o selo de validação do ano vigente ou carteira
+            de estudante nacional com foto e certificada pela UNE, UBES ou ANPG, com validade para 2018.
+          </div>
+        </div>
+      </div>
+      
+      <div class="row pt-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="question" data-question="13">
+            <strong>13. Fiz a minha inscrição, comprei meu ingresso, e não poderei comparecer ao evento, posso fazer algo?</strong>
+    
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+    
+          <div class="answer d-none" data-answer="13">
+            Sim. Você pode transferir a titularidade do seu ingresso, ou então, solicitar o reembolso de 50% do valor pago, salvo se
+            o ingresso tiver sido adquirido na pré-venda ou esteja no período de 10 dias antes do evento.
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-par">
+          <div class="question" data-question="14">
+            <strong>14. Preciso retirar meu ingresso na bilheteria?</strong>
+    
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+    
+          <div class="answer d-none" data-answer="14">
+            Não, seu ingresso é entregue como e-ticket. Você precisará apenas imprimi-lo e levar no dia do evento.
+          </div>
+        </div>
+      </div>
+      
+      <div class="row pt-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="question" data-question="15">
+            <strong>15. Comprei ingresso de uma categoria e queria trocar por outra. Como faço?</strong>
+    
+            <div class="arrow">
+              <%= fa_icon 'angle-down' %>
+            </div>
+          </div>
+    
+          <div class="answer d-none" data-answer="15">
+            Para mudar a categoria de seu ingresso basta entrar em contato via email <strong><a href="mailto:contato@eventoalimente.com.br">contato@eventoalimente.com.br</a></strong> informando sobre a mudança. A partir daí serão
+            iniciados os trâmites para o pagamento da diferença e conclusão do processo. A TROCA DE CATEGORIA É ELEGÍVEL SOMENTE PARA
+            UPGRADE DO INGRESSO E NÃO DOWNGRADE!
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-5"></div>
+      <a href="/" class="button-outline">VOLTAR PARA O INÍCIO</a>
+    </div>
+
+    <!-- <%= image_tag "bg-faq.svg", class: "bg-faq" %> -->
+  </div>
+</div>
