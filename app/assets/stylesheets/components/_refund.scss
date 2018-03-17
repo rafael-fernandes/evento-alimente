@@ -1,0 +1,64 @@
+.refund {
+  > .title {
+    padding: 2em 0;
+    background-color: $laranja-100;
+    color: $branco;
+  }
+  
+  > .content {
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 8em;
+    color: $marrom;
+  
+    a {
+      color: $marrom;
+    }
+
+    .bg-refund {
+      width: 670px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .refund {
+    .title {
+      padding: 1.5em 0;
+      text-align: center;
+      
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+
+    .content {
+      padding: 0;
+
+      > .container {
+        padding: 2em;
+        padding-bottom: 6em;
+      }
+
+      > .bg-refund {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .refund {
+    > .content {
+      padding-bottom: 8em;
+
+      .bg-refund {
+        width: 480px;
+      }
+    }
+  }
+}
