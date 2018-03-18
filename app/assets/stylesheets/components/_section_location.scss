@@ -1,0 +1,31 @@
+section.location {
+  padding: 2em 0;
+  background-color: $laranja-100;
+  color: $branco;
+
+  .title {
+    font-size: 40px;
+  }
+
+  .date, .center-norte {
+    font-size: 30px;
+  }
+
+  .hour, .address {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.location {
+    .container {
+      padding: 0 2em;
+    }
+    
+    padding: 1.5em 0 2em;
+
+    .where {
+      padding-top: 1.5em;
+    }
+  }
+}

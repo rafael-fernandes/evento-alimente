@@ -1,0 +1,68 @@
+section.schedule {
+  color: $branco;
+  
+  > .title {
+    padding: 3rem 0;
+    background-color: $laranja-100;
+    text-transform: uppercase;
+  }
+
+  .content { 
+    padding: 2em 0 3em;
+    background-color: $marrom;
+
+    .title, .hour, .name {
+      font-family: $font-family-heading;
+    }
+    
+    .title {
+      font-size: 28px;
+      letter-spacing: 3px;
+    }
+
+    .hour, .name {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+
+    .button-outline {
+      padding: .45rem .85rem;
+      border: 2px solid $laranja-100;
+      color: $laranja-100;
+      font-family: $font-family-heading;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: $laranja-100;
+        color: $branco;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.schedule {
+    > .title {
+      padding: 1.5em 0;
+
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+
+    > .content {
+      .title {
+        font-size: 20px;
+      }
+    }
+ 
+    .day-2 {
+      padding-top: 2em;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+section.national-speakers {
+  color: $marrom;
+  font-family: $font-family-heading;
+  
+  .title {
+    padding: 3em 0 5em;
+    text-align: center;
+  }
+  
+  .content {
+    padding-bottom: 8em;
+    position: relative;
+
+    .bg-speakers {
+      width: 400px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  .national-speaker {
+    text-align: center;
+  
+    .name {
+      padding-top: .5em;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+    
+    .function {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.national-speakers {
+    .title {
+      padding: 1.5em 0;
+    }
+
+    h1 {
+      font-size: 25px;
+      letter-spacing: 3px;
+    }
+  }
+}
