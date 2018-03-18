@@ -4,15 +4,22 @@
       <%= image_tag "logo-horizontal.png", height: "35px" %>
     </a>
     
-    <ul class="navbar-nav mr-auto d-none d-md-block pl-2">
-      <li class="nav-item <%= 'active' if action_name == 'about' %>">
-        <a class="nav-link" href="/sobre">Sobre
-        </a>
-      </li>
-    </ul>
+    <div class="d-none d-lg-block mr-auto pl-2">
+      <ul class="navbar-nav">
+        <li class="nav-item <%= 'active' if action_name == 'about' %>">
+          <a class="nav-link" href="/sobre">Sobre
+          </a>
+        </li>
+  
+        <li class="nav-item <%= 'active' if action_name == 'faq' %>">
+          <a class="nav-link" href="/perguntas-frequentes">Perguntas Frequentes
+          </a>
+        </li>
+      </ul>
+    </div>
 
     <div class="d-none d-lg-block navbar-wrapper">
-      <a href="https://www.sympla.com.br/1-congresso-internacional-low-carb__258690" target="_blank" class="button-outline mr-4">comprar ingresso</a>
+      <a href="#tickets" class="button-outline mr-4">ingressos</a>
     </div>
 
     <%= image_tag "brazil.svg", height: "50px", class: "flag" %>

@@ -1,0 +1,32 @@
+section.seat-map {
+  color: $branco;
+
+  > .title {
+    padding: 3rem 0;
+    background-color: $laranja-100;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  > .content { 
+    padding: 4em 0;
+    background-color: $marrom;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.seat-map {
+    .title {
+      padding: 1.5em 0;
+      background-color: $laranja-100;
+      color: $branco;
+      text-align: center;
+
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}

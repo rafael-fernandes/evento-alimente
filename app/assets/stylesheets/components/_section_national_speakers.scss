@@ -47,3 +47,11 @@ section.national-speakers {
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.national-speakers {
+    .title {
+      padding: 3rem 0 4rem;
+    }
+  }
+}

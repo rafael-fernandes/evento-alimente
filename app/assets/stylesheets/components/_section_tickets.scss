@@ -160,6 +160,10 @@ section.tickets {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   section.tickets {
+    .title {
+      padding: 3rem 0;
+    }
+
     .title-box, .box {
       margin-right: .5em;
     }
