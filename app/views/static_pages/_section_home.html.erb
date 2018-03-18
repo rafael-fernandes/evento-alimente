@@ -1,50 +1,46 @@
 <section class="home">
-  <%= image_tag "logo-vertical.png", class: "logo" %>
-
-  <div class="title">
-    1º congresso
-    <br>
-    internacional low carb
-  </div>
-
-  <div class="time">
-    <div class="less">faltam</div> 
-
-    <div class="date">
-      <div class="month">
-        <div class="number"><%= "%02d" % @months %></div>
-        <div class="title">meses</div>
+  <div class="d-flex align-items-center justify-content-center" style="height: 100vh">
+    <div class="wrapper">
+      <%= image_tag "logo-vertical.png", class: "logo" %>
+    
+      <div class="title">
+        1º congresso<br>internacional low carb
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 time">
+            <div class="row no-gutters">
+              <div class="col-3 days">
+                <div class="number">27</div>
+                <div class="description">DIAS</div>
+              </div>
+    
+              <div class="col-3 hours">
+                <div class="number">27</div>
+                <div class="description">HORAS</div>
+              </div>
+    
+              <div class="col-3 min">
+                <div class="number">27</div>
+                <div class="description">MIN</div>
+              </div>
+    
+              <div class="col-3 seg">
+                <div class="number">27</div>
+                <div class="description">SEG</div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-7 tickets">
+            <a href="#ingressos" class="button-outline btn-block">COMPRAR INGRESSOS</a>
+          </div>
+        </div>
       </div>
 
-      <div class="day">
-        <div class="number"><%= "%02d" % @days %></div>
-        <div class="title">dias</div>
-      </div>
-
-      <div class="hour">
-        <div class="number"><%= "%02d" % @hours %></div>
-        <div class="title">horas</div>
-      </div>
     </div>
   </div>
-
-  <div class="bar"></div>
-
-  <div class="lot">
-    <span class="title">
-      pré-venda
-    </span>
-
-    <span class="bullet">&bullet;</span>
-
-    <span class="price">
-      R$ 650,00
-    </span>
-  </div>
-
-  <a href="https://www.sympla.com.br/1-congresso-internacional-low-carb__258690" class="button-outline" target="_blank">
-    comprar ingresso
-  </a>
 
   <div class="skyline-wrapper">
     <%= image_tag "skyline.png", class: "skyline" %>

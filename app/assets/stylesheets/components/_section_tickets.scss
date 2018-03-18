@@ -5,7 +5,12 @@ section.tickets {
   
   .title {
     padding: 3em 0;
-    font-family: $font-family-heading;
+    background-color: $laranja-100;
+    color: $branco;
+  }
+
+  .content {
+    padding-top: 3em;
   }
 
   .title-box {
@@ -118,6 +123,19 @@ section.tickets {
 
 @media screen and (max-width: 767px) {
   section.tickets {
+    .content {
+      padding-top: 1.5em;
+    }
+    
+    .title {
+      padding: 1.5em 0;
+
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+
     padding-bottom: 12em;
 
     .container {

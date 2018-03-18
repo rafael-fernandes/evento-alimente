@@ -1,13 +1,17 @@
 section.national-speakers {
+  position: relative;
   color: $marrom;
   font-family: $font-family-heading;
   
   .title {
-    padding: 3em 0 5em;
+    padding: 3em 0;
+    background-color: $laranja-100;
+    color: $branco;
     text-align: center;
   }
   
   .content {
+    padding-top: 2em;
     padding-bottom: 8em;
     position: relative;
 
@@ -33,10 +37,34 @@ section.national-speakers {
       letter-spacing: 2px;
     }
   }
+
+  .bg-national-speaker {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   section.national-speakers {
+    .title {
+      padding: 1.5em 0;
+
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+    
+    .content {
+      padding-bottom: 4em;
+    }
+
+    .container {
+      padding: 0 2em;
+    }
+
     .title {
       padding: 1.5em 0;
     }
@@ -45,13 +73,32 @@ section.national-speakers {
       font-size: 25px;
       letter-spacing: 3px;
     }
+
+    .speaker {
+      padding-bottom: 1.5em;
+
+      .photo {
+        height: auto;
+        width: 100%;
+      }
+
+      .name {
+        font-size: 20px;
+      }
+    }
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   section.national-speakers {
     .title {
-      padding: 3rem 0 4rem;
+      padding: 3rem 0;
+    }
+
+    .content {
+      .bg-speakers {
+        width: 350px;
+      }
     }
   }
 }
