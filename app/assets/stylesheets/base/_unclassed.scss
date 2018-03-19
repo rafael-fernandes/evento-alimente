@@ -5,3 +5,8 @@ main {
 .turbolinks-progress-bar {
   background-color: $laranja-100;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

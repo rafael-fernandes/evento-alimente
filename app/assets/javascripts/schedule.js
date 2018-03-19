@@ -12,4 +12,8 @@ $(document).ready(function() {
     $('.day-1').toggleClass('d-none');
     $('.day-2').toggleClass('d-none');
   });
+
+  $('.show-about-schedule').click(function() {
+    $('.about-schedule').toggleClass('d-none');
+  });
 });
