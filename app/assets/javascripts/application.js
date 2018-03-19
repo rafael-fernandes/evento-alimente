@@ -23,7 +23,8 @@ $(document).ready(function() {
 
   AOS.init({
     offset: 20,
-    easing: 'ease-in-sine'
+    easing: 'ease-in-sine',
+    duration: 0
   });
 
   $('.days .number').countdown('2018/07/14 08:00:00', function (event) {
