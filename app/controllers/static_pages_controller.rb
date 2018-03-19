@@ -13,4 +13,7 @@ class StaticPagesController < ApplicationController
 
   def faq
   end
+
+  def pre_event
+  end
 end

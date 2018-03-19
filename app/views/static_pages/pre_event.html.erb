@@ -1,0 +1,55 @@
+<%= render "layouts/navbar" %>
+
+<div class="refund pt-5 mt-3">
+  <div class="title">
+    <div class="container">
+      <h1 data-aos="fade-right">SOLICITAÇÃO DE PRESENÇA NO PRÉ-EVENTO</h1>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-lg-6">
+          <form action="https://formspree.io/whcriacao@gmail.com" method="POST">
+            <div class="form-group">
+              <label for="name">SEU NOME</label>
+              <input type="text" name="name" class="form-control">
+            </div>
+          
+            <div class="form-group">
+              <label for="email">SEU EMAIL</label>
+              <input type="email" name="email" class="form-control">
+            </div>
+          
+            <div class="form-group">
+              <label for="address">SEU ENDEREÇO</label>
+              <input type="text" name="address" class="form-control">
+            </div>
+          
+            <div class="form-group">
+              <label for="job">SUA PROFISSÃO</label>
+              <input type="text" name="job" class="form-control">
+            </div>
+          
+            <div class="form-group">
+              <label for="cpf">SEU CPF</label>
+              <input type="text" name="cpf" class="form-control">
+            </div>
+          
+            <div class="form-group">
+              <label for="rg">SEU RG</label>
+              <input type="text" name="rg" class="form-control">
+            </div>
+          
+            <input type="submit" value="ENVIAR SOLICITAÇÃO">
+          </form>
+        </div>
+      </div>
+      <div class="pt-5"></div>
+      <a href="/" class="button-outline">VOLTAR PARA O INÍCIO</a>
+    </div>
+
+    <%= image_tag "bg-refund.svg", class: "bg-refund" %>
+  </div>
+</div>

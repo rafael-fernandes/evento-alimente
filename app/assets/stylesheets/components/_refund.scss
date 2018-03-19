@@ -41,6 +41,28 @@
       }
     }
   }
+
+  label, input[type="submit"] {
+    font-family: $font-family-heading;
+    letter-spacing: 3px;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .form-control, input[type="submit"] {
+    border: 2px solid $marrom;
+    border-radius: 0;
+    background: none;
+    color: $marrom;
+  }
+
+  input[type="submit"] {
+    margin-top: .5em;
+    padding: .8rem 1.2rem;
+  }
 }
 
 @media screen and (max-width: 767px) {

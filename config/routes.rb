@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   get 'reembolso-e-transferencias' => 'static_pages#refund'
 
   get 'perguntas-frequentes' => 'static_pages#faq'
+
+  get 'solicitar-presenca' => 'static_pages#pre_event'
 end
