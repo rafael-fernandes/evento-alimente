@@ -10,4 +10,8 @@ Rails.application.routes.draw do
   get 'perguntas-frequentes' => 'static_pages#faq'
 
   get 'solicitar-presenca' => 'static_pages#pre_event'
+
+  get 'upgrade-gold' => 'static_pages#upgrade_gold'
+  
+  get 'upgrade-vip' => 'static_pages#upgrade_vip'
 end
