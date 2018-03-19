@@ -19,6 +19,8 @@
 //= require_tree .
 
 $(document).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+
   AOS.init({
     offset: 20,
     easing: 'ease-in-sine'
