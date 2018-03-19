@@ -16,6 +16,10 @@ section.event {
     padding-top: 4em;
     padding-bottom: 6em;
     line-height: 25px;
+
+    h3 {
+      color: $laranja-300;
+    }
   }
   
   .bg-event {
@@ -39,6 +43,12 @@ section.event {
 
     .content {
       padding: 2em;
+
+      h3 {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        color: $laranja-300;
+      }
     }
 
     .bg-event {
