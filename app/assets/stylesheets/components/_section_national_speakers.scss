@@ -58,7 +58,7 @@ section.national-speakers {
     }
     
     .content {
-      padding-bottom: 4em;
+      padding-bottom: 6em;
     }
 
     .container {
@@ -83,6 +83,12 @@ section.national-speakers {
       }
 
       .name {
+        font-size: 25px;
+        letter-spacing: 1px;
+      }
+      
+      .function {
+        font-family: $font-family-body;
         font-size: 20px;
       }
     }
