@@ -1,0 +1,101 @@
+.faq {
+  > .title {
+    padding: 2em 0;
+    background-color: $laranja-100;
+    color: $branco;
+  }
+  
+  > .content {
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    color: $marrom;
+    
+    .question {
+      transition: all 0.1s;
+
+      .arrow {
+        display: inline;
+  
+        i {
+          font-size: 20px;
+        }
+      }
+      
+      &:hover {
+        color: $laranja-200;
+        cursor: pointer;
+      }
+
+      &.-laranja {
+        color: $laranja-200;
+      }
+    }
+
+    .answer {
+      padding-top: .75em;
+    }
+
+    a {
+      color: $marrom;
+    }
+
+    .button-outline {
+      padding: .75rem;
+
+      border: 3px solid $laranja-200;
+
+      font-family: $font-family-heading;
+      letter-spacing: 2px;
+      color: $laranja-200;
+
+      text-decoration: none;
+
+      transition: all .3s;
+
+      &:hover {
+        color: $branco;
+        background-color: $laranja-200;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faq {
+    .title {
+      padding: 1.5em 0;
+      text-align: center;
+      
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+
+    .content {
+      padding: 0;
+
+      .container {
+        padding: 2em;
+        padding-bottom: 3em;
+      }
+
+      .col-par {
+        padding-top: 1em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .faq {
+    > .content {
+      padding-bottom: 3em;
+
+      .col-par {
+        padding-top: 1em;
+      }
+    }
+  }
+}

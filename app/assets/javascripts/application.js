@@ -14,4 +14,29 @@
 //= require jquery_ujs
 //= require popper
 //= require bootstrap-sprockets
+//= require countdown.min
+//= require animatescroll.min
 //= require_tree .
+
+$(document).ready(function() {
+  AOS.init({
+    offset: 20,
+    easing: 'ease-in-sine'
+  });
+
+  $('.days .number').countdown('2018/07/14 08:00:00', function (event) {
+    $(this).html(event.strftime('%D'));
+  });
+
+  $('.hours .number').countdown('2018/07/14 08:00:00', function (event) {
+    $(this).html(event.strftime('%H'));
+  });
+
+  $('.min .number').countdown('2018/07/14 08:00:00', function (event) {
+    $(this).html(event.strftime('%M'));
+  });
+
+  $('.seg .number').countdown('2018/07/14 08:00:00', function (event) {
+    $(this).html(event.strftime('%S'));
+  });
+});

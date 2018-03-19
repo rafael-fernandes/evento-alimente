@@ -1,0 +1,23 @@
+<section class="schedule">
+  <div class="title">
+    <div class="container">
+      <h1 data-aos="fade-right">programação</h1>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="container">
+      <div class="row d-none d-md-none d-lg-block">
+        <%= render 'schedule_desktop' %>
+      </div>
+
+      <div class="row d-none d-md-block d-lg-none">
+        <%= render 'schedule_tablet' %>
+      </div>
+
+      <div class="d-block d-md-none">
+        <%= render 'schedule_mobile' %>
+      </div>
+    </div>
+  </div>
+</section>

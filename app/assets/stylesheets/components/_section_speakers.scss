@@ -1,0 +1,109 @@
+section.speakers {
+  .title {
+    padding: 3em 0 7em;
+    background-color: $laranja-100;
+    color: $branco;
+    text-align: center;
+  }
+
+  .content {
+    padding-bottom: 2em;
+    background-color: $marrom;
+  }
+
+  .speaker {
+    color: $branco;
+    text-align: center;
+
+    .photo {
+      margin-top: -3.5em;
+      width: 200px;
+      height: auto;
+    }
+
+    .name, .function {
+      font-family: $font-family-heading;
+      text-transform: uppercase;
+    }
+
+    .name {
+      padding-top: 1rem;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 4px; 
+    }
+
+    .function {
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 4px;
+    }
+
+    .mini-cv {
+      padding: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.speakers {
+    .title {
+      padding: 1.5em 0;
+      background-color: $laranja-100;
+      color: $branco;
+      text-align: center;
+
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+
+    .speaker {
+      padding: 2em 2em 0;
+
+      .photo {
+        margin-top: 0;
+        width: 125px;
+        height: 125px;
+      }
+
+      .name {
+        padding-top: 1rem;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 3px; 
+      }
+
+      .function {
+        letter-spacing: 3px;
+      }
+
+      .mini-cv {
+        padding: 2em 3em 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.speakers {
+    .title {
+      padding: 1.5em 0;
+    }
+
+    .speakers-tablet {
+      .speaker {
+        padding-top: 2.5em;
+
+        .photo {
+          margin-top: 0;
+        }
+
+        .mini-cv {
+          padding: 2em 10em 1em;
+        }
+      }
+    }
+  }
+}

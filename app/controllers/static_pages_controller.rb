@@ -8,6 +8,12 @@ class StaticPagesController < ApplicationController
   def about
   end
 
+  def refund
+  end
+
   def faq
+  end
+
+  def pre_event
   end
 end

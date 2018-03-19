@@ -1,6 +1,6 @@
 .navbar {
   height: 65px;
-  background-color: $marrom;
+  background-color: $marrom-100;
 
   transition: opacity 1s ease-in-out;
 
@@ -28,8 +28,8 @@
 
   .button-outline {
     padding: .25rem .5rem;
-    border: 2px solid #FFDB59;
-    color: #FFDB59;
+    border: 2px solid $amarelo;
+    color: $amarelo;
     font-family: $font-family-heading;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -38,8 +38,8 @@
     transition: all 0.3s;
 
     &:hover {
-      background-color: #FFDB59;
-      color: $marrom;
+      background-color: $amarelo;
+      color: $marrom-100;
     }
   }
 
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 767px) {
   .navbar {
-    padding-bottom: 0;
+    padding: .5em 2em 0;
 
     .menu {
       color: $branco;
@@ -70,7 +70,7 @@
   .nav-item {
     padding: 0 .5em;
 
-    border-bottom: 3px solid $marrom;
+    border-bottom: 3px solid $marrom-100;
 
     &.active {
       border-bottom: 3px solid $branco;

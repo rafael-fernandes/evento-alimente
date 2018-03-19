@@ -1,0 +1,48 @@
+<section class="home">
+  <div class="d-flex align-items-center justify-content-center" style="height: 100vh" data-aos="zoom-in">
+    <div class="wrapper">
+      <%= image_tag "logo-vertical.png", class: "logo" %>
+    
+      <div class="title">
+        1º congresso<br>internacional low carb
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 time">
+            <div class="row no-gutters">
+              <div class="col-3 days">
+                <div class="number"></div>
+                <div class="description">DIAS</div>
+              </div>
+    
+              <div class="col-3 hours">
+                <div class="number"></div>
+                <div class="description">HORAS</div>
+              </div>
+    
+              <div class="col-3 min">
+                <div class="number"></div>
+                <div class="description">MIN</div>
+              </div>
+    
+              <div class="col-3 seg">
+                <div class="number"></div>
+                <div class="description">SEG</div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-7 tickets">
+            <a onclick="$('section.tickets').animatescroll({scrollSpeed:2000,easing:'easeOutQuad',padding:65})" class="button-outline btn-block">COMPRAR INGRESSOS</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="skyline-wrapper">
+    <%= image_tag "skyline.png", class: "skyline" %>
+  </div>
+</section>
