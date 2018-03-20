@@ -11,22 +11,27 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 col-lg-6">
+          Para concluírmos sua solicitação de upgrade, precisamos que você 
+          nos informe seu número de ticket enviado por email. Sem ele não 
+          conseguiremos prosseguir com a mudança da categoria do ingresso.
+          <br>
+          <br>
           <form action="https://formspree.io/whcriacao@gmail.com" method="POST">
             <div class="form-group">
               <label for="nome">SEU NOME</label>
-              <input type="text" name="nome" class="form-control">
+              <input type="text" name="nome" class="form-control" required>
             </div>
           
             <div class="form-group">
               <label for="email">SEU EMAIL</label>
-              <input type="email" name="email" class="form-control">
+              <input type="email" name="email" class="form-control" required>
             </div>
 
-            <input type="hidden" name="upgrade-para" value="gold-ii">
+            <input type="hidden" name="upgrade-para" value="gold-2">
 
             <div class="form-group">
               <label for="numero-ingresso">SEU NÚMERO DE INGRESSO</label>
-              <input type="text" name="numero-ingresso" class="form-control">
+              <input type="text" name="numero-ingresso" class="form-control" required>
             </div>
           
             <input type="submit" value="ENVIAR SOLICITAÇÃO">
