@@ -1,0 +1,55 @@
+.modal {
+  .modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+
+    @media(max-width: 768px) {
+      min-height: calc(100vh - 20px);
+    }
+  }
+
+  .modal-content {
+    border: 0;
+    border-radius: 0;
+  }
+
+  .modal-header {
+    padding: 3em;
+    background-color: $laranja-100;
+    border-bottom: 5px solid $marrom;
+    border-radius: 0;
+  }
+
+  .modal-body {
+    padding-bottom: 0;
+    background: image-url('pattern.png');
+    
+    .image {
+      width: 170px;
+      height: 170px;
+      margin: -6.5em auto 0;
+    }
+
+    .name {
+      padding-top: 1.5em;
+      color: $marrom;
+      text-align: center;
+      
+      h1 {
+        letter-spacing: 2px;
+
+        @media(max-width: 767px) {
+          font-size: 25px;
+        }
+      }
+    }
+
+    .description {
+      color: $marrom;
+      padding: 2em 1em;
+    }
+  }
+}

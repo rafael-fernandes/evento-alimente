@@ -25,7 +25,11 @@ section.national-speakers {
 
   .national-speaker {
     text-align: center;
-  
+    
+    .photo:hover {
+      cursor: pointer;
+    }
+    
     .name {
       padding-top: .5em;
       font-size: 28px;

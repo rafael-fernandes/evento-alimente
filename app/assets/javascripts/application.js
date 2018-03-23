@@ -41,4 +41,28 @@ $(document).ready(function() {
   $('.seg .number').countdown('2018/07/14 08:00:00', function (event) {
     $(this).html(event.strftime('%S'));
   });
+
+  $('.speaker .photo').click(function() {
+    $('.modal[data-speaker="' + $(this).data('speaker') + '"]').modal('show');
+  });
+
+  $('.speaker .name').click(function() {
+    $('.modal[data-speaker="' + $(this).data('speaker') + '"]').modal('show');
+  });
+
+  $('.speaker .function').click(function() {
+    $('.modal[data-speaker="' + $(this).data('speaker') + '"]').modal('show');
+  });
+
+  $('.national-speaker .photo').click(function() {
+    $('.modal[data-speaker="' + $(this).data('speaker') + '"]').modal('show');
+  });
+
+  $('.national-speaker .name').click(function() {
+    $('.modal[data-speaker="' + $(this).data('speaker') + '"]').modal('show');
+  });
+
+  $('.national-speaker .function').click(function() {
+    $('.modal[data-speaker="' + $(this).data('speaker') + '"]').modal('show');
+  });
 });

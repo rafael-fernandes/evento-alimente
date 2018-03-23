@@ -19,11 +19,21 @@ section.speakers {
       margin-top: -3.5em;
       width: 200px;
       height: auto;
+
+      transition: all 0.2s;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     .name, .function {
       font-family: $font-family-heading;
       text-transform: uppercase;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     .name {
