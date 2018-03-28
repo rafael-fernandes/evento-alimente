@@ -1,0 +1,486 @@
+pt-BR:
+  inicio:
+    titulo:
+      1a_parte: 1º congresso
+      2a_parte: internacional low carb
+    datas:
+      dias: dias
+      horas: horas
+      minutos: min
+      segundos: seg
+    comprar_ingressos: comprar ingressos
+  
+  evento:
+    titulo:
+      1a_parte: o evento
+      2a_parte: edição são paulo
+  
+    conteudo:
+      1a_parte:
+        titulo: "Um evento pioneiro no país abordando Inovação, Ciência, Nutrição e Qualidade de Vida"
+        texto: "Os dias 14 e 15 de julho ficarão eternizados na memória não só de quem estiver presente no evento, mas também nas antigas e futuras gerações que sempre buscaram e continuam atrás de um modo de vida cada vez mais consciente.
+            
+                <br><br>Inédito no país, o 1º Congresso Internacional Low Carb, vai reunir em dois dias de intensos ciclos de palestras, painéis
+                e muito networking, três grandes nomes que agitam o cenário internacional quando o assunto é qualidade de vida: o mestre
+                em jornalismo, jornalista investigativo e autor do famoso <em>Por Que Engordamos: E O Que Fazer Para Evitar</em>, <strong>Gary Taubes</strong>;
+                a mestre em jornalismo e jornalista best seller pelo <em>Gordura Sem Medo</em>, <strong>Nina Teicholz</strong>; e o premiado cardiologista e autor do livro <em>Detox 21 Dias</em>, <strong>Dr. Aseem Malhotra</strong>."
+      2a_parte:
+        titulo: "Especialistas brasileiros: um TIMAÇO"
+        texto: "Juntam-se a eles os mais renomados profissionais da área de saúde brasileira, como o urologista <strong>José Carlos Souto</strong>; o clínico
+                <strong>Erik Neves</strong>; o nefrologista <strong>José Neto</strong>; o endocrinologista <strong>Rodrigo Bomeny</strong>; o ortopedista <strong>Marcelo Denaro</strong>; 
+                a pediatra <strong>Teresinha Souto</strong>; as nutricionistas <strong>Paty Ayres</strong>; <strong>Polyana Freitas</strong>; <strong>Djulye Marquato</strong> e <strong>Fernanda Muller</strong>; o mestre em ciência do esporte
+                <strong>Rafael Lund</strong>, para juntos traçar um panorama do que anda acontecendo mundo afora e as últimas descobertas nas práticas para
+                saúde baseadas em evidências."
+      3a_parte:
+        titulo: "Um evento desenhado para proporcionar a você uma experiência única"
+        texto: "Com a comodidade da tradução simultânea para melhor acompanhamento das apresentações, da quebra de mitos sobre alimentos
+                vilanizados e o consumo desvairado de produtos cada vez mais industrializados e processados, responsáveis pelos altos índices
+                de obesidade, diabetes, doenças cardíacas, câncer, entre tantas outras, serão abordados também os processos que desencadeiam
+                a síndrome metabólica, a resistência à insulina, a alimentação cetogênica com escopo terapêutico em prol da saúde e muito
+                mais. Tudo levado a público por meio de conceituados estudos randomizados, chancelados pelas maiores autoridades científicas
+                da atualidade que vêm numa frente unida reescrevendo a história da Nutrição."
+      4a_parte:
+        texto: "Então, anote na sua agenda e confira toda a programação desse épico encontro."
+  
+  palestrantes_internacionais:
+    titulo: palestrantes internacionais
+  
+    gary_taubes:
+      descricao: 
+        1a_parte: "Mestre em jornalismo, jornalista investigativo em ciência e saúde e co-fundador da Iniciativa de Ciência e Nutrição (NuSI.org), sem fins lucrativos,
+                  é autor dos sucessos
+                  <em>Good Calories, Bad Calories</em> (2007) e
+                  <em>The Case Against Sugar</em> (2016), ainda sem tradução para o português, além do icônico
+                  <em>Por Que Engordamos E O Que Fazer Para Evitar?</em> (2011), lançado no Brasil pela L&PM EDITORES."
+        2a_parte: "Taubes é ganhador do prêmio Robert Wood Johnson Foundation Investigator Award, em pesquisas de políticas de saúde, além de detentor de inúmeros outros prêmios pela grandeza de sua jornada profissional, incluindo três vezes o Science in Society Journalism da Associação Nacional de Escritores em Ciências."
+    
+    nina_teicholz:
+      descricao: 
+        1a_parte: "Mestre em jornalismo, jornalista investigativa e autora do bestseller internacional - e New York Times - ,
+                  <em>Gordura Sem Medo</em>, lançado no Brasil pela WMF MARTINS FONTES e aclamado pelo The Economist como livro científico
+                  número #1 de 2014, além de nomeado como melhor livro do ano pelo Wall Street Journal, Forbes, Mother Jones e o Library
+                  Journal."
+        2a_parte: "Teicholz é responsável por um trabalho notável em busca da verdade científica e derrubou a “sabedoria” convencional sobre a gordura dos alimentos e desafiou o cerne da política mundial de nutrição, ganhando até mesmo uma resenha no conceituado American Journal of Clinical Nutrition, que afirmou: <em>'este livro deve ser lido por todos os profissionais da ciência nutricional…'</em>. "
+    
+    aseem_malhotra:
+      descricao:
+        1a_parte: "Um dos cardiologistas mais influentes da Grã-Bretanha, especialista mundial em prevenção, diagnóstico e tratamento de doenças
+                  do coração, além de autor do livro <em>Detox 21 Dias</em>, Dr. Aseem Malhotra é um dos nomes a encabeçar com sucesso a campanha contra
+                  o consumo de açúcar em excesso e cura da obesidade através da intervenção de saúde pública."
+        2a_parte: "Premiado pela NHS (National Health Service), tem motivado líderes acadêmicos, mídia e políticos a fazer a redução de açúcar uma prioridade de saúde no Reino Unido e se tornou um dos principais médicos do mundo que luta contra a epidemia de obesidade, junto com outros ativistas pela causa, como Michelle Obama e Michael Bloomberg. Defensor apaixonado dos cuidados de saúde gratuitos para todos, acredita que médicos são clínicos melhores quando deixam de lado os ganhos financeiros no tratamento de pacientes."
+  
+  palestrantes_nacionais:
+    titulo: palestrantes nacionais
+    jose_souto: Um dos ícones precursores e pesquisador incansável sobre low carb no cenário nacional, em 2011, seu especial interesse na interface entre nutrição e saúde levou-o a lançar o blog Ciência Low Carb, maior referência brasileira no assunto. Formado pela Universidade Federal do Rio Grande do Sul, com pós-doutorado em patologia experimental pela Universidade do Alabama, EUA, é um influenciador digital popular e especificador de renome em conferências médicas, palestras e reuniões de nutrição e ciência, nacionais e internacionais.
+    erik_neves: Há 5 anos tratando pacientes com dieta low carb, que acredita firmemente ser a mais confiável diretriz para longevidade, bem-estar e um melhor estilo de vida, além do profundo comprometimento com a medicina, nutre verdadeira paixão por correr descalço, já tendo participado de dois Ironman e uma ultramaratona. Médico da equipe brasileira de tênis de mesa durante a preparação para os Jogos Paralímpicos de 2016, foi convidado para coordenar um futuro curso on-line, em parceria com a Fundação Noakes, destinado a médicos e nutricionistas brasileiros.
+    paty_ayres: A necessidade em entender o que acontecia com seu corpo a fez se apaixonar pela Nutrição. O inconformismo com as diretrizes apresentadas levou-a de volta às salas de aula. Ávida por conhecimento e pesquisadora inveterada, encontrou no estilo de alimentação low carb seu caminho para felicidade e bem-estar, tendo na vertente cetogênica uma estratégia fantástica para promoção de saúde e emagrecimento com qualidade de vida. É, com orgulho, pupila de ninguém menos que Dr. Souto.
+    rafael_lund: Bacharel em Educação Física pela Universidade Federal do Rio de Janeiro - UFRJ e personal trainer há mais de dez anos, fez parte da equipe de pesquisas científicas no Laboratório de Pesquisa Neuromuscular do INTO/RJ, além de ter atuado como assistente de preparação física da Seleção de Vôlei Masculina. À frente do LUND Trainers, tem na ciência o embasamento para estimular e motivar alunos, como Juliana Paes, Deborah Secco e Flávia Alessandra, assim como grandes executivos, atletas de futebol, vôlei, saltos ornamentais e tantos outros. 
+    jose_neto: Nefrologista, Coordenador do Serviço de Nefrologia do Hospital Felício Rocho e Diretor Científico da Sociedade Mineira de Nefrologia, o também ótimo cozinheiro sentiu no corpo os efeitos da síndrome metabólica. Conduzido ao universo paleo e low carb pelo amigo e também médico, Dr. Fernando Lucas, enveredou-se pela MBE e descobriu que poderia, não só mudar sua vida, como a de seus pacientes. 
+    rodrigo_bomeny: Formado e atuando ainda hoje no Hospital Universitário da Universidade de São Paulo, especializou-se em coaching e health coaching por renomadas instituições internacionais. No tratamento humanizado e com foco numa completa abordagem da vida e momento de cada paciente para obtenção de resultados duradouros, é ainda especialista em emagrecimento pela American Council on Exercise. 
+    polyana_freitas: Aclamada no cenário low carb como a Nutri das Panelas, carinhosa denominação para uma profissional de mão cheia quando o assunto é nutrição e receitas baseadas em comida de verdade, segue a linha paleo low carb e diz que independe da idade e momento fisiológico para que a mesma seja aplicada aos pacientes, já que engloba balanceadamente proteínas, gorduras, sais minerais, vitaminas, fibras e redução de carboidratos; tudo que o corpo humano necessita para ser e estar em ordem.
+    djulye_marquato: Com foco paleo e low carb, é cofundadora do Conanp - Congresso Nacional Online de Nutrição Paleo e Low Carb, com experiência em estratégias de emagrecimento e alimentação. Crédula nos pilares de uma vida saudável por meio da alimentação, movimento, emoções e hábitos salutares no dia a dia, tem na jovialidade profissional uma perspicácia sem precedentes. 
+    marcelo_denaro: Especializado em cirurgia do joelho, é membro Titular da SBOT (Sociedade Brasileira de Ortopedia e Traumatologia), da SBCJ (Sociedade Brasileira de Cirurgia do Joelho) e desde 2014 tornou-se entusiasta e estudioso de nutrição e estratégia alimentar low carb. Atua com o objetivo de integrar seus conhecimentos, aprimorando e perpetuando o que temos de mais precioso que é a saúde.
+    teresinha_souto: Mestre em Ciências pela UNIFESP e atuando profissionalmente desde 85, é pediatra e atende crianças de zero a adultos de 21 anos de idade. Acredita que uma alimentação balanceada pode ser conseguida de forma natural, sem grandes restrições e que o meio onde os indivíduos são criados desempenha papel fundamental em seu comportamento nutricional. 
+    fernanda_muller: Com especialização em nutrição ortomolecular e mestrado em ciência do esporte pela UTAD, em Portugal, a profissional acredita que definir uma estratégia saudável e que o paciente consiga sustentar a longo prazo, só é possível com uma avaliação inicial apurada de suas particularidades e idiossincrasias. Numa rotina que deixa de lado o que ela mesma chama de “falsos saudáveis”, fazer as pessoas mais felizes e salubres é uma de suas grandes premissas. 
+  
+  programacao:
+    titulo: programação
+    
+    sabado: 
+      titulo: "SÁBADO &bullet; 14 DE JULHO"
+      titulo_mobile: "SÁBADO"
+      palestra1:
+        hora: 07:00 às 08:20
+        nome: Credenciamento
+      palestra2:
+        hora: 08:20 às 08:40
+        nome: "Abertura e Apresentação Oficial<br>do Projeto ALIMENTE"
+      palestra3:
+        hora: 08:40 às 10:50
+        nome: "Palestra <strong>NINA TEICHOLZ</strong>"
+      palestra4:
+        hora: 11:00 às 12:30
+        nome: Intervalo para Almoço
+        detalhe: "com telões no local para<br>acompanhamento dos jogos da Copa"
+      palestra5:
+        hora: 12:40 às 14:00
+        nome: 1º Painel Low Carb Made in Brasil
+        detalhe: com ícones do cenário de saúde nacional
+      palestra6:
+        hora: 14:20 às 16:20
+        nome: "Palestra <strong>DR. ASEEM MALHOTRA</strong>"
+      palestra7:
+        hora: 16:20 às 16:40
+        nome: Mini Intervalo
+      palestra8:
+        hora: 16:40 às 18:00
+        nome: 2º Painel Low Carb Made in Brasil
+        detalhe: com ícones do cenário de saúde nacional
+      palestra9:
+        hora: 18:00 às 18:30
+        nome: Encerramento Primeiro Dia
+        detalhe: rodada de sorteios para os presentes
+   
+    domingo:
+      titulo: "DOMINGO &bullet; 15 DE JULHO"
+      titulo_mobile: "DOMINGO"
+      
+      palestra1:
+        hora: 07:00 às 08:00
+        nome: Credenciamento
+      palestra2:
+        hora: 08:00 às 08:20
+        nome: Abertura e Balanço do Primeiro Dia
+      palestra3:
+        hora: 08:30 às 10:30
+        nome: "Palestra <strong>GARY TAUBES</strong>"
+      palestra4:
+        hora: 10:30 às 10:50
+        nome: Mini Intervalo
+      palestra5:
+        hora: 10:50 às 11:50
+        nome: 1º Painel Low Carb Made In Brasil
+        detalhe: com ícones do cenário de saúde nacional
+      palestra6:
+        hora: 11:50 às 13:30
+        nome: Intervalo para Almoço
+        detalhe: "com telões no local para<br>acompanhamento dos jogos da Copa"
+      palestra7:
+        hora: 13:40 às 14:40
+        nome: "Palestra <strong>ERIK NEVES</strong> e <strong>PATRICIA AYRES</strong>"
+        detalhe: Tema - Cetogênica
+      palestra8:
+        hora: 15:00 às 16:30
+        nome: "Palestra <strong>JOSÉ CARLOS SOUTO</strong>"
+      palestra9:
+        hora: 16:30 às 16:50
+        nome: Mini Intervalo
+      palestra10:
+        hora: 16:50 às 18:20
+        nome: Painel Around The World Of Low Carb
+        detalhe: com ícones do cenário de saúde nacional<br>e os palestrantes internacionais
+      palestra11:
+        hora: 'às 18:20'
+        nome: Encerramento
+        detalhe: "rodada de sorteios para os presentes,<br>agradecimentos e novidades ALIMENTE para 2019"
+    
+    botao: mostrar/esconder informações sobre horários
+    
+    alerta:
+      1a_parte: "Em respeito aos profissionais palestrantes e público presente, faz-se necessário o cumprimento de alguns requisitos para
+      o perfeito andamento de nosso evento. Confira.
+      <br>
+      <br>
+      <ul>
+        <li>
+          O evento começa pontualmente às 08h20 (sábado) e 08h (domingo), com tolerância
+          máxima de 15 minutos para entrada no salão de convenções. Após esse limite os retardatários deverão esperar no foyer até
+          o primeiro intervalo, quando será permitida a entrada para acompanhamento do restante do evento.
+        </li>
+      </ul>
+      Aproveitem o horário estipulado para o credenciamento e cheguem com antecedência para evitar transtornos.
+      <br>
+      <br>
+      O hall de entrada abre ao público no mesmo horário de início do credenciamento e as portas de acesso ao salão às 8h.
+      <br>
+      <br>
+      A indicação acima vale para abertura, retorno dos intervalos e almoço.
+      <br>
+      <br>
+      <ul>
+        <li>
+          Cada tipo de ingresso dá acesso a áreas pré-determinadas. Confira os locais de sua seleção com o staff presente no dia do
+          evento;
+        </li>
+      </ul>"
+      
+      2a_parte: "Os ingressos VIP 1 e 2, GOLD 1 e 2, possuem área exclusiva e com acesso restrito;
+      <br><br>
+      <ul>
+        <li>
+          A acomodação nos setores gerais é por ordem de chegada, sem a possibilidade de marcação de lugar na plateia;
+        </li>
+        
+        <li>
+          Não será permitida a filmagem de palestras;
+        </li>
+
+        <li>
+          Pede-se discernimento quanto ao silêncio durante as apresentações, dispensando comentários excessivos e conversas paralelas.
+          Se for extremamente necessário, que seja breve;
+        </li>
+        
+        <li>
+          Máquinas fotográficas não são permitidas e os aparelhos celulares devem ser desligados ou colocado em modo silencioso/vibratório;
+        </li>
+        
+        <li>
+          Os mini intervalos servem de descanso entre as palestras, sendo permitida a saída rápida para um cafezinho no saguão do local,
+          uso de banheiro e afins. Entretanto, é preciso estar atento ao aviso horário de retorno para continuidade do evento.
+        </li>
+
+        <li>
+          Não é permitida a entrada de comida no salão, excetuando-se pequenos snacks, água e café. E também não é permitido fumar.
+        </li>
+
+        <li>
+          Prestigiar os palestrantes é satisfatório e bater palmas uma das maneiras mais usuais para isso. Porém, é preciso cuidado
+          para que não aconteça durante as apresentações e sim ao término de cada palestra, ou quando o profissional fizer menção de
+          que finalizou sua participação, dando espaço para todos os aplausos.
+        </li>
+      </ul>"
+  
+  ingressos:
+    titulo: ingressos
+    solicitar: SOLICITAR
+    comprar: COMPRAR
+    esgotado: ESGOTADO
+    taxa: TAXA
+    taxa_sympla: "Taxa de serviço da plataforma de e-commerce equivalente a 10% do valor do ingresso."
+
+    pre_venda:
+      titulo:
+        mobile: "PRÉ<br>VENDA"
+        web: "PRÉ-VENDA"
+      starters: "Welcome kit<br>Platéia <strong>GOLD 1</strong>"
+      upgrade_gold2: Valor adicional para mudança de categoria*
+      upgrade_vip1: Valor adicional para mudança de categoria*
+      alerta: "* Necessário ter comprado o ingresso durante a pré-venda."
+    estudante:
+      titulo: ESTUDANTE
+      card1: BÁSICO 1
+      card2: BÁSICO 2
+      basico1: "Welcome kit<br>Platéia <strong>GOLD 1</strong>"
+      basico2: "Welcome kit<br>3 livros autografados<br>Platéia <strong>GOLD 2</strong>"
+    gold:
+      gold1: "Welcome kit<br>Platéia <strong>GOLD 1</strong>"
+      gold2: "Welcome kit<br>3 livros autografados<br>Platéia <strong>GOLD 2</strong>"
+    vip:
+      vip1: "Welcome kit<br>Lounge VIP Facilities<br>3 livros autografados<br>Platéia <strong>VIP 1</strong>"
+      vip2: "Welcome kit<br>Coquetel Pré-Evento<br>Lounge VIP Facilities<br>3 livros autografados<br>Platéia <strong>VIP 2</strong>"
+    pre_evento:
+      titulo:
+        mobile: "PRÉ<br>EVENTO"
+        web: "PRÉ-EVENTO"
+      card: COQUETEL
+      coquetel: "Coquetel Pré-Evento
+                <br>
+                Dia 13/07
+                <br>
+                + informações clique abaixo"
+  
+  mapa_de_assentos:
+    titulo: MAPA DE ASSENTOS
+  
+  localizacao:
+    quando: Quando?
+    data: 14 e 15 de julho
+    hora: das 7h às 18:30h
+    onde: Onde?
+    center_norte: "Expo Center Norte <span class='d-none d-lg-inline-block'>&bullet;</span> Centro de Convenções"
+    endereco: Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo - SP
+
+  producao: Produção
+  desenvolvimento: Desenvolvimento
+
+  footer:
+    evento: O EVENTO
+    alimente: O ALIMENTE
+    pagamento: PAGAMENTO
+
+  sobre:
+    titulo: O EVENTO ALIMENTE
+
+    1a_parte: "Ser e tornar as pessoas felizes. Com a premissa que se tornou ideologia, a produtora e empresária Caroline Guilherme ganhou
+          saúde e resolveu que estava mais que na hora de verdades nutricionais serem propagadas.
+          <br>
+          <br>
+          Estava criado o Projeto ALIMENTE, nascido para nutrir a mente das pessoas com informação de qualidade relacionada à alimentação de verdade, com preparo simples
+          e trivial no dia a dia, além de saúde, estilo de vida e bem-estar."
+    
+    2a_parte: "Em constante mutação, a cada novo evento essencialmente ligado ao projeto ele recria-se e adapta-se a realidade do momento,
+          transmutando em edições especiais, com vieses específicos, públicos distintos, mas sem nunca perder o foco de enaltecer a
+          natureza simples e pura do ser humano em viver sua plenitude.
+          <br>
+          <br>
+          Seu debut deu-se em um evento exclusivo em Brasília, que causou
+          burburinho e mostrou que criador e criatura estavam no caminho certo, levando a um seleto público ávido por conteúdo de qualidade,
+          nomes renomados da medicina investigativa brasileira. O sucesso foi tanto, que agora em 2018 o encontro rompe fronteiras
+          mundo afora e chega a Londres."
+    
+    3a_parte: "Mas é em território nacional e num cenário cada vez mais em ebulição, que o ALIMENTE promete mudar completamente a maneira
+          de pensar e agir de quem busca um futuro salutar em meio às agruras diárias do mundo moderno, com o 1º Congresso Internacional
+          Low Carb, um divisor de águas na mais badalada filosofia alimentar dos últimos tempos, que contará com ícones internacionais
+          e nacionais abordando nutricionalmente caminhos para uma vida melhor, reunidos numa série de palestras e painéis inéditos
+          no país.
+          <br>
+          <br>
+          Sejam todos muito bem-vindos a nossa proposta de mudar o mundo através da comida, ciência e consciência colaborativa."
+
+  trabalhe_conosco:
+    titulo: TRABALHE CONOSCO
+
+    texto: "Você, estudante da área de saúde, que quer além de receber um certificado com horas para ser um incremento em seu currículo
+          estudantil, fazer parte deste novo marco na história da medicina brasileira e mundial, voluntarie-se.
+          <br>
+          <br>
+          Para fazer parte de nossa equipe é só preencher o formulário com seus dados e na mensagem informar a instituição de ensino, cadeira que está
+          cursando e período, contando ainda um pouco sobre seu perfil.
+          <br>
+          <br>
+          Todas as subscrições serão analisadas e os contemplados serão comunicados via email.
+          <br>
+          <br>
+          Boa sorte e venha fazer parte dessa revolução com a gente!"
+    
+    formulario:
+      nome: SEU NOME
+      email: SEU EMAIL
+      mensagem: SUA MENSAGEM
+      enviar: ENVIAR MENSAGEM
+  
+  faq:
+    titulo: PERGUNTAS FREQUENTES
+
+    pergunta1: 1. O evento contará com tradução simultânea?
+    resposta1: "Sim. Durante as palestras internacionais e interações no palco, todo conteúdo será traduzido simultaneamente."
+  
+    pergunta2: 2. Qual o público alvo do evento?
+    resposta2: "Não existe um nicho de pessoas específico a que se direcione o congresso. Ele é de grande valia para profissionais e estudantes
+              das áreas de saúde em geral, entusiastas da alimentação low carb, esportistas, até mesmo a dona de casa que busca entender
+              mais sobre qualidade de vida e aplicar, quem sabe, no dia a dia com seus familiares. Resumindo, nosso público-alvo são todos
+              que buscam saúde e bem-estar."
+
+    pergunta3: 3. Haverá transmissão online do evento?
+    resposta3: "Não. Prezando pela qualidade das palestras que serão ministradas e exclusividade para o público presente, não disponibilizaremos
+              durante, nem após o evento, qualquer tipo de material em vídeo."
+
+    pergunta4: 4. Posso filmar o evento? 
+    resposta4: "Não. É terminantemente proibida a filmagem integral do evento, porém, é aceitável a gravação de pequenos trechos para compartilhamento
+              em redes sociais. Para otimizar a visualização podem ser usadas ainda as hashtags <strong>#eventoalimente, #eventoalimente2018</strong> ou <strong>#projetoalimente</strong>"
+
+    pergunta5: 5. Qual a idade mínima para participar do evento?
+    resposta5: "Não existe idade mínima estipulada, mas pelo conteúdo que será apresentado, aconselhamos que menores de 18 anos não compareçam
+            ao evento, já que a temática pode ser de difícil compreensão."
+    
+    pergunta6: 6. Poderei tirar fotos com os palestrantes?
+    resposta6: "Para garantir o bom andamento do evento e comodidade dos palestrantes, não serão permitidas abordagens ou fotos com os mesmos,
+            a não ser nos períodos pré-determinados de meet&greet, que serão divulgados somente no dia e com retirada de senha."
+
+    pergunta7: 7. Quantos ingressos eu posso comprar?
+    resposta7: "Nas categorias de venda de ingressos sem preço promocional o limite para compra é de 3 ingressos por CPF – pessoa."
+
+    pergunta8: 8. Quais as formas de pagamento dos ingressos?
+    resposta8: "Os ingressos podem ser pagos via cartão de crédito, débito online ou boleto, à vista ou parcelado em até 10x com juros, com
+            preço nominal + taxas administrativas da Sympla."
+  
+    pergunta9: 9. Existe alguma forma de comprar o ingresso sem taxa administrativa?
+    resposta9: "Infelizmente não. Usamos a plataforma Sympla para a sua e nossa segurança durante as transações e por isso é cobrada a taxa."
+
+    pergunta10: 10. Onde consigo um código promocional?
+    resposta10: 'Apesar da Sympla, plataforma de venda online escolhida para nosso evento, disponibilizar como padrão essa opção ao acessar
+            a página de transação, o ALIMENTE não terá códigos para utilização. Nosso desconto foi concedido – única e exclusivamente
+            - durante a pré-venda de ingressos.'
+    
+    pergunta11: 11. Tem desconto para estudantes?
+    resposta11: "Estudantes contam com a comodidade de preço diferenciado do ingresso, com desconto em cima do preço cheio, sendo R$800 para
+            opção de acesso normal ou R$1.000 referente a acesso e 3 livros autografados. As duas modalidades de ingressos para estudante
+            tem quantidade limitada e não expansível colocada à venda."
+
+    pergunta12: 12. Preciso mostrar carteirinha de estudante na entrada?
+    resposta12: "Sim, você vai ter que apresentar o documento de sua instituição de ensino com o selo de validação do ano vigente ou carteira
+            de estudante nacional com foto e certificada pela UNE, UBES ou ANPG, com validade para 2018."
+    
+    pergunta13: 13. Fiz a minha inscrição, comprei meu ingresso, e não poderei comparecer ao evento, posso fazer algo?
+    resposta13: "Sim. Você pode transferir a titularidade do seu ingresso, ou então, solicitar o reembolso de 50% do valor pago, salvo se
+            o ingresso tiver sido adquirido na pré-venda ou esteja no período de 10 dias antes do evento."
+
+    pergunta14: 14. Preciso retirar meu ingresso na bilheteria?
+    resposta14: "Não, seu ingresso é entregue como e-ticket. Você precisará apenas imprimi-lo e levar no dia do evento."
+
+    pergunta15: 15. Comprei ingresso de uma categoria e queria trocar por outra. Como faço?
+    resposta15: "Para mudar a categoria de seu ingresso basta entrar em contato via email <strong><a href='mailto:contato@eventoalimente.com.br'>contato@eventoalimente.com.br</a></strong> informando sobre a mudança. A partir daí serão
+            iniciados os trâmites para o pagamento da diferença e conclusão do processo. A TROCA DE CATEGORIA É ELEGÍVEL SOMENTE PARA
+            UPGRADE DO INGRESSO E NÃO DOWNGRADE!"
+
+  pre_evento:
+    titulo: SOLICITAÇÃO DE PRESENÇA NO PRÉ-EVENTO
+
+    texto: "Caroline Guilherme e a equipe do Projeto ALIMENTE, junto com Gary Taubes, Nina Teicholz, Dr. Aseem Malhotra, Dr. José Carlos
+          Souto e todo o time de palestrantes nacionais, promove coquetel VIP no dia 13 de julho, num pré-evento exclusivo do 1º Congresso
+          Nacional Low Carb.
+          <br>
+          <br>
+          Os ingressos já estão à venda em quantidade limitada e darão acesso ao encontro, degustação de samplers
+          low carb e vinhos, além da oportunidade única de ter sua foto com um seleto time de personalidades.
+          <br>
+          <br>
+          Preencha o formulário abaixo para solicitar presença.
+          <br>
+          <br>"
+
+    formulario:
+      nome: SEU NOME
+      email: SEU EMAIL
+      cpf: SEU CPF
+      rg: SEU RG
+      profissao: SUA PROFISSÃO
+      endereco: SEU ENDEREÇO
+      enviar: SOLICITAR PRESENÇA
+  
+  upgrade:
+    titulo_gold2: SOLICITAÇÃO DE UPGRADE P/ GOLD 2
+    titulo_vip1: SOLICITAÇÃO DE UPGRADE P/ VIP 1
+
+    texto: Para concluírmos sua solicitação de upgrade, precisamos que você nos informe seu número de ticket enviado por email. Sem ele não conseguiremos prosseguir com a mudança da categoria do ingresso. 
+    
+    formulario:
+      nome: SEU NOME
+      email: SEU EMAIL
+      ingresso: SEU NÚMERO DE INGRESSO
+      enviar: ENVIAR SOLICITAÇÃO
+
+  reembolso:
+    titulo: POLÍTICA DE REEMBOLSO E TRANSFERÊNCIA DE TITULARIDADE
+
+    texto: "Seu ingresso é um produto único e após realizada a compra ficará indisponível para qualquer outra pessoa.
+          <br>
+          <br>
+          A partir do momento da finalização e confirmação da compra, a solicitação de cancelamento pode ser feita em até 7 dias corridos, não podendo
+          esse período coincidir com a antecedência de 10 dias do evento.
+          <br>
+          <br>
+          Para iniciar o processo de pedido de reembolso você deve enviar uma solicitação formal, utilizado o mesmo e-mail cadastrado no ato da compra, para o endereço <strong><a href='mailto:contato@eventoalimente.com.br'>contato@eventoalimente.com.br</a></strong>.
+          <br>
+          <br>
+          Os ingressos são cancelados e o valor de <strong>50% - e somente esse -</strong> da compra é estornado, descontadas as taxas de serviço, de acordo com
+          a forma de pagamento utilizada na compra.
+          <br>
+          <br>
+          Os prazos para o estorno variam de acordo com a data de fechamento da fatura do cartão e das instituições envolvidas, variando, muitas vezes de 15 a 45 dias.
+          <br>
+          <br>
+          Somasse ao disposto acima, a possibilidade de transferência da titularidade do ingresso, sendo necessário para isso contato utilizado o mesmo e-mail cadastrado no ato
+          da compra, com os dados do novo detentor de utilização do mesmo.
+          <br>
+          <br>
+          Não é possível o cancelamento de ingressos após a data do evento.
+          <br>
+          <br>
+          <strong>ATENÇÃO:</strong> Os termos de reembolso acima descritos não são aplicáveis aos ingressos adquiridos no período de pré-venda,
+          sendo contemplados nesse caso, apenas os pedidos de transferência de titularidade. A pré-venda não é reembolsável!"
+
+  jornalista: Jornalista
+  cardiologista: Cardiologista
+  urologista: Urologista
+  clinico_geral: Clinico geral
+  nutricionista: Nutricionista
+  mestre_esporte: 'Mestre em ciências<br>do desporto'
+  nefrologista: Nefrologista
+  endocrinologista: Endocrinologista
+  ortopedista: Ortopedista
+  pediatra: Pediatra
+
+  taxa: 'Taxa de serviço da plataforma de e-commerce equivalente a 10% do valor do ingresso.'
+
+  voltar_para_o_inicio: VOLTAR PARA O INÍCIO

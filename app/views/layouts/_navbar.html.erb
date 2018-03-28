@@ -1,28 +1,63 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top <%= 'd-none' if action_name == 'landing'%>">
   <div class="container">
-    <a class="navbar-brand" href="/">
-      <%= image_tag "logo-horizontal.png", height: "35px" %>
-    </a>
-    
+    <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+      <a class="navbar-brand" href="/?lang=pt-BR">
+        <%= image_tag "logo-horizontal.png", height: "35px" %>
+      </a>
+    <% elsif params[:lang] == "en" %>
+      <a class="navbar-brand" href="/?lang=en">
+        <%= image_tag "logo-horizontal.png", height: "35px" %>
+      </a>
+    <% end %>
+
     <div class="d-none d-lg-block mr-auto pl-2">
       <ul class="navbar-nav">
         <li class="nav-item <%= 'active' if action_name == 'about' %>">
-          <a class="nav-link" href="/sobre">Sobre
-          </a>
+          <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+            <a class="nav-link" href="/sobre?lang=pt-BR">Sobre</a>
+          <% elsif params[:lang] == "en" %>
+            <a class="nav-link" href="/sobre?lang=en">About</a>
+          <% end %>
         </li>
   
         <li class="nav-item <%= 'active' if action_name == 'faq' %>">
-          <a class="nav-link" href="/perguntas-frequentes">Perguntas Frequentes
-          </a>
+          <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+            <a class="nav-link" href="/perguntas-frequentes?lang=pt-BR">Perguntas Frequentes</a>
+          <% elsif params[:lang] == "en" %>
+            <a class="nav-link" href="/perguntas-frequentes?lang=en">F.A.Q.</a>
+          <% end %>
         </li>
       </ul>
     </div>
 
     <div class="d-none d-lg-block navbar-wrapper">
-      <a href="/#tickets" class="button-outline mr-4">ingressos</a>
+      <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+        <a href="/?lang=pt-BR#tickets" class="button-outline mr-4">ingressos</a>
+      <% elsif params[:lang] == "en" %>
+        <a href="/?lang=en#tickets" class="button-outline mr-4">tickets</a>
+      <% end %>
     </div>
 
-    <%= image_tag "brazil.svg", height: "50px", class: "flag" %>
+    <div class="btn-group">
+      <button class="btn dropdown-toggle p-o" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+          <%= image_tag "brazil.svg", height: "50px", class: "flag" %>
+        <% elsif params[:lang] == "en" %>
+          <%= image_tag "usa.svg", height: "50px", class: "flag" %>
+        <% end %>
+      </button>
+      <div class="dropdown-menu dropdown-menu-right">
+        <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+          <a class="dropdown-item" href="?lang=en">
+            <%= image_tag "usa.svg", height: "50px", class: "flag" %>
+          </a>
+        <% elsif params[:lang] == "en" %>
+          <a class="dropdown-item" href="?lang=pt-BR">
+            <%= image_tag "brazil.svg", height: "50px", class: "flag" %>
+          </a>
+        <% end %>
+      </div>
+    </div>
 
     <div class="d-none">
       <%= fa_icon "bars", class: "fa-2x menu" %>

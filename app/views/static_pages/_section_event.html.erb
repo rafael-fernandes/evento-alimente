@@ -1,9 +1,9 @@
 <section class="event">
   <div class="title">
     <h1 data-aos="zoom-in">
-      o evento 
+      <%= t('evento.titulo.1a_parte') %>
       <span>&bullet;</span>
-      edição são paulo
+      <%= t('evento.titulo.2a_parte') %>
     </h1>
   </div>
 
@@ -11,14 +11,8 @@
     <div class="row">
       <div class="col-md-8 col-lg-7">
         <div data-aos="fade-up-right">
-          <h3 class="mb-4">Um evento pioneiro no país abordando Inovação, Ciência, Nutrição e Qualidade de Vida</h3>
-          Os dias 14 e 15 de julho ficarão eternizados na memória não só de quem estiver presente no evento, mas também nas antigas
-          e futuras gerações que sempre buscaram e continuam atrás de um modo de vida cada vez mais consciente.
-          
-          <br><br>Inédito no país, o 1º Congresso Internacional Low Carb, vai reunir em dois dias de intensos ciclos de palestras, painéis
-          e muito networking, três grandes nomes que agitam o cenário internacional quando o assunto é qualidade de vida: o mestre
-          em jornalismo, jornalista investigativo e autor do famoso <em>Por Que Engordamos: E O Que Fazer Para Evitar</em>, <strong>Gary Taubes</strong>;
-          a mestre em jornalismo e jornalista best seller pelo <em>Gordura Sem Medo</em>, <strong>Nina Teicholz</strong>; e o premiado cardiologista e autor do livro <em>Detox 21 Dias</em>, <strong>Dr. Aseem Malhotra</strong>.
+          <h3 class="mb-4"><%= t('evento.conteudo.1a_parte.titulo') %></h3>
+          <%= raw t('evento.conteudo.1a_parte.texto') %>
         </div>
 
         <div class="event-detail-1" data-aos="fade-up-left">
@@ -30,13 +24,8 @@
         </div>
         
         <div data-aos="fade-up-right">
-          <h3 class="mb-4 mt-4">Especialistas brasileiros: um TIMAÇO</h3>
-          
-          Juntam-se a eles os mais renomados profissionais da área de saúde brasileira, como o urologista <strong>José Carlos Souto</strong>; o clínico
-          <strong>Erik Neves</strong>; o nefrologista <strong>José Neto</strong>; o endocrinologista <strong>Rodrigo Bomeny</strong>; o ortopedista <strong>Marcelo Denaro</strong>; 
-          a pediatra <strong>Teresinha Souto</strong>; as nutricionistas <strong>Paty Ayres</strong>; <strong>Polyana Freitas</strong>; <strong>Djulye Marquato</strong> e <strong>Fernanda Muller</strong>; o mestre em ciência do esporte
-          <strong>Rafael Lund</strong>, para juntos traçar um panorama do que anda acontecendo mundo afora e as últimas descobertas nas práticas para
-          saúde baseadas em evidências.
+          <h3 class="mb-4 mt-4"><%= t('evento.conteudo.2a_parte.titulo') %></h3>
+          <%= raw t('evento.conteudo.2a_parte.texto') %>
         </div>
 
         <div class="event-detail-2" data-aos="fade-up-right">
@@ -48,14 +37,8 @@
         </div>
 
         <div data-aos="fade-up-right">
-          <h3 class="mb-4 mt-4">Um evento desenhado para proporcionar a você uma experiência única</h3>
-          
-          Com a comodidade da tradução simultânea para melhor acompanhamento das apresentações, da quebra de mitos sobre alimentos
-          vilanizados e o consumo desvairado de produtos cada vez mais industrializados e processados, responsáveis pelos altos índices
-          de obesidade, diabetes, doenças cardíacas, câncer, entre tantas outras, serão abordados também os processos que desencadeiam
-          a síndrome metabólica, a resistência à insulina, a alimentação cetogênica com escopo terapêutico em prol da saúde e muito
-          mais. Tudo levado a público por meio de conceituados estudos randomizados, chancelados pelas maiores autoridades científicas
-          da atualidade que vêm numa frente unida reescrevendo a história da Nutrição.
+          <h3 class="mb-4 mt-4"><%= t('evento.conteudo.3a_parte.titulo') %></h3>
+          <%= raw t('evento.conteudo.3a_parte.texto') %>
         </div>
 
         <div class="event-detail-3" data-aos="fade-up-left">
@@ -67,7 +50,7 @@
         </div>
 
         <div data-aos="fade-up-right">
-          Então, anote na sua agenda e confira toda a programação desse épico encontro.
+          <%= raw t('evento.conteudo.4a_parte.texto') %>
         </div>
       </div>
     </div>

@@ -3,7 +3,9 @@
 <div class="refund pt-5 mt-3">
   <div class="title">
     <div class="container">
-      <h1 data-aos="fade-right">SOLICITAÇÃO DE UPGRADE P/ GOLD 2</h1>
+      <h1 data-aos="fade-right">
+        <%= t('upgrade.titulo_gold2') %>
+      </h1>
     </div>
   </div>
 
@@ -11,35 +13,33 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 col-lg-6">
-          Para concluírmos sua solicitação de upgrade, precisamos que você 
-          nos informe seu número de ticket enviado por email. Sem ele não 
-          conseguiremos prosseguir com a mudança da categoria do ingresso.
+          <%= t('upgrade.texto') %>
           <br>
           <br>
           <form action="https://formspree.io/whcriacao@gmail.com" method="POST">
             <div class="form-group">
-              <label for="nome">SEU NOME</label>
+              <label for="nome"><%= t('upgrade.formulario.nome') %></label>
               <input type="text" name="nome" class="form-control" required>
             </div>
           
             <div class="form-group">
-              <label for="email">SEU EMAIL</label>
+              <label for="email"><%= t('upgrade.formulario.email') %></label>
               <input type="email" name="email" class="form-control" required>
             </div>
 
             <input type="hidden" name="upgrade-para" value="gold-2">
 
             <div class="form-group">
-              <label for="numero-ingresso">SEU NÚMERO DE INGRESSO</label>
+              <label for="numero-ingresso"><%= t('upgrade.formulario.ingresso') %></label>
               <input type="text" name="numero-ingresso" class="form-control" required>
             </div>
           
-            <input type="submit" value="ENVIAR SOLICITAÇÃO">
+            <input type="submit" value="<%= t('upgrade.formulario.enviar') %>">
           </form>
         </div>
       </div>
       <div class="pt-5"></div>
-      <a href="/" class="button-outline">VOLTAR PARA O INÍCIO</a>
+      <a href="/" class="button-outline"><%= t('voltar_para_o_inicio') %></a>
     </div>
 
     <%= image_tag "bg-refund.svg", class: "bg-refund" %>

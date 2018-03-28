@@ -3,7 +3,9 @@
 <div class="refund pt-5 mt-3">
   <div class="title">
     <div class="container">
-      <h1 data-aos="fade-right">SOLICITAÇÃO DE PRESENÇA NO PRÉ-EVENTO</h1>
+      <h1 data-aos="fade-right">
+        <%= t('pre_evento.titulo') %>
+      </h1>
     </div>
   </div>
 
@@ -11,56 +13,45 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 col-lg-6">
-          Caroline Guilherme e a equipe do Projeto ALIMENTE, junto com Gary Taubes, Nina Teicholz, Dr. Aseem Malhotra, Dr. José Carlos
-          Souto e todo o time de palestrantes nacionais, promove coquetel VIP no dia 13 de julho, num pré-evento exclusivo do 1º Congresso
-          Nacional Low Carb.
-          <br>
-          <br>
-          Os ingressos já estão à venda em quantidade limitada e darão acesso ao encontro, degustação de samplers
-          low carb e vinhos, além da oportunidade única de ter sua foto com um seleto time de personalidades.
-          <br>
-          <br>
-          Preencha o formulário abaixo para solicitar presença.
-          <br>
-          <br>
+          <%= raw t('pre_evento.texto') %>
 
           <form action="https://formspree.io/whcriacao@gmail.com" method="POST">
             <div class="form-group">
-              <label for="name">SEU NOME</label>
+              <label for="name"><%= t('pre_evento.formulario.nome') %></label>
               <input type="text" name="name" class="form-control" required>
             </div>
           
             <div class="form-group">
-              <label for="email">SEU EMAIL</label>
+              <label for="email"><%= t('pre_evento.formulario.email') %></label>
               <input type="email" name="email" class="form-control" required>
             </div>
           
             <div class="form-group">
-              <label for="address">SEU ENDEREÇO</label>
+              <label for="address"><%= t('pre_evento.formulario.endereco') %></label>
               <input type="text" name="address" class="form-control" required>
             </div>
           
             <div class="form-group">
-              <label for="job">SUA PROFISSÃO</label>
+              <label for="job"><%= t('pre_evento.formulario.profissao') %></label>
               <input type="text" name="job" class="form-control" required>
             </div>
           
             <div class="form-group">
-              <label for="cpf">SEU CPF</label>
+              <label for="cpf"><%= t('pre_evento.formulario.cpf') %></label>
               <input type="text" name="cpf" class="form-control" required>
             </div>
           
             <div class="form-group">
-              <label for="rg">SEU RG</label>
+              <label for="rg"><%= t('pre_evento.formulario.rg') %></label>
               <input type="text" name="rg" class="form-control" required>
             </div>
           
-            <input type="submit" value="ENVIAR SOLICITAÇÃO">
+            <input type="submit" value="<%= t('pre_evento.formulario.enviar') %>">
           </form>
         </div>
       </div>
       <div class="pt-5"></div>
-      <a href="/" class="button-outline">VOLTAR PARA O INÍCIO</a>
+      <a href="/" class="button-outline"><%= t('voltar_para_o_inicio') %></a>
     </div>
 
     <%= image_tag "bg-event.svg", class: "bg-refund d-none d-lg-block" %>

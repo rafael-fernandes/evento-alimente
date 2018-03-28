@@ -19,29 +19,29 @@
     <div class="row">
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 when" data-aos="zoom-in-right">
         <div class="title">
-          <strong>Quando?</strong>
+          <strong><%= t('localizacao.quando') %></strong>
         </div>
 
         <div class="date">
-          14 e 15 de julho
+          <%= t('localizacao.data') %>
         </div>
 
         <div class="hour">
-          das 7h às 18:30h
+          <%= t('localizacao.hora') %>
         </div>
       </div>
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-8 where" data-aos="zoom-in-left">
         <div class="title">
-          <strong>Onde?</strong>
+          <strong><%= t('localizacao.onde') %></strong>
         </div>
 
         <div class="center-norte">
-          Expo Center Norte <span class="d-none d-lg-inline-block">&bullet;</span> Centro de Convenções
+          <%= raw t('localizacao.center_norte') %>
         </div>
 
         <div class="address">
-          Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo - SP
+          <%= t('localizacao.endereco') %>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@
   <div class="container">
     <div class="row" data-aos="zoom-in">
       <div class="col-md-6 col-lg-4">
-        Produção:
+        <%= t('producao') %>:
         <br>
         <a href="#" target="_blank">
           <%= image_tag "caroline.png", height: '45px', class: 'mt-3' %>
@@ -65,7 +65,7 @@
       </div>
 
       <div class="col-md-6 col-lg-8 developer">
-        Desenvolvimento:
+        <%= t('desenvolvimento') %>:
         <br>
         <a href="http://typo.digital" target="_blank">
           <%= image_tag "typo.png", height: '50px', class: 'mt-2' %>
@@ -82,10 +82,12 @@
     $(document).scroll(function () {
       if ($(document).scrollTop() > 65) {
         $('.navbar').removeClass('d-none');
+        $('.navbar-home').addClass('d-none');
       }
 
       else {
         $('.navbar').addClass('d-none');
+        $('.navbar-home').removeClass('d-none');
       }
     });
   });

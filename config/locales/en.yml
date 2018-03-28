@@ -1,33 +1,581 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  inicio:
+    titulo:
+      1a_parte: 1st international
+      2a_parte: low carb congress
+    datas:
+      dias: days
+      horas: hours
+      minutos: min
+      segundos: sec
+    comprar_ingressos: buy tickets
+  
+  evento:
+    titulo:
+      1a_parte: the event
+      2a_parte: são paulo edition
+  
+    conteudo:
+      1a_parte: 
+        titulo: 'A pioneer event in the country approaching Innovation, Science, Nutrition and Quality of Life'
+        texto: "The 14th and 15th of July will be forever in the minds of those not only attending the event, but also on the minds of
+                the future generations that will always look for a more conscious and healthy life style.
+                <br><br>An unprecedented event in Brazil, the 1st International Low Carb Congress will gather in a span of two days, intense lecture
+                cycles, panels, and a lot of networking, bringing three great names when the subject is quality of life: Master’s in Journalism,
+                investigative journalist and famous author of <em>Why We Get Fat: And What to Do About It</em>, <strong>Gary Taubes</strong>; Master’s in Journalism
+                and best seller journalist of <em>The Big Fat Surprise: Why Butter, Meat and Cheese Belong in a Healthy Diet</em>, <strong>Nina Teicholz</strong>;
+                and the award winning cardiologist, author of <em>The Pioppi Diet</em>, <strong>Dr. Aseem Malhotra</strong>."
+      2a_parte:
+        titulo: 'Brazilian specialists: a GREAT TEAM'
+        texto: "They will be joined by renowned Brazilian health professionals, such as urologist <strong>José Carlos Souto</strong>; physician
+                <strong>Erik Neves</strong>; Nephrologist <strong>José Neto</strong>; endocrinologist <strong>Rodrigo Bomeny</strong>; orthopaedist <strong>Marcelo Denaro</strong>; 
+                paediatrician <strong>Teresinha Souto</strong>; Nutricionists <strong>Paty Ayres</strong>; <strong>Polyana Freitas</strong>; <strong>Djulye Marquato</strong> and <strong>Fernanda Muller</strong>; Master's of Sport Science 
+                <strong>Rafael Lund</strong>, all coming together to provide a consistent picture of what is happening around the world and the latest findings of evidence-based
+                health practices being put into action."
+      3a_parte:
+        titulo: 'An event designed to give you a unique experience'
+        texto: 'We will be breaking down the myths regarding villainized foods and frenzied consumption of industrialized and processed
+                products, responsible for the high-rates of cancer, diabetes, obesity, heart diseases, among many others, while also addressing
+                the processes that lead to metabolic syndrome, insulin-resistance, the use of therapeutic ketogenic feeding for better health,
+                among many other subjects, all with the commodity of simultaneous interpretation for better understanding all presentations.
+                This all will be brought to the public by reputable randomized clinical studies, stamped by the greatest scientific authorities
+                that together have been rewriting the whole history of Nutrition.'
+      4a_parte:
+        texto: 'So, save the date and check out the entire schedule for this epic encounter.'
+  
+  palestrantes_internacionais:
+    titulo: international speakers
+  
+    gary_taubes:
+      descricao:
+        1a_parte: "Master’s in journalism, investigative journalist in science and health and co-founder of the
+                  non-profit Nutrition and Science Initiative (NuSI.org), also an author of great successes like
+                  <em>Good Calories, Bad Calories</em> (2007) and
+                  <em>The Case Against Sugar</em> (2016), both without a Portuguese translation, and the iconic
+                  <em>We Get Fat: What to do about it?</em> (2011), released in Brazil by L&amp;PM EDITORES."
+        2a_parte: "Taubes won the Robert Wood Johnson Foundation Investigator Award, for his researches in
+                  health politics, aside from winning numerous awards for his greatness as a professional
+                  journalist, including tree Science in Society awards from National Writers Association (ANE)."
+  
+    nina_teicholz:
+      descricao: 
+        1a_parte: "Master’s in journalism, investigative journalist and international - and New York Times- best
+                  seller author,
+                  <em>The Big Fat Surprise</em>, released in Brazil by WMF MARTINS FONTES and a
+                  praised by The Economist as number #1 Scientific book of 2014, and nominated as book of
+                  the year by Wall Street Journal, Forbes, Mother Jones and Library Journal."
+        2a_parte: "Teicholz is responsible for a remarkable work in the search for a scientific truth, and for
+                  overturning the conventional 'knowledge' on food fat, by challenging the political core on
+                  worldwide nutrition, being awarded with a review in the reputable American Journal of
+                  Clinical Nutrition, saying: 'This book should be read by every nutritional science
+                  professional…'."
+  
+    aseem_malhotra:
+      descricao: 
+        1a_parte: "One of Great Britain’s most influent cardiologists, worldwide specialist in preventing,
+                  diagnosing and treating hearth diseases, author of <em>The Pioppi Diet</em>, Dr. Aseem Malhotra is
+                  one of the leading successful names campaigning against the excessive sugar intake and the
+                  cure of diabetes through public health intervention."
+        2a_parte: "Awarded by NHS (National Health Service), he has motivated academic leaders, media and
+                  politicians to reduce the sugar intake as a priority for the United Kingdom’s health, and he
+                  has become one of the main doctors to fight against the obesity epidemic, together with
+                  other activists, like Michelle Obama and Michael Bloomberg. Passionate defender of free
+                  health care for everyone, he believes that doctors are better physicians when they leave
+                  aside the financial gains from their patients."
+  
+  palestrantes_nacionais:
+    titulo: national speakers
+  
+    jose_souto: One of the precursor icons in the national scenario as well as a tireless researcher of Low
+                Carb diet, his interested in nutritional health brought him to launch the Ciência Low Carb
+                blog back in 2011, which eventually became Brazil’s main media on Low Carb news and
+                data. A graduate from Federal University of Rio Grande do Sul, and a Post Graduate in
+                Experimental Pathology by University of Alabama, USA, Dr. Souto became a
+                distinguished digital influencer and e renowned specifier in national and international
+                medical conferences, lectures and science meetings.
+    erik_neves: Successfully applying the Low Carb Diet for his patients for at least five years, he firmly
+                believes that it’s a trustworthy guideline to longevity, well-being and healthier life-style.
+                Aside of his deep compromise with medicine, he also has a passion for natural running,
+                having participated in two Ironman and one Ultra Marathon. A doctor for the Brazilian
+                table tennis team during their preparation for the 2016 Paralympic Games, he was also
+                invited to coordinate an online course, in partnership with Noakes Foundation, designed
+                for Brazilian doctors and nutritionists.
+    paty_ayres: Her love for nutritional health arised from the need to understand what happened with
+                her own body. Her dissatisfaction with the presented guidelines took her back to the
+                classroom. Eager for knowledge and avid researcher, she found in Low Carb her way to
+                happiness and well-being, having in the ketogenic lifestyle, her fantastic strategy to
+                promote health, weight loss and quality of life. A proud Dr Souto pupil.
+    rafael_lund: With a Physical Education degree from Federal University of Rio de Janeiro - UFRJ and a
+                 ten-year experience as a Personal Trainer, he took part in the scientific research team of
+                 Neuromuscular Research Lab of NIOT/RJ, aside from also working as a physical
+                 preparation assistant for the Brazilian’s national volleyball team. One of the main names
+                 behind LUND Trainers, he uses science to engage and motivate his trainees, like Juliana
+                 Paes, Deborah Secco and Flávia Alessandra, as well as great executives, soccer players,
+                 divers and volleyball athletes, among many others people.
+    jose_neto: Nephrologist, Coordinator of the Nephrologist Service at Felício Rocho Hospital and
+               Scientific Director at SMN – Nephrology Society of Minas Gerais, as well as a great cook,
+               he felt in his own body the effects of a metabolic syndrome. He was brought to the Low
+               Carb universe by his friend, also a doctor, Dr Fernando Lucas, and his MBA degree took
+               him to this new path when he found out that he could not only change his life, but also
+               the life of his patients.
+    rodrigo_bomeny: Graduated from and still working on University Hospital of São Paulo, he became a
+                    coaching and health coaching specialist after courses from many renowned international
+                    institutes. With a humanized treatment, and a different approach, reaching out to a
+                    patient’s whole life and their current moment to achieve better and long-lasting results,
+                    he also became a weight-loss specialist at American Council on Exercise.
+    polyana_freitas: Widely acclaimed in the low carb scenario and known as Nutri das Panelas, this kind title
+                     represents well this wonderful professional’s recipes and nutrition based on real food.
+                     Following the Paleo Low Carb strand, she says that the age and physiological moment of
+                     the patient doesn’t matter, since Low Carb covers the balancing of proteins, fat, mineral
+                     salts, fibers and vitamins while lowering the carb intake, all the human body needs to be
+                     in order.
+    djulye_marquato: With a strong focus in paleo and Low Carb, she co-founded NCPLCN – National
+                     Conference on Paleo and Low Carb Nutrition, thanks to her experiences in weight-loss
+                     and healthy eating. Firm believer of a healthy life through a healthy diet, exercises,
+                     positive emotions and everyday beneficial habits, on her professional youth you can find
+                     limitless sharpness.
+    marcelo_denaro: Specialized in knee surgery and a member of BSOT (Brazilian Society of Orthopedics and
+                    Traumatology), and BSKS (Brazilian Society of Knee Surgery), and came to be an avid
+                    enthusiast and researcher on nutrition and low carb food strategy. Uniting his
+                    knowledges and integrating his skills, he now carves a path to unite and perpetuate
+                    everything he knows to deliver a healthier lifestyle.
+    teresinha_souto: A Master of Science from UNIFESP and working professionally as a paediatrician since
+                     1985, she has a large experience, treating from infants to 21-year- old adults. She
+                     believes that a balanced nutrition can be achieved in a natural way, without great
+                     restrictions, and that the mean where an individual is raised plays a fundamental part in
+                     his nutritional behaviour.
+    fernanda_muller: With an expertise in orthomolecular nutrition and a Master of Science degree in Sports
+                     by UTAD, in Portugal, she believes as a professional that it is only possible to define a
+                     healthy strategy that the patient can sustain for a long time, with an initial and refined
+                     evaluation of one’s particularities and idiosyncrasies. By routinely setting aside what she
+                     calls “fake healthy”, one of her main goals is to make people both happy and healthy.
+  
+  programacao:
+    titulo: schedule
+    sabado: 
+      titulo: "SATURDAY &bullet; 14TH JULY"
+      titulo_mobile: "SATURDAY"
+      palestra1:
+        hora: 07:00 to 08:20
+        nome: Accreditation
+      palestra2:
+        hora: 08:20 to 08:40
+        nome: "Opening and Official Presentation<br>of the ALIMENTE Project"
+      palestra3:
+        hora: 08:40 to 10:50
+        nome: "<strong>NINA TEICHOLZ</strong>'s Lecture"
+      palestra4:
+        hora: 11:00 to 12:30
+        nome: Lunch Break
+        detalhe: "with big screens for people<br>to watch the World Cup games."
+      palestra5:
+        hora: 12:40 to 14:00
+        nome: 1st Made in Brazil Low Carb Panel
+        detalhe: with national health scenario icons
+      palestra6:
+        hora: 14:20 to 16:20
+        nome: "<strong>DR. ASEEM MALHOTRA</strong>'s Lecture"
+      palestra7:
+        hora: 16:20 to 16:40
+        nome: Break
+      palestra8:
+        hora: 16:40 to 18:00
+        nome: 2nd Made in Brazil Low Carb Panel
+        detalhe: with national health scenario icons
+      palestra9:
+        hora: 18:00 to 18:30
+        nome: First Day Closure
+        detalhe: sweepstakes round for the present
+
+    domingo:
+      titulo: "SUNDAY &bullet; 15TH JULY"
+      titulo_mobile: "SUNDAY"
+      palestra1:
+        hora: 07:00 to 08:00
+        nome: Accreditation
+      palestra2:
+        hora: 08:00 to 08:20
+        nome: Opening and First Day Review
+      palestra3:
+        hora: 08:30 to 10:30
+        nome: "<strong>GARY TAUBES</strong>'s Lecture"
+      palestra4:
+        hora: 10:30 to 10:50
+        nome: Short Break
+      palestra5:
+        hora: 10:50 to 11:50
+        nome: 1st Made in Brazil Low Carb Panel
+        detalhe: with national health scenario icons
+      palestra6:
+        hora: 11:50 to 13:30
+        nome: Lunch Break
+        detalhe: "with big screens for people<br>to watch the World Cup games"
+      palestra7:
+        hora: 13:40 to 14:40
+        nome: "<strong>ERIK NEVES</strong> and <strong>PATRICIA AYRES</strong>'s Lecture"
+        detalhe: Topic - Ketogenic
+      palestra8:
+        hora: 15:00 to 16:30
+        nome: "<strong>JOSÉ CARLOS SOUTO</strong>'s Lecture"
+      palestra9:
+        hora: 16:30 to 16:50
+        nome: Short Break
+      palestra10:
+        hora: 16:50 to 18:20
+        nome: Around the World of Low Carb Panel
+        detalhe: with national health scenario<br>icons and international speakers
+      palestra11:
+        hora: 'at 18:20'
+        nome: Closure
+        detalhe: "sweepstakes round for the present, official thanks and news for 2019’s ALIMENTE"
+    
+    botao: show/hide schedule info
+
+    alerta:
+      1a_parte: "Regarding the professional speakers and the present public, it is necessary to fulfil some
+      requirements for the event’s smooth progress. Check them out now.
+      <br>
+      <br>
+      <ul>
+        <li>
+          The event will begin at 8:20 (Saturday) and 8 (Sunday) sharp, with maximum tolerance of
+          15 minutes to get inside the convention hall. After this limit, the latecomers will have to
+          wait at the foyer until the first break, when entrance will be allowed, to join the rest of the
+          event.
+        </li>
+      </ul>
+      Make use of the stipulated accreditation time and arrive as early as possible to avoid any
+      inconveniences.
+      <br>
+      <br>
+      The entrance hall will be open to the public at accreditation’s starting time and the hall
+      access doors will open at 8 a.m.
+      <br>
+      <br>
+      The given indications goes for the opening, short break returns and lunch break.
+      <br>
+      <br>
+      <ul>
+        <li>
+          Each ticket category will give access to a pre-determined area. You can locate your section
+          with the present staff at the event;
+        </li>
+      </ul>"
+
+      2a_parte: "The VIP 1 and 2 Tickets and GOLD 1 and 2 Tickets are for an exclusive area with restrict access;
+      <br><br>
+      <ul>
+        <li>
+          The accommodation for general sectors is by arrival order, with no possibility of marking
+          places in the audience.
+        </li>
+        
+        <li>
+          It is not allowed to record any lecture;
+        </li>
+
+        <li>
+          We ask discernment regarding silence during presentations, dismissing extensive
+          comments and parallel conversations. If it is extremely necessary, be brief.
+        </li>
+        
+        <li>
+          Cameras are not allowed, and all cell phones must be turned off or put in silence/vibrate
+          mode.
+        </li>
+        
+        <li>
+          The short breaks are for rests between lectures, being allowed to quickly leave for a drink
+          or snack in the lobby, to use the toilet, and so on. However, one must be alert for the
+          returning time announcement for the event continuation.
+        </li>
+
+        <li>
+          It is not allowed to enter with food in the hall, except for small snacks, water and coffee. It
+          is not allowed to smoke either.
+        </li>
+
+        <li>
+          It is satisfying to prestige the speakers, and a round of applauses is the most usual of ways
+          to do so. However, care must be taken not to do so during the lectures, but only at the end
+          of each one, or when a professional announces the end of his participations, giving room for
+          the round of applauses.
+        </li>
+      </ul>"
+
+  ingressos:
+    titulo: tickets
+    solicitar: REQUEST
+    comprar: BUY TICKET
+    esgotado: SOLD OUT
+    taxa: TAX
+    
+    pre_venda:
+      titulo:
+        mobile: "PRE<br>SALE"
+        web: "PRE SALE"
+      starters: "Welcome kit<br><strong>GOLD 1</strong> seat"
+      upgrade_gold2: Additional value for category change*
+      upgrade_vip1: Additional value for category change*
+      alerta: "* Must have purchased ticket during pre-sale."
+    estudante:
+      titulo: STUDENT
+      card1: BASIC 1
+      card2: BASIC 2
+      basico1: "Welcome kit<br><strong>GOLD 1</strong> seat"
+      basico2: "Welcome kit<br>3 autographed books<br><strong>GOLD 2</strong> seat"
+    gold:
+      gold1: "Welcome kit<br><strong>GOLD 1</strong> seat"
+      gold2: "Welcome kit<br>3 autographed books<br><strong>GOLD 2</strong> seat"
+    vip:
+      vip1: "Welcome kit<br>Lounge VIP Facilities<br>3 autographed books<br><strong>VIP 1</strong> seat"
+      vip2: "Welcome kit<br>Pre Event Cocktail<br>Lounge VIP Facilities<br>3 autographed books<br><strong>VIP 2</strong> seat"
+    pre_evento:
+      titulo:
+        mobile: "PRE<br>EVENT"
+        web: "PRE EVENT"
+      card: COCKTAIL
+      coquetel: "Pre event cocktail
+                <br>
+                13th July
+                <br>
+                + info click below"
+  
+  mapa_de_assentos:
+    titulo: SEAT MAP
+
+  localizacao:
+    quando: When?
+    data: 14th and 15th July
+    hora: from 7 a.m. to 18:30 p.m.
+    onde: Where?
+    center_norte: "Expo Center Norte <span class='d-none d-lg-inline-block'>&bullet;</span> Convention Center"
+    endereco: Street José Bernardo Pinto, 333, Vila Guilherme, São Paulo - SP
+
+  producao: Promoter
+  desenvolvimento: WEB Development
+  
+  footer:
+    evento: THE EVENT
+    alimente: PROJECT ALIMENTE
+    pagamento: PAYMENT
+
+  sobre:
+    titulo: INSTITUTIONAL
+
+    1a_parte: "Helping people achieve happiness, the way she did. With a principle that became an
+              ideology, producer and entrepreneur Carolina Guilherme achieved health, and decided that
+              was due time that nutritional facts were spread.
+          <br>
+          <br>
+          And so, the ALIMENTE project was born, aiming to nourish the minds of people with
+          information about the quality of true food, with trivial and simple preparation for the daily
+          routine, in a well-being and healthy lifestyle."
+    
+    2a_parte: "The project recreates itself in a constant evolution with every event tied to it, adapting the
+              reality of the moment, and transmuting itself in special editions, with specific biases and
+              different audiences, but never losing the sight of the focus, that is to praise the simple and
+              pure human nature and the fullness of life.
+          <br>
+          <br>
+          It’s premiere in an exclusive event in Brasilia made some noise, showing that both creator
+          and creature were on the right path, taking renowned Brazilian investigative medicine
+          names to a keen select public. The event was such a success that in 2018, it will go beyond
+          borders, now reaching for London."
+    
+    3a_parte: "But it is on the national territory, on our ever-growing restless scenario, that ALIMENTE aims
+              to completely change the way of thinking and acting of those that look for a healthier future
+              among the daily hardships of the modern world, and with the 1 st International Low Carb
+              Congress, a complete game changer bringing to everyone the most notorious food
+              philosophy of recent times, featuring international and national icons, presenting healthier
+              ways to a better life, gathered in a series of lecture and panels, on their first appearance in
+              Brazil.
+          <br>
+          <br>
+          A very warm welcome to our proposal of changing the world through food, science, and
+          collaborative awareness."
+
+  trabalhe_conosco:
+    titulo: WORK WITH US
+
+    texto: "If you are a health area student and wants to be part of this milestone in Brazil’s medical
+            history, in addition to getting a certificate to improve your student curriculum, sign up as a
+            volunteer.
+          <br>
+          <br>
+          To be a part of the team, you only need to fill in the application form with your personal
+          data and inform the educational institution in the message, the current attended college
+          period, and a bit of information about your profile.
+          <br>
+          <br>
+          All subscriptions will be analysed, and the selected ones will be communicated via e-mail.
+          <br>
+          <br>
+          Come join us in this revolution and good luck!"    
+
+    formulario:
+      nome: YOUR NAME
+      email: YOUR EMAIL
+      mensagem: YOUR MESSAGE
+      enviar: SEND MESSAGE
+
+  faq:
+    titulo: F.A.Q.
+
+    pergunta1: 1. Will there be a simultaneous interpretation for the event?
+    resposta1: "Yes. During international lectures and stage interactions, all content will be
+              simultaneously interpreted."
+  
+    pergunta2: 2. Which is the event’s target audience?
+    resposta2: "There is no specific niche that the congress directs itself to. The event is of great worth
+              for students and professionals in the general healthcare field, low carb enthusiasts,
+              athletes and sportsmen of any field, and even to that housewife that looks to understand
+              better how to provide to herself, and even her family, quality of life in the daily routine.
+              In short, our target audience is anyone looking for health and well-being."
+
+    pergunta3: 3. Will the event be broadcasted online?
+    resposta3: "No. To ensure a better quality and the exclusivity of the ministered lectures for the
+                audience, there will be no distribution of any kind of video material during or after the
+                event."
+
+    pergunta4: 4. Can I record the event?
+    resposta4: "No. It’s strictly forbidden to record the whole event, although, small parts of the lectures
+                can be recorded to share in social medias. To optimize your reach, you can use the
+                hashtags #eventoalimente #eventoalimente2018 #projetoalimente"
+
+    pergunta5: 5. What is the minimal age to participate in the event?
+    resposta5: "There is no age range restriction for the event, but for the difficulty of presented
+                content, thematic and lectures, we do not recommend attending in the event to anyone
+                under 18 years-old."
+    
+    pergunta6: 6. Can I take pictures with the speakers?
+    resposta6: "To ensure the event’s smooth progress and the speakers comfort, it won’t be allowed to
+                approach any of the speakers, or to take pictures with them, outside of predetermined
+                meet &amp; greet sessions, which will be revealed only on the day and with a numbered
+                queue."
+
+    pergunta7: 7. How many tickets can I buy?
+    resposta7: "In the ticket category without any promotional price, the buying limit is 3 tickets per CPF – Person."
+
+    pergunta8: 8. Which are the paying methods for the tickets?
+    resposta8: "The tickets can be paid by credit card, online debit bank slip, either cash payment or up
+              to 10 instalments with interest rate, with nominal price + Sympla administrative fees."
+  
+    pergunta9: 9. Is there any way to buy the tickets without administrative fees?
+    resposta9: "Unfortunately no. We use the Sympla platform to ensure yours and our safety during
+                transactions, and that’s why the administrative fee is charged. "
+
+    pergunta10: 10. Where can I get a promotional code?
+    resposta10: "Although Sympla, our chosen online sales platform for this event, allow the use of codes
+                during the transaction, the ALIMENTE project won’t use or accept any codes. Our only
+                discounts were offered during the pre-sale tickets."
+    
+    pergunta11: 11. Is there a student discount?
+    resposta11: "Students can count with the convenience of a special price for their tickets, with a
+                discount over the full price, being R$800 for a normal access option, or R$1.000 for the
+                access and 3 autographed books. Both student ticket models have a limited and non-
+                expandable quantity and are already on sale."
+
+    pergunta12: 12. Do I need to show a student card?
+    resposta12: "Yes, you will have to show a document from your educational institution with a current
+                year validation stamp, or a national student card with picture, certified by UNE, UBES or
+                ANPG, with a 2018 expiration date."
+    
+    pergunta13: 13. I made my registration, bought my ticket and won’t be able to attend the event, is there something I can do?
+    resposta13: "Yes. You can either transfer your ticket to someone else, or, ask for a refund of 50% of
+                the ticket value, except if it was a pre-sale ticket, or it is within 10 days prior the event."
+
+    pergunta14: 14. Do I need to get my ticket at the ticket office?
+    resposta14: "No, your ticket will be given to you as a e-ticket. You only need to print it and take it
+                with you to the event."
+
+    pergunta15: 15. I bought tickets from one category and I want to change categories. What can I do?
+    resposta15: "To change a ticket category, you must only send an e-mail informing the change. From
+                there, the procedures to ensure the payment of the difference will being, and the
+                process will be concluded. THE CATEGORY EXCHANGE IS ALLOWED ONLY TO UPGRADE
+                THE TICKET, NEVER TO DOWNGRADE!"
+
+  pre_evento:
+    titulo: REQUEST ATTENDANCE AT THE PRE-EVENT COCKTAIL
+
+    texto: "Caroline Guilherme, along with the ALIMENTE Project’s team, Gary Taubes, Nina Teicholz, Dr. Aseem
+            Malhotra, Dr José Carlos Souto and all national speaker team, promote a VIP Cocktail on July 13 th , in
+            an exclusive pre-event on our 1 st National Low Carb Congress.
+          <br>
+          <br>
+          The limited quantity tickets are already on sale, and they will give access to the meeting, low carb
+          samplers and wines, and will give you the unique opportunity of taking a picture with such an
+          exclusive team.
+          <br>
+          <br>
+          Fill out the form below to request attendance.
+          <br>
+          <br>"
+
+    formulario:
+      nome: YOUR NAME
+      email: YOUR EMAIL
+      cpf: YOUR CPF
+      rg: YOUR RG
+      profissao: YOUR JOB
+      endereco: YOUR ADDRESS
+      enviar: REQUEST ATTENDANCE
+
+  upgrade:
+    titulo_gold2: REQUEST UPGRADE TO GOLD 2
+    titulo_vip1: REQUEST UPGRADE TO VIP 1
+
+    texto: "In order to complete your upgrade request, we need you to tell us your ticket number sent by email. Without it we will not be able to continue with the change of ticket category."
+    
+    formulario:
+      nome: YOUR NAME
+      email: YOUR EMAIL
+      ingresso: YOUR TICKET NUMBER
+      enviar: SEND REQUEST
+
+  reembolso:
+    titulo: REFUND POLICY AND TITLE TRANSFERING
+
+    texto: "Your ticket is unique, and after you bought it, the ticket will become unavailable for anyone else to purchase it.
+          <br>
+          <br>
+          As soon as the purchase is confirmed, the cancelation request will be available for the next 7 continuous days.
+          The cancelation cannot be requested in the 10 days period prior to the event.
+          <br>
+          <br>
+          To begin the refunding process, you must send a formal solicitation from the same e-mail you used to register
+          the purchase, to the following email address <strong><a href='mailto:contato@eventoalimente.com.br'>contato@eventoalimente.com.br</a></strong>.
+          <br>
+          <br>
+          The tickets will be cancelled and <strong>only 50% of the value</strong> will be refunded to you, deducting the service taxes
+          according to the payment method used in the purchase.
+          <br>
+          <br>
+          The money will be refunded in 15 to 45 days period, varying with credit card invoice closing data and involved
+          institutions.
+          <br>
+          <br>
+          Additionally, it is possible to transfer a ticket title, requiring a direct contact from the e-mail registered in the
+          purchase, sending the personal data of the new ticket holder.
+          <br>
+          <br>
+          One cannot cancel the ticket after the event’s date.
+          <br>
+          <br>
+          <strong>ATTENTION:</strong> The refund terms above described are not applicable to tickets acquired from the pre-sale, being
+          valid here only ticket title transfering. Pre-sale tickets cannot be refunded!  "
+
+  jornalista: Journalist
+  cardiologista: Cardiologist
+  urologista: Urologist
+  clinico_geral: Physician
+  nutricionista: Nutricionist
+  mestre_esporte: Master's of Sport Science 
+  nefrologista: Nefrologist
+  endocrinologista: Endocrinologist
+  ortopedista: Orthopaedist
+  pediatra: Paediatrician
+
+  voltar_para_o_inicio: BACK TO HOME
+
+  taxa: 'E-commerce platform service fee equivalent to 10% of the ticket amount.'

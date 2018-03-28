@@ -21,51 +21,79 @@
     <div class="row">
       <div class="col-12 col-sm-12 col-md-4 event">
         <div class="title">
-          O EVENTO
+          <%= t('footer.evento') %>
         </div>
 
         <ul class="list">
           <li class="list-item">
-            <a href="/">Edição São Paulo</a>
+            <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+              <a href="/?lang=pt-BR">Edição São Paulo</a>
+            <% elsif params[:lang] == "en" %>
+              <a href="/?lang=en">São Paulo Edition</a>
+            <% end %>
           </li>
           
           <li class="list-item">
-            <a href="/perguntas-frequentes">Perguntas Frequentes</a>
+            <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+              <a href="/perguntas-frequentes?lang=pt-BR">Perguntas Frequentes</a>
+            <% elsif params[:lang] == "en" %>
+              <a href="/perguntas-frequentes?lang=en">F.A.Q.</a>
+            <% end %>
           </li>
 
           <li class="list-item">
-            <a href="/reembolso-e-transferencias">Reembolso e Transferências</a>
+            <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+              <a href="/reembolso-e-transferencias?lang=pt-BR">Reembolso e Transferências</a>
+            <% elsif params[:lang] == "en" %>
+              <a href="/reembolso-e-transferencias?lang=en">Ticket Refund and Transfers</a>
+            <% end %>
           </li>
         </ul>
       </div>
 
       <div class="col-12 col-sm-12 col-md-4 alimente">
         <div class="title">
-          O ALIMENTE
+          <%= t('footer.alimente') %>
         </div>
 
         <ul class="list">
           <li class="list-item">
-            <a href="/sobre">Sobre o Projeto</a>
+            <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+              <a href="/sobre?lang=pt-BR">Sobre o Projeto</a>
+            <% elsif params[:lang] == "en" %>
+              <a href="/sobre?lang=en">About the Project</a>
+            <% end %>
           </li>
 
           <li class="list-item">
-            <a href="#" title="Em breve">Nossa equipe</a>
+            <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+              <a href="/sobre?lang=pt-BR">Nossa Equipe</a>
+            <% elsif params[:lang] == "en" %>
+              <a href="/sobre?lang=en">Our Team</a>
+            <% end %>
           </li>
 
           <li class="list-item">
-            <a href="/sobre">Trabalhe conosco</a>
+            <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+              <a href="/sobre?lang=pt-BR">Trabalhe Conosco</a>
+            <% elsif params[:lang] == "en" %>
+              <a href="/sobre?lang=en">Work With Us</a>
+            <% end %>
           </li>
         </ul>
       </div>
 
       <div class="col-12 col-sm-12 col-md-4 copyright">
         <div class="title">
-          PAGAMENTO
+          <%= t('footer.pagamento') %>
         </div>
 
         <div class="payment">
-          Cartões de crédito, débito e boleto.
+          <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+            Cartões de crédito, débito e boleto.
+          <% elsif params[:lang] == "en" %>
+            Credit and debit cards and bank slip.
+          <% end %>
         </div>
       </div>
     </div>

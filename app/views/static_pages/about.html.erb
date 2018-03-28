@@ -3,7 +3,9 @@
 <div class="about pt-5 mt-3">
   <div class="title">
     <div class="container">
-      <h1 data-aos="fade-right">O EVENTO ALIMENTE</h1>
+      <h1 data-aos="fade-right">
+        <%= t('sobre.titulo') %>
+      </h1>
     </div>
   </div>
 
@@ -11,12 +13,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 col-lg-7" data-aos="zoom-in">
-          Ser e tornar as pessoas felizes. Com a premissa que se tornou ideologia, a produtora e empresária Caroline Guilherme ganhou
-          saúde e resolveu que estava mais que na hora de verdades nutricionais serem propagadas.
-          <br>
-          <br>
-          Estava criado o Projeto ALIMENTE, nascido para nutrir a mente das pessoas com informação de qualidade relacionada à alimentação de verdade, com preparo simples
-          e trivial no dia a dia, além de saúde, estilo de vida e bem-estar.
+          <%= raw t('sobre.1a_parte') %>
 
           <div class="about-detail-1">
             <%= image_tag "event-detail-1.svg" %>
@@ -26,15 +23,7 @@
             <br>
           </div>
 
-          Em constante mutação, a cada novo evento essencialmente ligado ao projeto ele recria-se e adapta-se a realidade do momento,
-          transmutando em edições especiais, com vieses específicos, públicos distintos, mas sem nunca perder o foco de enaltecer a
-          natureza simples e pura do ser humano em viver sua plenitude.
-          <br>
-          <br>
-          Seu debut deu-se em um evento exclusivo em Brasília, que causou
-          burburinho e mostrou que criador e criatura estavam no caminho certo, levando a um seleto público ávido por conteúdo de qualidade,
-          nomes renomados da medicina investigativa brasileira. O sucesso foi tanto, que agora em 2018 o encontro rompe fronteiras
-          mundo afora e chega a Londres.
+           <%= raw t('sobre.2a_parte') %>
 
           <div class="about-detail-2">
             <%= image_tag "event-detail-2.svg" %>
@@ -44,15 +33,8 @@
             <br>
           </div>
 
-          Mas é em território nacional e num cenário cada vez mais em ebulição, que o ALIMENTE promete mudar completamente a maneira
-          de pensar e agir de quem busca um futuro salutar em meio às agruras diárias do mundo moderno, com o 1º Congresso Internacional
-          Low Carb, um divisor de águas na mais badalada filosofia alimentar dos últimos tempos, que contará com ícones internacionais
-          e nacionais abordando nutricionalmente caminhos para uma vida melhor, reunidos numa série de palestras e painéis inéditos
-          no país.
-          <br>
-          <br>
-          Sejam todos muito bem-vindos a nossa proposta de mudar o mundo através da comida, ciência e consciência colaborativa.
-        </div>
+          <%= raw t('sobre.3a_parte') %>
+        </div>  
       </div>
     </div>
 
@@ -63,7 +45,9 @@
   <div class="team">
     <div class="title">
       <div class="container">
-        <h1 data-aos="zoom-in">TRABALHE CONOSCO</h1>
+        <h1 data-aos="zoom-in">
+          <%= raw t('trabalhe_conosco.titulo') %>
+        </h1>
       </div>
     </div>
   
@@ -103,18 +87,7 @@
 
       <div class="row mb-5 pb-2">
         <div class="col-md-12 col-lg-5" data-aos="zoom-in-right">
-          Você, estudante da área de saúde, que quer além de receber um certificado com horas para ser um incremento em seu currículo
-          estudantil, fazer parte deste novo marco na história da medicina brasileira e mundial, voluntarie-se.
-          <br>
-          <br>
-          Para fazer parte de nossa equipe é só preencher o formulário com seus dados e na mensagem informar a instituição de ensino, cadeira que está
-          cursando e período, contando ainda um pouco sobre seu perfil e como gostaria de colaborar.
-          <br>
-          <br>
-          Todas as subscrições serão analisadas e os contemplados serão comunicados via email.
-          <br>
-          <br>
-          Boa sorte e venha fazer parte dessa revolução com a gente!
+          <%= raw t('trabalhe_conosco.texto') %>
         </div>
 
         <div class="col-lg-1"></div>
@@ -122,26 +95,26 @@
         <div class="col-md-12 col-lg-6" data-aos="zoom-in-left">
           <form action="https://formspree.io/whcriacao@gmail.com" method="POST">
             <div class="form-group">
-              <label for="name">SEU NOME</label>
+              <label for="name"><%= t('trabalhe_conosco.formulario.nome') %></label>
               <input type="text" name="name" class="form-control">
             </div>
 
             <div class="form-group">
-              <label for="name">SEU EMAIL</label>
+              <label for="name"><%= t('trabalhe_conosco.formulario.email') %></label>
               <input type="text" name="email" class="form-control">
             </div>
 
             <div class="form-group">
-              <label for="name">SUA MENSAGEM</label>
+              <label for="name"><%= t('trabalhe_conosco.formulario.mensagem') %></label>
               <textarea name="message" class="form-control" rows="4"></textarea>
             </div>
 
-            <input type="submit" value="ENVIAR MENSAGEM">  
+            <input type="submit" value="<%= t('trabalhe_conosco.formulario.enviar') %>">  
           </form>
         </div>
       </div>
 
-      <a href="/" class="button-outline">VOLTAR PARA O INÍCIO</a>
+      <a href="/" class="button-outline"><%= t('voltar_para_o_inicio') %></a>
 
       <%= image_tag "bg-work.svg", class: "bg-work" %>
     </div>

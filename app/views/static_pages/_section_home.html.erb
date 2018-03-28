@@ -1,40 +1,75 @@
 <section class="home">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-home" style="background: none">
+    <div class="container">
+      <div class="btn-group ml-auto">
+        <button class="btn dropdown-toggle dropdown-home p-o" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+            <%= image_tag "brazil.svg", height: "50px", class: "flag" %>
+          <% elsif params[:lang] == "en" %>
+            <%= image_tag "usa.svg", height: "50px", class: "flag" %>
+          <% end %>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right menu-home">
+          <% if params[:lang] == "pt-BR" or params[:lang].nil? %>
+            <a class="dropdown-item" href="?lang=en">
+              <%= image_tag "usa.svg", height: "50px", class: "flag" %>
+            </a>
+          <% elsif params[:lang] == "en" %>
+            <a class="dropdown-item" href="?lang=pt-BR">
+              <%= image_tag "brazil.svg", height: "50px", class: "flag" %>
+            </a>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="d-flex align-items-center justify-content-center" style="height: 100vh" data-aos="zoom-in">
     <div class="wrapper">
       <%= image_tag "logo-vertical.png", class: "logo" %>
-    
+
       <div class="title">
-        1º congresso<br>internacional low carb
+        <%= t('inicio.titulo.1a_parte') %><br><%= t('inicio.titulo.2a_parte') %>
       </div>
       
       <div class="container">
         <div class="row">
-          <div class="col-md-5 time">
+          <div class="col-md-<%= (params[:lang] == 'pt-BR' or params[:lang].nil?) ? '5' : '6' %> time">
             <div class="row no-gutters">
               <div class="col-3 days">
                 <div class="number"></div>
-                <div class="description">DIAS</div>
+                <div class="description">
+                  <%= t('inicio.datas.dias') %>
+                </div>
               </div>
     
               <div class="col-3 hours">
                 <div class="number"></div>
-                <div class="description">HORAS</div>
+                <div class="description">
+                  <%= t('inicio.datas.horas') %>
+                </div>
               </div>
     
               <div class="col-3 min">
                 <div class="number"></div>
-                <div class="description">MIN</div>
+                <div class="description">
+                  <%= t('inicio.datas.minutos') %>
+                </div>
               </div>
     
               <div class="col-3 seg">
                 <div class="number"></div>
-                <div class="description">SEG</div>
+                <div class="description">
+                  <%= t('inicio.datas.segundos') %>
+                </div>
               </div>
             </div>
           </div>
   
-          <div class="col-md-7 tickets">
-            <a onclick="$('section.tickets').animatescroll({scrollSpeed:2000,easing:'easeOutQuad',padding:65})" class="button-outline btn-block">COMPRAR INGRESSOS</a>
+          <div class="col-md-<%= (params[:lang] == 'pt-BR' or params[:lang].nil?) ? '7' : '6' %> tickets">
+            <a onclick="$('section.tickets').animatescroll({scrollSpeed:2000,easing:'easeOutQuad',padding:65})" class="button-outline btn-block">
+              <%= t('inicio.comprar_ingressos') %>
+            </a>
           </div>
         </div>
       </div>
