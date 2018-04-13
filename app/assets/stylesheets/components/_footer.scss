@@ -35,6 +35,12 @@ footer {
   .typo {
     padding-top: 2.5em;
   }
+
+  .social-media {
+    a {
+      color: $laranja-100;
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
