@@ -351,6 +351,7 @@ en:
     onde: Where?
     center_norte: "Expo Center Norte <span class='d-none d-lg-inline-block'>&bullet;</span> Convention Center"
     endereco: Street José Bernardo Pinto, 333, Vila Guilherme, São Paulo - SP
+    hotel: Official Hotel
 
   producao: Promoter
   desenvolvimento: WEB Development
