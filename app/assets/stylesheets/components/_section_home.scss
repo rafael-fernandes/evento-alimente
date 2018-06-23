@@ -23,6 +23,15 @@ section.home {
     color: $laranja-300;
   }
 
+  .date-location {
+    font-family: $font-family-body;
+    font-size: 20px;
+  }
+
+  .time-wrapper {
+    padding-top: 1em;
+  }
+
   .time {
     text-align: center;
     padding: .5rem 0 .75rem;
@@ -79,6 +88,30 @@ section.home {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  section.home {
+    .title {
+      padding: .25em .5em;
+    }
+
+    .time-wrapper {
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  section.home {
+    .title {
+      padding: 1em .5em;
+    }
+
+    .time-wrapper {
+      padding: 0;
+    }
+  }
+}
+
 @media screen and (max-width: 767px) {
   section.home {
     .wrapper {
@@ -90,14 +123,22 @@ section.home {
     }
 
     .title {
-      padding: 1em .5em;
       font-size: 35px;
       line-height: 35px;
       letter-spacing: 2px;
     }
 
+    .date-location {
+      font-family: $font-family-body;
+      font-size: 18px;
+    }
+
     .time {
       margin: 0 3em;
+    }
+
+    .time-wrapper {
+      padding: 0;
     }
 
     .tickets {

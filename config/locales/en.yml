@@ -8,7 +8,7 @@ en:
       horas: hours
       minutos: min
       segundos: sec
-    comprar_ingressos: buy tickets
+    comprar_ingressos: buy now
   
   evento:
     titulo:
@@ -17,14 +17,13 @@ en:
   
     conteudo:
       1a_parte: 
-        titulo: 'A pioneer event in the country approaching Innovation, Science, Nutrition and Quality of Life'
-        texto: "The 14th and 15th of July will be forever in the minds of those not only attending the event, but also on the minds of
-                the future generations that will always look for a more conscious and healthy life style.
-                <br><br>An unprecedented event in Brazil, the 1st International Low Carb Congress will gather in a span of two days, intense lecture
-                cycles, panels, and a lot of networking, bringing three great names when the subject is quality of life: Master’s in Journalism,
-                investigative journalist and famous author of <em>Why We Get Fat: And What to Do About It</em>, <strong>Gary Taubes</strong>; Master’s in Journalism
-                and best seller journalist of <em>The Big Fat Surprise: Why Butter, Meat and Cheese Belong in a Healthy Diet</em>, <strong>Nina Teicholz</strong>;
-                and the award winning cardiologist, author of <em>The Pioppi Diet</em>, <strong>Dr. Aseem Malhotra</strong>."
+        titulo: "The first event in the country: INNOVATION, SCIENCE, NUTRITION AND QUALITY OF LIFE"
+        texto: "The first International Congress Low Carb will be memorable. An incredible experience for those who participate and also on the minds of the future generations that will always look for a more conscious and healthy life style.
+                
+                <br><br>2 days of intense lectures cycles, panels and a lot of networking, bringing a great team of national professionals that make the difference in the brazilian health. To complete, three incredible international names when we talk about quality of life.
+                <strong>GARY TAUBES:</strong> master’s in journalism, investigative journalist in science and author: <em>'Why We Get Fat?'</em>;
+                <strong>NINA TEICHOLZ:</strong> master’s in journalism and best-seller author by <em>'The Big Fat Surprise'</em>;
+                <strong>DR. ASEEM MALHOTRA:</strong> award-winning cardiologist and book author <em>'The Pioppi Diet – a 21-Day Lifestyle Plan.</em>"
       2a_parte:
         titulo: 'Brazilian specialists: a GREAT TEAM'
         texto: "They will be joined by renowned Brazilian health professionals, such as urologist <strong>José Carlos Souto</strong>; physician
@@ -33,13 +32,15 @@ en:
                 <strong>Rafael Lund</strong>, all coming together to provide a consistent picture of what is happening around the world and the latest findings of evidence-based
                 health practices being put into action."
       3a_parte:
-        titulo: 'An event designed to give you a unique experience'
-        texto: 'We will be breaking down the myths regarding villainized foods and frenzied consumption of industrialized and processed
-                products, responsible for the high-rates of cancer, diabetes, obesity, heart diseases, among many others, while also addressing
-                the processes that lead to metabolic syndrome, insulin-resistance, the use of therapeutic ketogenic feeding for better health,
-                among many other subjects, all with the commodity of simultaneous interpretation for better understanding all presentations.
-                This all will be brought to the public by reputable randomized clinical studies, stamped by the greatest scientific authorities
-                that together have been rewriting the whole history of Nutrition.'
+        titulo: 'Created to give you a unforgettable experience!'
+        texto: "<ul>
+                  <li>Simultaneous translation for better fllow-up of presentations;</li>
+                  <li>Breaking down the myths about villainized foods and the franzied consumption of processed products</li>
+                  <li>The relationship between diet and high rates of obesity, diabetes, heart disease, cancer, processes that trigger metabolic syndrome and insulin-resistance</li>
+                  <li>Ketogenic food with therapeutic scope for heatlh.</li>
+                </ul>
+
+                And a content especially based on randomized studies by the greatest scientific authorities that have been rewriting the history of nutrition!"
       4a_parte:
         texto: 'So, save the date and check out the entire schedule for this epic encounter.'
   

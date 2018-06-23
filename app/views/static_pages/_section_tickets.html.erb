@@ -73,6 +73,34 @@
         <%= t('ingressos.pre_venda.alerta') %>
       </div>
 
+      <div class="row mx-0 pre-evento" data-aos="zoom-in-right" data-aos-offset="10" data-aos-easing="ease-in-sine">
+        <div class="col-md-3 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
+          <span class="d-none d-md-block">
+            <%= raw t('ingressos.pre_evento.titulo.mobile') %>
+          </span>
+          <span class="d-md-none">
+            <%= raw t('ingressos.pre_evento.titulo.web') %>
+          </span>
+        </div>                                                                                                                                                                                                      
+  
+        <div class="col-md-3 col-lg-2 p-0 box -pre-venda">
+          <div class="info py-2">
+            <div class="category"><%= t('ingressos.pre_evento.card') %></div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-0 mt-2">
+              <%= raw t('ingressos.pre_evento.coquetel') %>
+            </div>
+          </div>
+        
+          <a href="/solicitar-presenca">
+            <div class="buy">
+              <div class="price">R$ 1000</div>
+              <div class="buy-ticket"><%= t('ingressos.solicitar') %></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
       <div class="row mx-0 estudante" data-aos="zoom-in-right" data-aos-offset="10" data-aos-easing="ease-in-sine">
         <div class="col-md-3 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
           <%= t('ingressos.estudante.titulo') %>
@@ -208,34 +236,6 @@
               <div class="buy-ticket"><%= t('ingressos.comprar') %></div>
             </a>
           </div>
-        </div>
-      </div>
-  
-      <div class="row mx-0 pre-evento" data-aos="zoom-in-right" data-aos-offset="10" data-aos-easing="ease-in-sine">
-        <div class="col-md-3 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
-          <span class="d-none d-md-block">
-            <%= raw t('ingressos.pre_evento.titulo.mobile') %>
-          </span>
-          <span class="d-md-none">
-            <%= raw t('ingressos.pre_evento.titulo.web') %>
-          </span>
-        </div>                                                                                                                                                                                                      
-  
-        <div class="col-md-3 col-lg-2 p-0 box -pre-venda">
-          <div class="info py-2">
-            <div class="category"><%= t('ingressos.pre_evento.card') %></div>
-            <div class="bar mt-1"></div>
-            <div class="description pt-0 mt-2">
-              <%= raw t('ingressos.pre_evento.coquetel') %>
-            </div>
-          </div>
-        
-          <a href="/solicitar-presenca">
-            <div class="buy">
-              <div class="price">R$ 1000</div>
-              <div class="buy-ticket"><%= t('ingressos.solicitar') %></div>
-            </div>
-          </a>
         </div>
       </div>
     </div>

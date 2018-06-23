@@ -8,7 +8,7 @@ pt-BR:
       horas: horas
       minutos: min
       segundos: seg
-    comprar_ingressos: comprar ingressos
+    comprar_ingressos: comprar agora
   
   evento:
     titulo:
@@ -18,12 +18,12 @@ pt-BR:
     conteudo:
       1a_parte:
         titulo: "Um evento pioneiro no país abordando Inovação, Ciência, Nutrição e Qualidade de Vida"
-        texto: "Os dias 14 e 15 de julho ficarão eternizados na memória não só de quem estiver presente no evento, mas também nas antigas e futuras gerações que sempre buscaram e continuam atrás de um modo de vida cada vez mais consciente.
-            
-                <br><br>Inédito no país, o 1º Congresso Internacional Low Carb, vai reunir em dois dias de intensos ciclos de palestras, painéis
-                e muito networking, três grandes nomes que agitam o cenário internacional quando o assunto é qualidade de vida: o mestre
-                em jornalismo, jornalista investigativo e autor do famoso <em>Por Que Engordamos: E O Que Fazer Para Evitar</em>, <strong>Gary Taubes</strong>;
-                a mestre em jornalismo e jornalista best seller pelo <em>Gordura Sem Medo</em>, <strong>Nina Teicholz</strong>; e o premiado cardiologista e autor do livro <em>Detox 21 Dias</em>, <strong>Dr. Aseem Malhotra</strong>."
+        texto: "O 1º Congresso Internacional Low Carb vai ficar eternizado na memória! Será uma experiência incrível para quem comparecer ao evento e também para antigas e futuras gerações que continuam na busca de um modo de vida cada vez mais consciente.
+              
+               <br><br>Serão dois dias de palestras, painéis e muito networking que reunirão um timaço de profissionais nacionais e que fazem a diferença na área da saúde brasileira. Para completar a equipe, três nomes de referência no cenário internacional quando o assunto é qualidade de vida:
+               <strong>GARY TAUBES:</strong> mestre em jornalismo, jornalista investigativo e autor de <em>'Por que engordamos: e o que fazer para evitar';</em>
+               <strong>NINA TEICHOLZ:</strong> mestre em jornalismo e jornalista best seller pelo <em>'Gordura sem Medo'</em>;
+               <strong>DR. ASEEM MALHOTRA:</strong> cardiologista premiado e autor do livro <em>'Detox 21 Dias'</em>."
       2a_parte:
         titulo: "Especialistas brasileiros: um TIMAÇO"
         texto: "Juntam-se a eles os mais renomados profissionais da área de saúde brasileira, como o urologista <strong>José Carlos Souto</strong>; o clínico
@@ -32,13 +32,15 @@ pt-BR:
                 <strong>Rafael Lund</strong>, para juntos traçar um panorama do que anda acontecendo mundo afora e as últimas descobertas nas práticas para
                 saúde baseadas em evidências."
       3a_parte:
-        titulo: "Um evento desenhado para proporcionar a você uma experiência única"
-        texto: "Com a comodidade da tradução simultânea para melhor acompanhamento das apresentações, da quebra de mitos sobre alimentos
-                vilanizados e o consumo desvairado de produtos cada vez mais industrializados e processados, responsáveis pelos altos índices
-                de obesidade, diabetes, doenças cardíacas, câncer, entre tantas outras, serão abordados também os processos que desencadeiam
-                a síndrome metabólica, a resistência à insulina, a alimentação cetogênica com escopo terapêutico em prol da saúde e muito
-                mais. Tudo levado a público por meio de conceituados estudos randomizados, chancelados pelas maiores autoridades científicas
-                da atualidade que vêm numa frente unida reescrevendo a história da Nutrição."
+        titulo: "Desenhado para proporcionar a você uma experiência única!"
+        texto: "<ul>
+                  <li>Tradução simultânea para melhor acompanhamento das apresentações;</li>
+                  <li>Quebra de mitos sobre alimentos vilanizados e o consumo desvairado de produtos industrializados e processados;</li>
+                  <li>A relação entre a alimentação e os elevados índices de obesidade, diabetes, doenças cardíacas, câncer, processos que desencadeiam a síndrome metabólica e resistência à insulina;</li>
+                  <li>Alimentação Cetogênica com escopo terapêutico em prol da saúde.</li>
+                </ul>
+
+                E um conteúdo especialmente baseado em estudos randomizados e chancelados pelas maiores autoridades científicas da atualidade que vêm reescrevendo a história da nutrição!"
       4a_parte:
         texto: "Então, anote na sua agenda e confira toda a programação desse épico encontro."
   
@@ -69,6 +71,10 @@ pt-BR:
                   o consumo de açúcar em excesso e cura da obesidade através da intervenção de saúde pública."
         2a_parte: "Premiado pela NHS (National Health Service), tem motivado líderes acadêmicos, mídia e políticos a fazer a redução de açúcar uma prioridade de saúde no Reino Unido e se tornou um dos principais médicos do mundo que luta contra a epidemia de obesidade, junto com outros ativistas pela causa, como Michelle Obama e Michael Bloomberg. Defensor apaixonado dos cuidados de saúde gratuitos para todos, acredita que médicos são clínicos melhores quando deixam de lado os ganhos financeiros no tratamento de pacientes."
   
+  destaque:
+    titulo: "Pela primeira vez<br><strong>GARY TAUBES</strong> e <strong>JOSÉ CARLOS SOUTO</strong><br> juntos no mesmo palco!"
+    descricao: "Uma explosão de conhecimento que vai ampliar sua visão<br>sobre comida de verdade e o funcionamento do organismo humano."
+
   palestrantes_nacionais:
     titulo: palestrantes nacionais
     jose_souto: Um dos ícones precursores e pesquisador incansável sobre low carb no cenário nacional, em 2011, seu especial interesse na interface entre nutrição e saúde levou-o a lançar o blog Ciência Low Carb, maior referência brasileira no assunto. Formado pela Universidade Federal do Rio Grande do Sul, com pós-doutorado em patologia experimental pela Universidade do Alabama, EUA, é um influenciador digital popular e especificador de renome em conferências médicas, palestras e reuniões de nutrição e ciência, nacionais e internacionais.

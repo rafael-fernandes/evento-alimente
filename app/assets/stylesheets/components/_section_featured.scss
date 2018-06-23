@@ -1,0 +1,50 @@
+section.featured {
+  padding: 8em 0;
+  background-color: $amarelo;
+  text-align: center;
+  color: $marrom;
+  position: relative;
+
+  .title {
+    h1 {
+      font-family: $font-family-body;
+      letter-spacing: 0;
+      font-size: 28px;
+      line-height: 38px;
+      text-transform: initial;
+    }
+  }
+
+  .bg-featured-top, .bg-featured-bottom {
+    position: absolute;
+  }
+
+  .bg-featured-top {
+    width: 500px;
+    top: 0;
+    left: 1em;
+  }
+
+  .bg-featured-bottom {
+    width: 400px;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.featured {
+    padding: 2em 0 9em;
+
+    .description {
+      padding: 2em;
+    }
+
+    .bg-featured-bottom-mobile {
+      width: 320px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

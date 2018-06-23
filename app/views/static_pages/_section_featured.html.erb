@@ -1,0 +1,16 @@
+<section class="featured">
+  <%= image_tag "bg-featured.svg", class: "bg-featured-top d-none d-md-block" %>
+
+  <div class="title">
+    <h1 data-aos="zoom-in">
+      <%= raw t('destaque.titulo') %>
+    </div>
+  </div>
+
+  <div class="description pt-4" data-aos="zoom-in">
+    <%= raw t('destaque.descricao') %>
+  </div>
+
+  <%= image_tag "bg-faq.svg", class: "bg-featured-bottom d-none d-md-block" %>
+  <%= image_tag "bg-work.svg", class: "bg-featured-bottom-mobile d-block d-md-none" %>
+</section>

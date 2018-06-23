@@ -31,8 +31,12 @@
       <div class="title">
         <%= t('inicio.titulo.1a_parte') %><br><%= t('inicio.titulo.2a_parte') %>
       </div>
+
+      <div class="date-location pb-2">
+        <%= t('localizacao.data') %><br><%= raw t('localizacao.center_norte') %> (SP)
+      </div>
       
-      <div class="container">
+      <div class="container time-wrapper">
         <div class="row">
           <div class="col-md-<%= (params[:lang] == 'pt-BR' or params[:lang].nil?) ? '5' : '6' %> time">
             <div class="row no-gutters">
