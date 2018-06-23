@@ -10,6 +10,14 @@ section.mandatory {
     color: $branco;
     text-align: center;
   }
+
+  > .description {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-family: $font-family-body;
+    font-size: 1em;
+    text-align: center;
+  }
   
   > .content {
     padding-top: 2em;
@@ -64,8 +72,20 @@ section.mandatory {
 @media screen and (max-width: 767px) {
   section.mandatory {
     padding-bottom: 0;
+    
+    > .title {
+      h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+    }
+
+    > .description {
+      padding: 2em;
+    }
 
     .content {
+      padding-top: 0;
       padding-bottom: 0;
     }
 

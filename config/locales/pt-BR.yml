@@ -46,6 +46,7 @@ pt-BR:
   
   obrigatorio:
     titulo: para quem o alimente é obrigatório?
+    descricao: O ALIMENTE foi desenhado para entusiastas da área da nutrição e da saúde, estudantes e profissionais.
 
     profissional:
       titulo: PROFISSIONAIS, PROFESSORES E ESTUDANTES DA SAÚDE
@@ -138,7 +139,11 @@ pt-BR:
         nome: 2º Painel Low Carb Made in Brasil
         detalhe: com ícones do cenário de saúde nacional
       palestra9:
-        hora: 18:00 às 18:30
+        hora: 18:00 às 19:00
+        nome: "Palestra <strong>AMANDA PASSAVANTE</strong>"
+        detalhe: "Tema: Como uma simples dieta pode se transformar em um grande negócio"
+      palestra10:
+        hora: 19:00 às 19:30
         nome: Encerramento Primeiro Dia
         detalhe: rodada de sorteios para os presentes
    

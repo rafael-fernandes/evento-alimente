@@ -44,6 +44,22 @@ en:
       4a_parte:
         texto: 'So, save the date and check out the entire schedule for this epic encounter.'
   
+  obrigatorio:
+    titulo: FOR WHOM IT IS MANDATORY?
+    descricao: "<strong>ALIMENTE</strong> was created for nutrition and health enthusiasts, students and professionals."
+
+    profissional:
+      titulo: PROFESSIONALS, TEACHERS AND STUDENTS OF HEALTH
+      descricao: Urologists, nephrologists, pediatricians, clinicians, endocrinologists, nutritionists, orhopedists, physical educators.
+
+    entusiasta:
+      titulo: ENTHUSIASTS
+      descricao: Anyone interested in healthy eating; moms and dads who want to know an alternative way to industrialized foods; influencers and lifestyle thinkers.
+
+    empreendedor:
+      titulo: FOOD ENTREPENEURS
+      descricao: "<strong>ALIMENTE</strong> is a great immersion in the universe of nutrition. Who wants to have their own business, undestand trends, consumer behavior and acquire quality content for your project, will be attended."
+  
   palestrantes_internacionais:
     titulo: international speakers
   
@@ -84,6 +100,10 @@ en:
                   health care for everyone, he believes that doctors are better physicians when they leave
                   aside the financial gains from their patients."
   
+  destaque:
+    titulo: "For the first time <br><strong>GARY TAUBES</strong> and <strong>JOSÉ CARLOS SOUTO</strong><br> together on the same stage!"
+    descricao: "An explosion of knowledge that will broaden your view<br>of real food and the functioning of the human body."
+
   palestrantes_nacionais:
     titulo: national speakers
   
@@ -184,7 +204,11 @@ en:
         nome: 2nd Made in Brazil Low Carb Panel
         detalhe: with national health scenario icons
       palestra9:
-        hora: 18:00 to 18:30
+        hora: 18:00 às 19:00
+        nome: "<strong>AMANDA PASSAVANTE</strong>'s Lecture"
+        detalhe: "Topic: How a Simple Diet Can Turn into a Big Deal"
+      palestra10:
+        hora: 19:00 to 19:30
         nome: First Day Closure
         detalhe: sweepstakes round for the present
 
@@ -214,7 +238,7 @@ en:
       palestra7:
         hora: 13:40 to 14:40
         nome: "<strong>ERIK NEVES</strong> and <strong>PATRICIA AYRES</strong>'s Lecture"
-        detalhe: Topic - Ketogenic
+        detalhe: "Topic: Ketogenic"
       palestra8:
         hora: 15:00 to 16:30
         nome: "<strong>JOSÉ CARLOS SOUTO</strong>'s Lecture"
