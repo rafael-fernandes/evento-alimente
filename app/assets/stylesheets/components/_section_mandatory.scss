@@ -1,0 +1,76 @@
+section.mandatory {
+  padding-bottom: 6em;
+  position: relative;
+  color: $marrom;
+  font-family: $font-family-heading;
+  
+  > .title {
+    padding: 3em 0;
+    background-color: $laranja-100;
+    color: $branco;
+    text-align: center;
+  }
+  
+  > .content {
+    padding-top: 2em;
+    padding-bottom: 8em;
+    position: relative;
+  }
+
+  .box {
+    min-height: 500px;
+    background-color: initial;
+    border: 5px solid $laranja-100;
+    text-align: center;
+
+    .icon-wrapper {
+      padding: 2em 0;
+      background-color: $laranja-100;
+
+      .icon {
+        width: 84px;
+        height: auto;
+      }
+    }
+
+    .title {
+      padding: 1em;
+      font-family: $font-family-heading;
+      font-size: 20px;
+    }
+
+    .bar {
+      width: 80px;
+      height: 5px;
+      margin: 0 auto;
+      background-color: $laranja-100;
+    }
+
+    .description {
+      padding: 1.5em;
+      font-family: $font-family-body;
+    }
+  }
+
+  .bg-mandatory {
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    right: 15%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.mandatory {
+    padding-bottom: 0;
+
+    .content {
+      padding-bottom: 0;
+    }
+
+    .box {
+      margin-bottom: 2em;
+    }
+  }
+}

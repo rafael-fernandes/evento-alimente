@@ -44,6 +44,21 @@ pt-BR:
       4a_parte:
         texto: "Então, anote na sua agenda e confira toda a programação desse épico encontro."
   
+  obrigatorio:
+    titulo: para quem o alimente é obrigatório?
+
+    profissional:
+      titulo: PROFISSIONAIS, PROFESSORES E ESTUDANTES DA SAÚDE
+      descricao: Urologistas, nefrologistas, pediatras, clínicos-gerais, endocrinologistas, nutricionistas, ortopedistas, educadores físicos.
+
+    entusiasta:
+      titulo: ENTUSIASTAS
+      descricao: Qualquer pessoa que se interesse pelo universo da alimentação saudável; mamães e papais que desejam conhecer um caminho alternativo aos alimentos industrializados; influenciadores e formadores de opinião do lifestyle.
+
+    empreendedor:
+      titulo: EMPREENDEDORES DO RAMO
+      descricao: "O <strong>ALIMENTE</strong> é uma ótima imersão no universo da nutrição. Quem deseja ter seu próprio negócio, entender tendências, comportamento do consumidor e adquirir conteúdo de qualidade para seu projeto, estará bem assistido."
+
   palestrantes_internacionais:
     titulo: palestrantes internacionais
   
