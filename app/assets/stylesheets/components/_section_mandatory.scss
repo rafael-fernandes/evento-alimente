@@ -26,7 +26,7 @@ section.mandatory {
   }
 
   .box {
-    min-height: 500px;
+    min-height: 565px;
     background-color: initial;
     border: 5px solid $laranja-100;
     text-align: center;
@@ -36,7 +36,7 @@ section.mandatory {
       background-color: $laranja-100;
 
       .icon {
-        width: 84px;
+        // width: 150px;
         height: auto;
       }
     }
@@ -90,6 +90,7 @@ section.mandatory {
     }
 
     .box {
+      height: initial;
       margin-bottom: 2em;
     }
   }
