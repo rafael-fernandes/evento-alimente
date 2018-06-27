@@ -54,12 +54,14 @@
       <div class="col-md-3">
         <div class="official-hotel pt-4" data-aos="zoom-in-right">
           <div class="title">
-            <%= t('localizacao.hotel') %>
+            <%= t('localizacao.hotel.titulo') %>
           </div>
 
-          <%= link_to "http://www.accorhotels.com/lien_externe.svlt?goto=rech_resa&destination=2992&sourceid=LOWC&dayIn=14&monthIn=07&yearIn=2018&nightNb=1&preferredCode=LOWC&merchantid=par-accorFR", target: '_blank' do %>
-            <%= image_tag 'hotal.jpg', width: '100%', style: 'border-radius: 10px', class: 'mt-2' %>
-          <% end %>
+          <%= image_tag 'logo-sheraton-bg.png', style: 'border-radius: 10px', width: '100%', class: 'mt-2' %>
+        
+          <div class="pt-4">
+            <%= raw t('localizacao.hotel.descricao') %>
+          </div>
         </div>
       </div>
     </div>

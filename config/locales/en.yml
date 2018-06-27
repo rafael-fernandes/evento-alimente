@@ -381,7 +381,11 @@ en:
     onde: Where?
     center_norte: "Sheraton São Paulo WTC Hotel"
     endereco: Avenida da Nações Unidas, 12559, Brooklin Novo, São Paulo - SP
-    hotel: Official Hotel
+    hotel:
+      titulo: Official Hotel
+      descricao: "Special prices for event participants. 
+                  <br><br>Call (11) 3055-8000 for more information."
+
 
   producao: Promoter
   desenvolvimento: WEB Development
