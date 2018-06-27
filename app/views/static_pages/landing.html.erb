@@ -57,8 +57,10 @@
             <%= t('localizacao.hotel.titulo') %>
           </div>
 
-          <%= image_tag 'logo-sheraton-bg.png', style: 'border-radius: 10px', width: '100%', class: 'mt-2' %>
-        
+          <%= link_to "http://www.sheratonsaopaulowtc.com.br/", target: "_blank" do %>
+            <%= image_tag 'logo-sheraton-bg.png', style: 'border-radius: 10px', width: '100%', class: 'mt-2' %>
+          <% end %>
+          
           <div class="pt-4">
             <%= raw t('localizacao.hotel.descricao') %>
           </div>
