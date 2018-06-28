@@ -144,7 +144,7 @@ pt-BR:
         nome: 2º Painel Low Carb Made in Brasil
         detalhe: com ícones do cenário de saúde nacional
       palestra9:
-        hora: 18:00 às 19:00
+        hora: 18:00 às 19:30
         nome: "Palestra <strong>AMANDA PASSAVANTE</strong>"
         detalhe: "Tema: Como uma simples dieta pode se transformar em um grande negócio"
       palestra10:
@@ -306,7 +306,7 @@ pt-BR:
   localizacao:
     quando: Quando?
     data: 14 e 15 de julho
-    hora: das 7h às 18:30h
+    hora: das 7h às 19:30h
     onde: Onde?
     center_norte: "Sheraton São Paulo WTC Hotel"
     endereco: Avenida das Nações Unidas, 12559, Brooklin Novo, São Paulo - SP
@@ -515,6 +515,7 @@ pt-BR:
   endocrinologista: Endocrinologista
   ortopedista: Ortopedista
   pediatra: Pediatra
+  especialista: 'Especialista em networking<br>para negócios'
 
   taxa: 'Taxa de serviço da plataforma de e-commerce equivalente a 10% do valor do ingresso.'
 

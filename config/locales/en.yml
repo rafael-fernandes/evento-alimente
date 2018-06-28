@@ -377,7 +377,7 @@ en:
   localizacao:
     quando: When?
     data: 14th and 15th July
-    hora: from 7 a.m. to 18:30 p.m.
+    hora: from 7 a.m. to 19:30 p.m.
     onde: Where?
     center_norte: "Sheraton São Paulo WTC Hotel"
     endereco: Avenida da Nações Unidas, 12559, Brooklin Novo, São Paulo - SP
@@ -610,6 +610,7 @@ en:
   endocrinologista: Endocrinologist
   ortopedista: Orthopaedist
   pediatra: Paediatrician
+  especialista: 'Business Network<br>Strategist'
 
   voltar_para_o_inicio: BACK TO HOME
 
