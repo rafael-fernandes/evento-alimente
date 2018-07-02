@@ -24,62 +24,101 @@
     </div>
   </nav>
 
-  <div class="d-flex align-items-center justify-content-center" style="height: 100vh" data-aos="zoom-in">
-    <div class="wrapper">
-      <%= image_tag "logo-vertical.png", class: "logo" %>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex align-items-center justify-content-center" style="height: 100vh" data-aos="zoom-in">
+          <div class="wrapper">
+            <%= image_tag "logo-vertical.png", class: "logo" %>
 
-      <div class="title">
-        <%= t('inicio.titulo.1a_parte') %><br><%= t('inicio.titulo.2a_parte') %>
-      </div>
+            <div class="title">
+              <%= t('inicio.titulo.1a_parte') %><br><%= t('inicio.titulo.2a_parte') %>
+            </div>
 
-      <div class="date-location pb-2">
-        <%= t('localizacao.data') %><br><%= raw t('localizacao.center_norte') %> (SP)
-      </div>
-      
-      <div class="container time-wrapper">
-        <div class="row">
-          <div class="col-md-6 time">
-            <div class="row no-gutters">
-              <div class="col-3 days">
-                <div class="number"></div>
-                <div class="description">
-                  <%= t('inicio.datas.dias') %>
+            <div class="date-location pb-2">
+              <%= t('localizacao.data') %><br><%= raw t('localizacao.center_norte') %> (SP)
+            </div>
+            
+            <div class="container time-wrapper">
+              <div class="row">
+                <div class="col-md-6 time">
+                  <div class="row no-gutters">
+                    <div class="col-3 days">
+                      <div class="number"></div>
+                      <div class="description">
+                        <%= t('inicio.datas.dias') %>
+                      </div>
+                    </div>
+          
+                    <div class="col-3 hours">
+                      <div class="number"></div>
+                      <div class="description">
+                        <%= t('inicio.datas.horas') %>
+                      </div>
+                    </div>
+          
+                    <div class="col-3 min">
+                      <div class="number"></div>
+                      <div class="description">
+                        <%= t('inicio.datas.minutos') %>
+                      </div>
+                    </div>
+          
+                    <div class="col-3 seg">
+                      <div class="number"></div>
+                      <div class="description">
+                        <%= t('inicio.datas.segundos') %>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-    
-              <div class="col-3 hours">
-                <div class="number"></div>
-                <div class="description">
-                  <%= t('inicio.datas.horas') %>
-                </div>
-              </div>
-    
-              <div class="col-3 min">
-                <div class="number"></div>
-                <div class="description">
-                  <%= t('inicio.datas.minutos') %>
-                </div>
-              </div>
-    
-              <div class="col-3 seg">
-                <div class="number"></div>
-                <div class="description">
-                  <%= t('inicio.datas.segundos') %>
+        
+                <div class="col-md-6 tickets">
+                  <a onclick="$('section.tickets').animatescroll({scrollSpeed:2000,easing:'easeOutQuad',padding:65})" class="button btn-block">
+                    <%= t('inicio.comprar_ingressos') %>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-  
-          <div class="col-md-6 tickets">
-            <a onclick="$('section.tickets').animatescroll({scrollSpeed:2000,easing:'easeOutQuad',padding:65})" class="button btn-block">
-              <%= t('inicio.comprar_ingressos') %>
-            </a>
-          </div>
         </div>
       </div>
+      <div class="carousel-item">
+        <div class="d-flex align-items-center justify-content-center" style="height: 100vh" data-aos="zoom-in">
+          <section class="featured">
+            <div class="wrapper">
+              <div class="d-flex flex-wrap justify-content-center">
+                <%= image_tag "gary-modal.png" %>
+                <%= image_tag "souto-modal.png" %>
+              </div>
+              
+              <div class="title">
+                PELA PRIMEIRA VEZ
+                <BR>
+                GARY TAUBES & JOSÉ CARLOS SOUTO
+                <br>
+                JUNTOS NO MESMO PALCO
+              </div>
 
+              <div class="description pb-2">
+                <%= raw t('destaque.descricao') %>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
+
+
 
   <div class="skyline-wrapper">
     <%= image_tag "skyline.png", class: "skyline d-md-none" %>

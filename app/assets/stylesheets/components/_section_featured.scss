@@ -1,51 +1,33 @@
 section.featured {
   padding: 8em 0;
-  background-color: $amarelo;
   text-align: center;
   color: $marrom;
   position: relative;
 
-  .title {
-    h1 {
-      font-family: $font-family-body;
-      letter-spacing: 0;
-      font-size: 35px;
-      line-height: 40px;
-      text-transform: initial;
-      // text-shadow: 1px 1px $marrom-100;
-    }
+  .description {
+    font-family: $font-family-body;
+    font-size: 18px;
   }
 
-  .bg-featured-top, .bg-featured-bottom {
-    position: absolute;
-  }
-
-  .bg-featured-top {
-    width: 500px;
-    top: 0;
-    left: 1em;
-  }
-
-  .bg-featured-bottom {
-    width: 400px;
-    right: 0;
-    bottom: 0;
+  img {
+    margin: .25em;
   }
 }
 
 @media screen and (max-width: 767px) {
   section.featured {
-    padding: 2em 0 9em;
-
-    .description {
-      padding: 2em;
+    .title {
+      font-size: 28px;
+      line-height: 32px;
     }
 
-    .bg-featured-bottom-mobile {
-      width: 320px;
-      position: absolute;
-      right: 0;
-      bottom: 0;
+    .description {
+      font-size: 16px;
+    }
+
+    img {
+      width: 140px;
+      height: 140px;
     }
   }
 }
