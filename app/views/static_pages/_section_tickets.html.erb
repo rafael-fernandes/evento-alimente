@@ -8,7 +8,235 @@
   </div>
 
   <div class="content">
-    <div class="container">
+    <div class="container d-none d-md-block">
+      <div class="row mx-0" data-aos="zoom-in-right" data-aos-offset="10" data-aos-easing="ease-in-sine">
+        <div class="col-md-2 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
+          <span class="d-none d-md-block">
+            <%= raw t('ingressos.pre_venda.titulo.mobile') %>
+          </span>
+          <span class="d-md-none">
+            <%= raw t('ingressos.pre_venda.titulo.web') %>
+          </span>
+        </div>
+
+        <div class="col-md-2 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
+          <span class="d-none d-md-block">
+            <%= raw t('ingressos.pre_evento.titulo.mobile') %>
+          </span>
+          <span class="d-md-none">
+            <%= raw t('ingressos.pre_evento.titulo.web') %>
+          </span>
+        </div>
+
+        <div class="col-md-2 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
+          <%= t('ingressos.estudante.titulo') %>
+        </div>
+
+        <div class="col-md-2 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
+          GOLD
+        </div>
+
+        <div class="col-md-3 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
+          VIP
+        </div>
+      </div>
+
+      <div class="row mx-0" data-aos="zoom-in-right">
+        <div class="col-md-2 col-lg-2 mt-4 p-0 box -pre-venda -esgotado">
+          <div class="info py-2">
+            <div class="category">STARTERS</div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-4 mt-2">
+              <%= raw t('ingressos.pre_venda.starters') %>
+            </div>
+          </div>
+  
+          <div class="buy">
+            <div class="price"><%= t('ingressos.esgotado') %></div>
+            <div class="buy-ticket">BEST DEAL</div>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-lg-2 mt-4 p-0 box -pre-venda">
+          <div class="info py-2">
+            <div class="category"><%= t('ingressos.pre_evento.card') %></div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-0 mt-2">
+              <%= raw t('ingressos.pre_evento.coquetel') %>
+            </div>
+          </div>
+        
+          <a href="/solicitar-presenca">
+            <div class="buy">
+              <div class="price">R$ 1000</div>
+              <div class="buy-ticket"><%= t('ingressos.solicitar') %></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 col-lg-2 mt-4 p-0 box -pre-venda">
+          <div class="info py-2">
+            <div class="category"><%= t('ingressos.estudante.card1') %></div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-4 mt-2">
+              <%= raw t('ingressos.estudante.basico1') %>
+            </div>
+          </div>
+        
+          <div class="buy">
+            <div class="price -taxa" data-toggle="tooltip" data-placement="top" title="<%= t('taxa') %>">
+              R$ 800 + <%= t('ingressos.taxa') %>
+              <%= fa_icon "question-circle-o" %>
+            </div>
+            <a href="https://www.sympla.com.br/1-congresso-internacional-low-carb__258690" target="_blank">
+              <div class="buy-ticket"><%= t('ingressos.comprar') %></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-lg-2 mt-4 p-0 box -pre-venda">
+          <div class="info py-2">
+            <div class="category">GOLD 1</div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-4 mt-2">
+              <%= raw t('ingressos.gold.gold1') %>
+            </div>
+          </div>
+        
+          <div class="buy">
+            <div class="price -taxa" data-toggle="tooltip" data-placement="top" title="<%= t('taxa') %>">
+              R$ 1100 + <%= t('ingressos.taxa') %>
+              <%= fa_icon "question-circle-o" %>
+            </div>
+            <a href="https://www.sympla.com.br/1-congresso-internacional-low-carb__258690" target="_blank">
+              <div class="buy-ticket"><%= t('ingressos.comprar') %></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-lg-2 mt-4 p-0 box -vip">
+          <div class="info py-2">
+            <div class="category">VIP 1</div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-3 mt-2">
+              <%= raw t('ingressos.vip.vip1') %>
+            </div>
+          </div>
+        
+          <div class="buy">
+            <div class="price -taxa" data-toggle="tooltip" data-placement="top" title="<%= t('taxa') %>">
+              R$ 1600 + <%= t('ingressos.taxa') %>
+              <%= fa_icon "question-circle-o" %>
+            </div>
+            <a href="https://www.sympla.com.br/1-congresso-internacional-low-carb__258690" target="_blank">
+              <div class="buy-ticket"><%= t('ingressos.comprar') %></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-0" data-aos="zoom-in-right">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 p-0 box -pre-venda">
+          <div class="info py-2">
+            <div class="category">UPGRADE<br>GOLD 2</div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-0 mt-2">
+              <%= raw t('ingressos.pre_venda.upgrade_gold2') %>
+            </div>
+          </div>
+  
+          <a href="/upgrade-gold">
+            <div class="buy">
+              <div class="price">+ R$ 650</div>
+              <div class="buy-ticket"><%= t('ingressos.solicitar') %></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 p-0 box" style="border: none"></div>
+
+        <div class="col-md-2 col-lg-2 p-0 box -pre-venda">
+          <div class="info py-2">
+            <div class="category"><%= t('ingressos.estudante.card2') %></div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-3 mt-2">
+              <%= raw t('ingressos.estudante.basico2') %>
+            </div>
+          </div>
+        
+          <div class="buy">
+            <div class="price -taxa" data-toggle="tooltip" data-placement="top" title="<%= t('taxa') %>">
+              R$ 1000 + <%= t('ingressos.taxa') %>
+              <%= fa_icon "question-circle-o" %>
+            </div>
+            <a href="https://www.sympla.com.br/1-congresso-internacional-low-carb__258690" target="_blank">
+              <div class="buy-ticket"><%= t('ingressos.comprar') %></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-lg-2 p-0 box -pre-venda">
+          <div class="info py-2">
+            <div class="category">GOLD 2</div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-3 mt-2">
+              <%= raw t('ingressos.gold.gold2') %>
+            </div>
+          </div>
+        
+          <div class="buy">
+            <div class="price -taxa" data-toggle="tooltip" data-placement="top" title="<%= t('taxa') %>">
+              R$ 1300 + <%= t('ingressos.taxa') %>
+              <%= fa_icon "question-circle-o" %>
+            </div>
+            <a href="https://www.sympla.com.br/1-congresso-internacional-low-carb__258690" target="_blank">
+              <div class="buy-ticket"><%= t('ingressos.comprar') %></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-lg-2 mt-4 p-0 box -vip">
+          <div class="info py-2">
+            <div class="category">VIP 2</div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-1 mt-2">
+              <%= raw t('ingressos.vip.vip2') %>
+            </div>
+          </div>
+        
+          <div class="buy">
+            <div class="price -taxa" data-toggle="tooltip" data-placement="top" title="<%= t('taxa') %>">
+              R$ 2400 + <%= t('ingressos.taxa') %>
+              <%= fa_icon "question-circle-o" %>
+            </div>
+            <a href="https://www.sympla.com.br/1-congresso-internacional-low-carb__258690" target="_blank">
+              <div class="buy-ticket"><%= t('ingressos.comprar') %></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-0" data-aos="zoom-in-right">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 p-0 box -pre-venda" style="margin-top: -1.5em">
+          <div class="info py-2">
+            <div class="category">UPGRADE<br>VIP 1</div>
+            <div class="bar mt-1"></div>
+            <div class="description pt-0 mt-2">
+              <%= raw t('ingressos.pre_venda.upgrade_vip1') %>
+            </div>
+          </div>
+  
+          <a href="/upgrade-vip">
+            <div class="buy">
+              <div class="price">+ R$ 950</div>
+              <div class="buy-ticket"><%= t('ingressos.solicitar') %></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-block d-md-none">
       <div class="row mx-0" data-aos="zoom-in-right" data-aos-offset="10"  data-aos-easing="ease-in-sine">
         <div class="col-md-2 col-lg-2 p-0 title-box d-flex align-items-center justify-content-center text-center">
           <span class="d-none d-md-block">
@@ -241,6 +469,6 @@
     </div>
   </div>
 
-  <%= image_tag "bg-event.svg", class: "bg-tickets d-none d-md-block" %>
+  <!--<%= image_tag "bg-event.svg", class: "bg-tickets d-none d-md-block" %>-->
   <%= image_tag "bg-work.svg", class: "bg-tickets-mobile d-md-none" %>
 </section>

@@ -14,13 +14,16 @@ section.tickets {
   }
 
   .title-box {
+    margin-left: .6em;
     border: 3px solid $marrom;
     font-family: $font-family-heading;
     font-size: 26px;
+    line-height: 30px;
     letter-spacing: 2px;
   }
 
   .box {
+    margin-left: 1em;
     position: relative;
 
     &.-pre-venda {
@@ -166,10 +169,12 @@ section.tickets {
     }
 
     .title-box {
+      margin-left: 0;
       margin-bottom: .5em;
     }
 
     .box {
+      margin-left: 0;
       margin-bottom: .75em;
 
       .buy {
@@ -208,9 +213,9 @@ section.tickets {
 
 @media screen and (min-width: 992px) {
   section.tickets {
-    .title-box, .box {
-      margin-right: 1em;
-    }
+    // .title-box, .box {
+    //   margin-right: 1em;
+    // }
 
     .estudante, .gold, .vip, .pre-evento {
       margin-top: 2em;
