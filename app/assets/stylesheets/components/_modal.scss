@@ -47,6 +47,13 @@
       }
     }
 
+    .mockup {
+      width: 300px;
+      height: auto;
+      border: 3px solid $laranja-200;
+      margin: 1em;
+    }
+
     .description {
       color: $marrom;
       padding: 2em 1em;
