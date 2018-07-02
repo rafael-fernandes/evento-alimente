@@ -26,21 +26,18 @@
     letter-spacing: 2px;
   }
 
-  .button-outline {
-    padding: .25rem .5rem;
-    border: 2px solid $amarelo;
-    color: $amarelo;
+  .button {
+    padding: .5rem .75rem;
+    color: $branco;
+    background-color: $laranja-200;
     font-family: $font-family-heading;
-    letter-spacing: 3px;
+    font-size: 18px;
+    letter-spacing: 0px;
     text-transform: uppercase;
     text-decoration: none;
 
-    transition: all 0.3s;
-
-    &:hover {
-      background-color: $amarelo;
-      color: $marrom-100;
-    }
+    transition: all .3s;
+    cursor: pointer;
   }
 
   .flag {

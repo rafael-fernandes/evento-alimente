@@ -38,7 +38,7 @@
       
       <div class="container time-wrapper">
         <div class="row">
-          <div class="col-md-<%= (params[:lang] == 'pt-BR' or params[:lang].nil?) ? '5' : '6' %> time">
+          <div class="col-md-6 time">
             <div class="row no-gutters">
               <div class="col-3 days">
                 <div class="number"></div>
@@ -70,8 +70,8 @@
             </div>
           </div>
   
-          <div class="col-md-<%= (params[:lang] == 'pt-BR' or params[:lang].nil?) ? '7' : '6' %> tickets">
-            <a onclick="$('section.tickets').animatescroll({scrollSpeed:2000,easing:'easeOutQuad',padding:65})" class="button-outline btn-block">
+          <div class="col-md-6 tickets">
+            <a onclick="$('section.tickets').animatescroll({scrollSpeed:2000,easing:'easeOutQuad',padding:65})" class="button btn-block">
               <%= t('inicio.comprar_ingressos') %>
             </a>
           </div>

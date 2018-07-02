@@ -34,9 +34,10 @@ section.home {
 
   .time {
     text-align: center;
-    padding: .5rem 0 .75rem;
+    padding: .5rem 0 1rem;
     border: 3px solid $marrom;
-    color: $marrom;
+    color: $branco;
+    background-color: $marrom;
     
     .number {
       margin: 0 auto;
@@ -51,7 +52,7 @@ section.home {
     }
   }
 
-  .button-outline {
+  .button {
     padding: 1.3rem 0;
 
     border: 3px solid $laranja-200;
@@ -59,15 +60,17 @@ section.home {
     font-size: 25px;
     line-height: 35px;
     letter-spacing: 2px;
-    color: $laranja-200;
+    color: $branco;
+    background-color: $laranja-200;
 
     text-decoration: none;
-
     transition: all .3s;
+    cursor: pointer;
 
     &:hover {
       color: $branco;
-      background-color: $laranja-200;
+      box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+      transform: translate(0px, -10px) scale(1.05);
     }
   }
 
