@@ -27,6 +27,43 @@
           <h3 class="mb-4 mt-4"><%= t('evento.conteudo.3a_parte.titulo') %></h3>
           <%= raw t('evento.conteudo.3a_parte.texto') %>
         </div>
+
+        <div id="londres" class="carousel slide mt-4 mb-2" data-ride="carousel" data-aos="fade-up-left">
+          <ol class="carousel-indicators">
+            <li data-target="#londres" data-slide-to="0" class="active"></li>
+            <li data-target="#londres" data-slide-to="1"></li>
+            <li data-target="#londres" data-slide-to="2"></li>
+            <li data-target="#londres" data-slide-to="3"></li>
+            <li data-target="#londres" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <%= image_tag "londres1.JPG", class: "w-100" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "londres2.JPG", class: "w-100" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "londres3.JPG", class: "w-100" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "londres4.JPG", class: "w-100" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "londres5.JPG", class: "w-100" %>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#londres" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#londres" role="button" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <span class="text-muted">Evento ALIMENTE Londres</span>
       </div>
     </div>
   </div>
