@@ -14,7 +14,8 @@ section.tickets {
   }
 
   .title-box {
-    margin-left: .6em;
+    width: 100%;
+    // margin-left: .1em;
     border: 3px solid $marrom;
     font-family: $font-family-heading;
     font-size: 26px;
@@ -23,11 +24,12 @@ section.tickets {
   }
 
   .box {
-    margin-left: 1em;
+    width: 100%;
+    // margin-left: 1em;
     position: relative;
 
     &.-pre-venda {
-      height: 228px;
+      height: 250px;
     }
 
     &.-vip {
@@ -109,9 +111,29 @@ section.tickets {
       }
     }
 
-    &:hover {
-      border-color: $laranja-200;
+    &.-title {
+      height: 80px;
+      border: 3px solid $marrom;
+      font-family: $font-family-heading;
+      font-size: 26px;
+      line-height: 30px;
+      letter-spacing: 2px;
 
+      &:hover {
+        border: 3px solid $marrom;
+      }
+    }
+
+    &.-effect {
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+        transform: translate(0px, -10px) scale(1.05);
+        border-color: $laranja-200;
+      }
+    }
+
+    &:hover {
       .buy, .bar {
         background-color: $laranja-200;
       }

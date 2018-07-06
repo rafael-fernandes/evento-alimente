@@ -299,6 +299,12 @@ pt-BR:
                 Dia 13/07
                 <br>
                 + informações clique abaixo"
+    online:
+      titulo: "AO VIVO<br>(ONLINE)"
+      card1: AO VIVO 1
+      card2: AO VIVO 2
+      aovivo1: "2 dias ao vivo (online)<br>+ Gravações (online)"
+      aovivo2: "2 dias ao vivo<br>(online)"
   
   mapa_de_assentos:
     titulo: MAPA DE ASSENTOS

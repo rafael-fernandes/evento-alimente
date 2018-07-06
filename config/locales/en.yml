@@ -370,6 +370,12 @@ en:
                 13th July
                 <br>
                 + info click below"
+    online:
+      titulo: "LIVE"
+      card1: LIVE 1
+      card2: LIVE 2
+      aovivo1: "2 days live (online)<br>+ records (online)"
+      aovivo2: "2 days live<br>(online)"
   
   mapa_de_assentos:
     titulo: SEAT MAP
