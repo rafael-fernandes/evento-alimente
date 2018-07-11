@@ -203,17 +203,17 @@ en:
         nome: "<strong>DR. ASEEM MALHOTRA</strong>'s Lecture"
       palestra7:
         hora: 16:20 to 16:40
-        nome: Break
+        nome: Short Break
       palestra8:
         hora: 16:40 to 18:00
         nome: 2nd Made in Brazil Low Carb Panel
         detalhe: with national health scenario icons
       palestra9:
-        hora: 18:00 às 19:30
+        hora: 18:00 to 18:30
         nome: "<strong>AMANDA PASSAVANTE</strong>'s Lecture"
         detalhe: "Topic: How a Simple Diet Can Turn into a Big Deal"
       palestra10:
-        hora: 19:00 to 19:30
+        hora: 'at 18:30'
         nome: First Day Closure
         detalhe: sweepstakes round for the present
 
@@ -241,19 +241,19 @@ en:
         nome: Lunch Break
         detalhe: "with big screens for people<br>to watch the World Cup games"
       palestra7:
-        hora: 13:40 to 14:40
+        hora: 13:40 às 15:00
+        nome: Around the World of Low Carb Panel
+        detalhe: with national health scenario<br>icons and international speakers
+      palestra8:
+        hora: 15:10 to 16:20
         nome: "<strong>ERIK NEVES</strong> and <strong>PATRICIA AYRES</strong>'s Lecture"
         detalhe: "Topic: Ketogenic"
-      palestra8:
-        hora: 15:00 to 16:30
-        nome: "<strong>JOSÉ CARLOS SOUTO</strong>'s Lecture"
       palestra9:
         hora: 16:30 to 16:50
         nome: Short Break
       palestra10:
         hora: 16:50 to 18:20
-        nome: Around the World of Low Carb Panel
-        detalhe: with national health scenario<br>icons and international speakers
+        nome: "<strong>JOSÉ CARLOS SOUTO</strong>'s Lecture"
       palestra11:
         hora: 'at 18:20'
         nome: Closure
@@ -383,7 +383,7 @@ en:
   localizacao:
     quando: When?
     data: 14th and 15th July
-    hora: from 7 a.m. to 19:30 p.m.
+    hora: from 7 a.m. to 18:30 p.m.
     onde: Where?
     center_norte: "Sheraton São Paulo WTC Hotel"
     endereco: Avenida da Nações Unidas, 12559, Brooklin Novo, São Paulo - SP
