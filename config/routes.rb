@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   get 'upgrade-gold' => 'static_pages#upgrade_gold'
   
   get 'upgrade-vip' => 'static_pages#upgrade_vip'
+
+  get 'aovivo' => 'static_pages#live'
 end

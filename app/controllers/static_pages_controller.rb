@@ -1,4 +1,6 @@
 class StaticPagesController < ApplicationController
+  layout "live", only: :live
+  
   def landing
   end
 
@@ -15,5 +17,8 @@ class StaticPagesController < ApplicationController
   end
 
   def pre_event
+  end
+
+  def live
   end
 end
