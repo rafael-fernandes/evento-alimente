@@ -35,6 +35,7 @@ namespace :puma do
   task :nginx_restart do
     on roles(:app) do
       execute "sudo service nginx restart"
+      execute "rails db:seed"
     end
   end
 
