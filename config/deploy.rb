@@ -1,4 +1,6 @@
 # config valid for current version and patch releases of Capistrano
+load 'lib/deploy/seed'
+
 lock "~> 3.11.0"
 
 set :deploy_to, "/var/www/evento-alimente"
@@ -35,7 +37,6 @@ namespace :puma do
   task :nginx_restart do
     on roles(:app) do
       execute "sudo service nginx restart"
-      execute "rails db:seed"
     end
   end
 
