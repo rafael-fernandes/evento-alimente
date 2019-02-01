@@ -1,6 +1,4 @@
 # config valid for current version and patch releases of Capistrano
-load 'lib/deploy/seed'
-
 lock "~> 3.11.0"
 
 set :deploy_to, "/var/www/evento-alimente"
