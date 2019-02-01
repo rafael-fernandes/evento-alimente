@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  before_action :redirect_to_sympla
 
   include ApplicationHelper
 
@@ -13,9 +12,5 @@ class ApplicationController < ActionController::Base
 
   def set_time
     @months, @days, @hours = calc_time
-  end
-
-  def redirect_to_sympla
-    redirect_to "https://www.sympla.com.br/alimente-2019__322894"
   end
 end
