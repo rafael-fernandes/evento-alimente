@@ -51,8 +51,6 @@ namespace :deploy do
       end
     end
   end
-
-  after :start, :seed
 end
 
 # Default branch is :master
