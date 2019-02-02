@@ -1,4 +1,6 @@
 # config valid for current version and patch releases of Capistrano
+server '167.99.3.196', port: 80, roles: [:web, :app, :db], primary: true
+
 lock "~> 3.11.0"
 
 set :deploy_to, "/var/www/evento-alimente"
@@ -12,10 +14,17 @@ set :migration_role, :app
 set :application, "evento-alimente"
 set :repo_url, "https://github.com/rafael-fernandes/evento-alimente.git"
 
+set :pty, true
+set :use_sudo, false
+set :stage, :production
+
 set :puma_pid, "#{shared_path}/tmp/pids/puma.pid"
 set :puma_bind, "unix://#{shared_path}/tmp/sockets/puma.sock"
 set :puma_access_log, "#{shared_path}/log/puma_access.log"
 set :puma_error_log, "#{shared_path}/log/puma_error.log"
+set :puma_preload_app, true
+set :puma_worker_timeout, nil
+set :puma_init_active_record, true
 
 set :nginx_sites_available_path, "/etc/nginx/sites-available"
 set :nginx_sites_enabled_path, "/etc/nginx/sites-enabled"
@@ -65,9 +74,6 @@ end
 # You can configure the Airbrussh format using :format_options.
 # These are the defaults.
 # set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
-
-# Default value for :pty is false
-# set :pty, true
 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml"
