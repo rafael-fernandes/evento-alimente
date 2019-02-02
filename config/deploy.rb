@@ -20,6 +20,10 @@ set :puma_error_log, "#{shared_path}/log/puma_error.log"
 set :nginx_sites_available_path, "/etc/nginx/sites-available"
 set :nginx_sites_enabled_path, "/etc/nginx/sites-enabled"
 
+set :nginx_upstream, 'evento-alimente'
+set :nginx_server_name, 'eventoalimente.com.br'
+set :nginx_listen, 80
+
 set :rvm_ruby_version, '2.5.0'
 
 namespace :puma do
